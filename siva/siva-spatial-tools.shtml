@@ -1,0 +1,87 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><!-- InstanceBegin template="/Templates/siva.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>SIVA | CSU COAST Technology Center</title>
+<style type="text/css">
+<!--
+.style6 {	font-size: 14pt;
+	font-style: italic;
+	font-weight: bold;
+}
+-->
+</style>
+<link href="css/siva_style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+<table width="750 px" border="0" cellpadding="0" cellspacing="0">
+  <tr>
+    <td height="100" align="right" valign="bottom" class="rtbt_bdr"><a href="http://www.calstate.edu/coast/"><img src="images/coast_head.jpg" width="138" height="82" border="0" /></a></td>
+    <td width="*" valign="bottom" class="bt_bdr"><a href="http://www.calstate.edu/coast/"><img src="images/coast_body.jpg" width="609" height="82" border="0" /></a></td>
+  </tr>
+  <tr>
+    <td class="rt_bdr">&nbsp;</td>
+    <td align="center"><img src="images/siva_header.gif" alt="SIVA" width="561" height="62" vspace="4" />    </td>
+  </tr>
+  <tr>
+    <td width="140" class="rt_bdr">&nbsp;</td>
+    <td><!-- InstanceBeginEditable name="content" -->
+      <table width="100%" border="0" cellspacing="0">
+        <tr>
+          <td class="nav_cell" align="center"><span class="inactiveLink"><a href="siva-home.shtml">Home</a> . <a href="siva-capabilities.shtml">Capabilities & Assets</a> . <a href="siva-research-labs.shtml">Research Labs</a> . <a href="siva-dataresources.shtml">Data Resources</a> . <a href="siva-training-curriculum.shtml">Training &amp; Curriculum</a> </span></td>
+        </tr>
+        <tr>
+          <td class="content">
+		  <h1 align="left"><br />
+	    <span class="ItOrange">SIVA Spatial Analysis & Image Processing Tools </span> </h1>
+	  <p align="left">SIVA geospatial software resources support remotely-sensed data acquisition and handling; image processing; collection, management, editing, analysis, and presentation of GIS data; surveying; and visualization of data through animated, three-dimensional display techniques including flythroughs supported by modeling scenarios. </p>
+	  <table width="561" border="0">
+        <tr>
+          <td width="204" valign="top" class="black9pt"><p><img src="images/main/mentoring.gif" width="170" height="170" /></p>
+            <p><img src="images/main/intertidal_data.gif" width="171" height="176" /><br />
+              </p></td>
+          <td width="347"><p class="black9pt">            <strong>GIS Analysis, Visualization, &amp; Modeling</strong></p>
+            <ul>
+              <li>              <a href="http://www.esri.com/software/arcgis/">ESRI ArcGIS</a></li>
+              <li><a href="http://www.terraseer.com/products_boundaryseer.php">TerraSeer</a> <a href="http://www.terraseer.com/products_boundaryseer.php">Boundary Seer</a> </li>
+              <li> <a href="http://ecoviz.csumb.edu/home/">Tarsier Environmental Modeling Software Framework</a> (custom scripting - EcoViz) <br />
+              </li>
+            </ul>
+            <p class="black9pt">              <strong>Sonar Acquisition and Processing</strong></p>
+            <ul>
+              <li><a href="http://www.caris.com/">CARIS</a> <a href="http://www.caris.com/products/hips-sips/">HIPS & SIPS</a></li>
+              <li>              <a href="http://www.sea.co.uk/swathplus.aspx?nav=products">SEA Swathplus</a></li>
+              <li>              <a href="http://www.hypack.com/new/">Hypack</a> <a href="http://www.hypack.com/new/Sales/Products/HYPACK/tabid/56/Default.aspx">Navigation</a></li>
+              <li>              <a href="http://www.riegl.com/nc/">Riegl</a> <a href="http://www.riegl.com/products/terrestrial-scanning/produktdetail/product/scanner/4/">Marine Laser Scanner</a></li>
+              <li>              <a href="http://www.trimble.com/index.aspx">Trimble</a> <a href="http://www.trimble.com/mgis.shtml">GPS and Mapping</a><br />
+              </li>
+            </ul>
+            <p class="black9pt"><strong>Remote Sensing Image Analysis</strong></p>
+            <ul>
+              <li><a href="http://www.erdas.com/default.aspx">Erdas</a> <a href="http://www.erdas.com/tabid/84/currentid/1050/default.aspx">IMAGINE</a></li>
+              <li> <a href="http://www.ivs3d.com/products/fledermaus/">IVS 3D Fledermaus</a> <br />
+              </li>
+            </ul>            
+            <p class="black9pt">                <strong>Statistical Analysis Packages</strong></p>
+            <ul>
+              <li><a href="http://www.spss.com/software/?source=homepage&amp;hpzone=nav_bar">SPSS</a></li>
+              <li> <a href="http://www.umass.edu/landeco/research/fragstats/fragstats.html">FragStats</a></li>
+              <li> <a href="http://www.r-project.org/">R-Stats	Computing</a> <br />
+              </li>
+            </ul></td>
+        </tr>
+      </table>
+		  </td>
+        </tr>
+      </table>
+	 
+    <!-- InstanceEndEditable --></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>
+</table>
+</body>
+<!-- InstanceEnd --></html>

@@ -1,0 +1,409 @@
+/*************************************
+Filename: csuco-leftmenu_v2.css
+Purpose: Effects CSUCO inside pages structure.
+Created by: Gerard Greenidge
+Created: September 5, 2006
+Last Modified: January 23, 2008
+
+---------------------------------------------- */
+
+body{
+	margin:0;
+	border:none;
+	padding:0;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+}
+
+/*Hide from the display*/
+.hidden{
+	display:none;
+}
+
+/*Clear floats*/
+.clear_float {
+	clear: both;
+	height:1px;
+	overflow:hidden;
+}
+
+/* Header  */
+
+#audiences {
+	float:right;
+	padding:0;
+	margin:0;
+}
+  
+#audiences ul {
+	background-color:#575757;
+	display:block;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:10px;
+	font-weight: normal;
+	line-height:12px;
+	list-style-type:none;
+	list-style-position:outside;
+	margin: 0;
+	padding: 5px;
+	color:inherit;
+}
+
+
+#audiences ul li a {
+	color:#ffffff;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:10px;
+	font-weight: normal;
+	line-height:12px;
+	margin: 0;
+	padding: 0;
+	text-decoration:none;
+	background-color:#575757;
+}  
+
+.nav {
+	color: #575757;
+	float: left;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	font-weight: bold;
+	padding: 10px 0 0 105px; /* 110 with nav, 280 without nav */
+	background-color:#FFFFFF;
+}
+
+.nav a {
+	color: #575757;
+	float: left;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	font-weight: bold;
+	padding: 0 0 0 105px;
+	text-decoration:none;
+	background-color:#FFFFFF;
+}
+
+#header {
+	height: 93px;
+	margin:0;
+	padding:0;
+	width:722px;
+}
+
+#header_container {
+	border-top: 7px solid #CF142B;
+	margin: 0;
+	padding: 0;
+	border-bottom: 2px solid #d5d5d5;
+}
+
+#wordmark img {
+	border:none;
+	margin:10px 0 0 10px;
+	padding:0;
+	text-decoration:none;
+}
+
+/* End Header */
+
+/* Banner Image */
+
+#site-banner img{
+	margin:0;
+	padding:0;
+	border:none;
+}
+
+/* Content CSS */
+
+/* Content block structure */
+#contentblock_container{
+	width:100%;
+	border-left:none;
+	border-right:none;
+	border-top:none;
+	padding:0;
+	margin:0;
+	border-bottom: 22px solid #CF142B;
+	background-image:url(http://www.calstate.edu/images/leftnav.gif);
+	background-repeat:repeat-y;
+}
+
+#contentblock_container1{
+	width:100%;
+	border-left:none;
+	border-right:none;
+	border-top:none;
+	padding:0;
+	margin:0;
+	border-bottom: 22px solid #CF142B;
+}
+
+/* Content Block Design */
+#contentblock{
+	margin:0;
+	padding:0;
+	border:none;
+	width:722px;
+	background-image:url(http://www.calstate.edu/images/leftnav.gif);  /* 148px  */
+	background-repeat:repeat-y;
+}
+
+/* Left Navigation Structure */
+#leftnav_container{
+	border:none;
+	margin:0;
+	padding:0;
+	text-align:right;
+	width:148px;
+	float:left;
+}
+
+/* Left Navigation design*/
+
+#leftnav-content{
+	margin:10px 10px 10px 5px;
+	padding:0;
+	border:none;
+}
+
+/*Headers in Left Navigation*/
+
+#leftnav-content p{
+	font-weight:bold;
+	color:#990000;
+	font-size:8pt;
+	background-color:#FFFFFF;
+}
+
+/* Unordered Lists in left navigation */
+	
+#leftnav-content ul{
+	list-style:none;
+	text-align:right;
+	margin:0;
+	border:none;
+	padding:0;
+}
+	
+/* Ordered lists in the left navigation */
+
+#leftnav-content ol{
+	list-style:none;
+	text-align:right;
+	margin:0;
+	border:none;
+	padding:0;
+}
+
+
+/* Left navigation list items */
+
+#leftnav-content li{
+	padding:5px 0 10px 0;
+	border:none;
+	margin:0;
+	line-height:10pt;
+}
+
+/* Left navigation links in list items */
+
+#leftnav-content li a{
+	font-weight:bold;
+	font-size:8pt;
+	line-height:10pt;
+	margin:0;
+	padding:0;
+	border:none;
+}
+
+/* Left navigation sub-lists */
+
+#leftnav-content li ul{
+	border:none;
+	padding:0 0 0 0;  /* 1/23/08 picked up this error working with SEIR template, there was a px for bottom padding and replaced with 0  (i.e., padding:0 0 px 0;). */
+}
+
+#leftnav-content li ol{
+	border:1px;
+	border-bottom-color:#cccccc;
+	border-bottom-style:solid;
+	padding:10px 0 0px 0;
+	margin: 0 0 10px 0;
+}
+
+#leftnav-content li ul li{
+	margin:10px 0;
+	border:none;
+	padding:0;
+	line-height:10pt;
+}
+	
+#leftnav-content li ol li{
+	margin:10px 0;
+	border:none;
+	padding:0;
+	line-height:10pt;
+}
+
+/* Left navigation sub-lists links */
+
+#leftnav-content li ul li a{
+	font-weight:normal;
+	font-size:8pt;
+}
+
+#leftnav-content li ol li a{
+	font-weight:normal;
+	font-size:8pt;
+}
+
+
+/* Left navigation active content: 1/23/08 Newest navigation for the newest template. - lyn */
+
+#leftnav-content li.active-content{
+	border-top:1px;
+	border-bottom:1px;
+	border-top-color:#cccccc;
+	border-top-style:solid;
+	border-bottom-color:#cccccc;
+	border-bottom-style:solid;
+	margin:5px 0 5px 0;
+	padding:9px 0 5px 0;
+}
+
+#leftnav-content li.active-contenttopline {
+	border-top:1px;
+	border-top-color:#cccccc;
+	border-top-style:solid;
+	margin:5px 0 5px 0;
+	padding:9px 0 5px 0;
+}
+
+#leftnav-content li.active-contentnotopline{
+	border-bottom:1px;
+   border-bottom-color:#cccccc;
+	border-bottom-style:solid;
+	margin:5px 0 5px 0;
+	padding:9px 0 5px 0;
+}
+
+
+/* Right arrows style */
+
+.right-arrows{
+	color:#990000;
+	font-weight:bold;	
+	background-color:#FFFFFF;
+}
+
+/* Keep the Structure of the page */
+#content_container{
+	width:522px;
+	border:none;
+	margin:0;
+	padding:0;
+	float:left;
+}
+/* Content area Structure */
+
+#content{
+	padding:10px 0 10px 10px;
+	margin:0;
+	border:none;
+}
+
+#content blockquote p{
+	padding:10px;
+	margin:0;
+	border:none;
+}
+
+/* Structural CSS to keep the Contact area together. */
+
+#contacts{
+	border-top:0px solid #98979f;
+	padding:0 0 0 10px;
+	margin: 0 0 0 148px;
+}
+
+/* Content Contact Structure*/
+
+#content-contact{
+	float:left;
+  width:280px;
+	margin:0;
+	padding:0;
+	border:none;
+}
+
+/* Content Contact Paragraphs */
+
+#content-contact p{
+	margin: 0 0 0 50px;
+	padding:10px 0 0 0;
+	border:none;
+}
+
+/* Technical Contact Structure*/
+
+#technical-contact{
+	float:left;
+	width:280px;
+	margin:0;
+	padding:0;
+	border:none;
+}
+
+#technical-contact p{
+	margin: 0 0 0 40px;
+	padding:10px 0 0 0;
+	border:none;
+}
+
+/* Contacts Horizontal Rule */
+#contacts{
+	border-top:0px solid #98979f;
+	padding:10px 0 0 10px;
+	margin-left:148px;
+}
+
+#contacts-hr{
+	margin: 0 0 0 148px;
+	width:574px;
+	border:0;
+	color:#d5d5d5;
+	background-color:#d5d5d5;
+	height:1px;
+	text-align:left;
+}
+
+#contacts-ip{
+	margin: 0 0 0 169px;
+	width:552px;
+	border:0;
+	color:#d5d5d5;
+	background-color:#d5d5d5;
+	height:1px;
+	text-align:left;
+}
+
+#last-updated{
+	border-top:0px solid #98979f;
+	padding:0px 0 10px 10px;
+	margin: 0 0 0 148px;
+	font-size:8pt;
+}
+
+#last_modified {
+  margin:0;
+  padding:15px 0 10px 10px;
+  text-align:center;
+  font-size:11px;
+}
+
+#last_modified2 {    /* 4/15/08  Lyn: I created a new id for last_modified to accommodate the center positioning of the Last Update (is was centering to the full width of the Footer (722) as opposed to the Content Contact area width. The padding-left was increased to 149.  We should use this in our v2 and v2-ssl templates moving forward */
+  margin:0;
+  padding:15px 0 10px 149px;
+  text-align:center;
+  font-size:11px;
+}

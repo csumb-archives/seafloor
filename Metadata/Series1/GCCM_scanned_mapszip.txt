@@ -1,0 +1,140 @@
+Identification Information:  
+	Citation:  
+		Citation Information:  
+			Originator:  Seafloor Mapping Lab- California State University Monterey Bay
+			Publication Date:  Unpublished Material
+			Publication Time:  Unknown
+			Title:  GCCM_scanned_maps.zip
+			Geospatial Data Presentation Form:  view
+	Description:  
+		Abstract:  This California continental shelf geologic data set represents the current state of knowledge about the distribution of seafloor substrate types for the entire California continental shelf.  The data series is comprised of seven adjacent, but discrete map sections. Boundaries of seafloor geology type are depicted as polygon themes.
+		Purpose:  This project created digital GIS format versions of California continental shelf geology hardcopy maps originally produced by the Division of Mines and Geology, the U.S. Geological Survey and the California Coastal Commission. In addition, geologic and bathymetric data were interpreted further to produce polygons representing habitat boundaries.
+		Supplemental Information:  Original data developed by the Division of Mines and Geology, the U.S. Geological Survey and the California Coastal Commission. The principle purpose of the original DMG/USGS/CCC study was to acquire and compile all readily available geologic data for the California continental margin in a standard format. These nondigital data were presented as paper planimetric map sheets (NOAA/NOS 1:250,000 scale). For the current project, original mylars used to produce the geologic map series were scanned, and the resulting rasters were cleaned, georeferenced (UTM Zone 10 or 11, WGS84), and vectorized using TNTmips GIS software. Vector polygons and lines were then attributed and exported in ArcView shapefile format. Data covers an area from Mexico north to Oregon and from the California coastline west to the edge of the continental margin.
+	Time Period of Content:  
+		Time Period Information:  
+			Multiple Dates/Times:  
+				Single Date/Time:  
+					Calendar Date:  3/31/2001
+				Single Date/Time:  
+					Calendar Date:  1987
+		Currentness Reference:  publication date
+	Status:  
+		Progress:  Complete
+		Maintenance and Update Frequency:  None planned
+	Keywords:  
+		Theme:  
+			Theme Keyword Thesaurus:  Geology Map Series Thesaurus
+			Theme Keyword:  geologic features
+			Theme Keyword:  marine
+			Theme Keyword:  GIS
+			Theme Keyword:  ephemeral
+			Theme Keyword:  structural
+			Theme Keyword:  habitat
+			Theme Keyword:  subsurface
+			Theme Keyword:  digital
+			Theme Keyword:  mapping
+			Theme Keyword:  symbology
+			Theme Keyword:  seafloor
+	Access Constraints:  To be determined by the California Department of Fish and Game.
+	Use Constraints:  To be determined by the California Department of Fish and Game.
+	Point of Contact:  
+		Contact Information:  
+			Contact Organization Primary:  
+				Contact Organization:  Seafloor Mapping Lab, California State University Monterey Bay
+			Contact Address:  
+				Address Type:  mailing address
+				Address:  California State University Monterey Bay, Institute for Earth Systems Science and Policy,100 Campus Center, Bldg 46A
+				City:  Seaside
+				State or Province:  California
+				Postal Code:  93955
+				Country:  USA
+			Contact Voice Telephone:  (831) 582-3529
+			Contact Facsimile Telephone:  (831) 582-3073
+			Contact Electronic Mail Address:  rikk_kvitek@monterey.edu
+	Browse Graphic:  
+	Data Set Credit:  Digital data processed by Seafloor Mapping Lab at California State University Monterey Bay, and the Center for Habitat Studies at Moss Landing Marine Laboratories. Original hardcopy data from Geology of the California Continental Margin: Geologic Map Series, by Kennedy, Greene, and Clark, 1987
+Data Quality Information:  
+	Lineage:  
+		Source Information:  
+			Source Citation:  
+				Citation Information:  
+					Originator:  Kennedy, M.P., H.G. Greene, and S.H. Clark
+					Publication Date:  1987
+					Title:  Geology of the California Continental Margin: Geologic Map Series
+					Geospatial Data Presentation Form:  map
+					Series Information:  
+						Series Name:  Bulletin 207
+					Publication Information:  
+						Publication Place:  Sacramento, California
+						Publisher:  California Department of Conservation
+			Source Time Period of Content:  
+				Source Currentness Reference:  publication date
+			Source Citation Abbreviation:  GCCM
+		Process Step:  
+			Process Description:  Digital copy of hardcopy maps (1-7) from Geology of the California Continental Margin: Geologic Map Series, by Kennedy, Greene, and Clark (1987), published by the Division of Mines and Geology, the U.S. Geological Survey and the California Coastal Commission. Maps were scanned and georeferenced using grid coordinates from the hardcopy map(s). UTM zone 10, WGS84 was used from area maps 3 through 7, and UTM zone 11, WGS84 for maps 1 and 2.
+				
+				Unzipped files exceed 900MB.
+			Process Date:  3/31/01
+			Process Contact:  
+				Contact Information:  
+					Contact Person Primary:  
+						Contact Person:  Matthew Johnson
+						Contact Organization:  Seafloor Mapping Lab, California State University Monterey Bay
+					Contact Position:  GIS Analyst
+					Contact Address:  
+						Address Type:  mailing and physical address
+						Address:  California State University Monterey Bay, Institute for Earth Systems Science and Policy,100 Campus Center, Bldg 46A
+						City:  Seaside
+						State or Province:  California
+						Postal Code:  93955
+						Country:  USA
+					Contact Facsimile Telephone:  831-582-3073
+					Contact Electronic Mail Address:  matthew_johnson@monterey.edu
+	Cloud Cover:  0
+Spatial Data Organization Information:  
+Spatial Reference Information:  
+	Horizontal Coordinate System Definition:  
+		Planar:  
+			Grid Coordinate System:  
+				Grid Coordinate System Name:  Universal Transverse Mercator 1983
+				Universal Transverse Mercator:  
+					UTM Zone Number:  10
+					Transverse Mercator:  
+						Scale Factor at Central Meridian:  0.9996
+						Longitude of Central Meridian:  -123
+						Latitude of Projection Origin:  0
+						False Easting:  500000
+						False Northing:  0
+			Planar Coordinate Information:  
+				Planar Coordinate Encoding Method:  Coordinate Pair
+		Geodetic Model:  
+			Horizontal Datum Name:  WGS84
+			Ellipsoid Name:  WGS84
+			Semi-major Axis:  6378137
+			Denominator of Flattening Ratio:  298.257223563
+Metadata Reference Information:  
+	Metadata Date:  3/31/2001
+	Metadata Review Date:  
+	Metadata Future Review Date:  
+	Metadata Contact:  
+		Contact Information:  
+			Contact Person Primary:  
+				Contact Person:  Carrie Bretz
+				Contact Organization:  Seafloor Mapping Lab, California State University Monterey Bay
+			Contact Position:  GIS Analyst and Metadata Manager, Geology Map Series Project Manager
+			Contact Address:  
+				Address Type:  mailing and physical address
+				Address:  California State University Monterey Bay, Institute for Earth Systems Science and Policy,100 Campus Center, Bldg 46A
+				City:  Seaside
+				State or Province:  CA
+				Postal Code:  93955
+				Country:  USA
+			Contact Voice Telephone:  831-582-4197
+			Contact Facsimile Telephone:  831-582-3073
+			Contact Electronic Mail Address:  carrie_bretz@monterey.edu
+	Metadata Standard Name:  FGDC Content Standards for Digital Geospatial Metadata
+	Metadata Standard Version:  2.0
+	Metadata Access Constraints:  None
+	Metadata Use Constraints:  None
+	Metadata Security Information:  
+		Metadata Security Classification:  Unclassified

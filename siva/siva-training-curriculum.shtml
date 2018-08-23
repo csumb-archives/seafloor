@@ -1,0 +1,107 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><!-- InstanceBegin template="/Templates/siva.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>SIVA | CSU COAST Technology Center</title>
+<style type="text/css">
+<!--
+.style6 {	font-size: 14pt;
+	font-style: italic;
+	font-weight: bold;
+}
+-->
+</style>
+<link href="css/siva_style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+<table width="750 px" border="0" cellpadding="0" cellspacing="0">
+  <tr>
+    <td height="100" align="right" valign="bottom" class="rtbt_bdr"><a href="http://www.calstate.edu/coast/"><img src="images/coast_head.jpg" width="138" height="82" border="0" /></a></td>
+    <td width="*" valign="bottom" class="bt_bdr"><a href="http://www.calstate.edu/coast/"><img src="images/coast_body.jpg" width="609" height="82" border="0" /></a></td>
+  </tr>
+  <tr>
+    <td class="rt_bdr">&nbsp;</td>
+    <td align="center"><img src="images/siva_header.gif" alt="SIVA" width="561" height="62" vspace="4" />    </td>
+  </tr>
+  <tr>
+    <td width="140" class="rt_bdr">&nbsp;</td>
+    <td><!-- InstanceBeginEditable name="content" -->
+      <table width="100%" border="0" cellspacing="0">
+        <tr>
+          <td class="nav_cell" align="center"><span class="inactiveLink"><a href="siva-home.shtml">Home</a> . <a href="siva-capabilities.shtml">Capabilities & Assets</a> . <a href="siva-research-labs.shtml">Research Labs</a> . <a href="siva-dataresources.shtml">Data Resources</a> . <span class="activeLink">Training &amp; Curriculum</span> </span></td>
+        </tr>
+        <tr>
+          <td class="content">
+		  <h1 align="left" class="ItOrange">
+	    <br />
+	    SIVA Training & Curriculum </h1>
+	      
+		  
+	  <table width="594" border="0" bgcolor="#FFFFEC">
+        <tr>
+          <td width="179" height="241" valign="middle"><img src="images/main/rov_deck.gif" width="170" height="171" /></td>
+          <td width="405"><p>The development of the <a href="http://www.calstate.edu/coast/">CSU COAST</a> <strong>Technology Centers network </strong>is intended to provide the State with sound expertise and networked facilities, leading to practical solutions and a highly skilled workforce trained in:</p>
+            <ul>
+              <li>Applied Geospatial Technology</li>
+              <li>Environmental Quality Technology</li>
+              <li>Climate Change Analysis</li>
+              <li>Applied Organismal Health Technology</li>
+              <li>Marine Ecosystem Dynamics</li>
+              <li>Marine &amp; Estuarine Policy </li>
+              <li>Electronic Networking Infrastructure <br />
+                  </li>
+            </ul></td>
+        </tr>
+      </table>
+	  <p>	    The role of the CSU COAST SIVA Technology Center will be to provide access to and training in Applied Geospatial Technology for the benefit of faculty and students across the CSU system. <a href="http://www.calstate.edu/coast/">COAST</a> is now in the process of developing a mechanism that will support faculty and student travel and training at the COAST Technology Center's.
+
+        <br />
+        <br />
+        Currently, SIVA supports the training and technology used in a diverse offering of specialized hands-on project-based courses within the CSUMB spatial technology curriculum: </p>
+	  <table width="561" border="0">
+        <tr>
+          <td width="179" height="477"><p><img src="images/main/landsurvey.gif" width="171" height="174" /></p>
+            <p><img src="images/main/shipboard.gif" width="170" height="174" /></p>
+            <p><img src="images/main/winch.gif" width="170" height="175" /><br />
+            </p></td>
+          <td width="372"><p>GEOL 260 Geology &amp; Hydrology: Earth Systems Applications <br />
+            <br />
+  GEOL 360 Geomorphic Systems<br />
+  GEOL 460 River Hydrology, Assessment &amp; Monitoring<br />
+  ENVS 303 California Transect <br />
+  &nbsp;&nbsp;&nbsp;<br />
+  ENVS 369 Watershed Restoration<br />
+  ENVS332 GIS &amp; GPS<br />
+  ENVS 350 Quantitative Field Methods<br /> 
+  <br />
+  ENVS 433 Advanced Applications in Marine Science Technologies<br />
+  ENVS 433 Applied Coastal Remote Sensing &amp; Seafloor Mapping<br />
+  <br />
+  ENVS440 Environmental Modeling<br />
+  <br />
+  ENVS 532 Advanced GIS &amp; Spatial Analysis<br />
+  ENVS536 Remote Sensing &amp; Image Processing<br /> 
+  <br />
+  ENVS 560 Watershed Systems<br />
+  ENVS660 Advanced Watershed Science &amp; Policy <br />
+  STAT250 Applied Statistics for Science &amp; Technology<br />
+          <br />
+          ENVS545 Marine Ecological Systems</p>
+            </td>
+        </tr>
+      </table>
+	  <p> In addition to classroom training, students use SIVA resources extensively in their undergraduate (Capstone) research projects. </p>
+		  </td>
+        </tr>
+      </table>
+	 
+    <!-- InstanceEndEditable --></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>
+</table>
+</body>
+<!-- InstanceEnd --></html>

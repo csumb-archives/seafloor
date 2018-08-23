@@ -1,0 +1,137 @@
+<html>
+<head>
+<title>Home</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+</head>
+
+<body bgcolor="#FFFFFF">
+<div align="CENTER">
+  <table border="0" width="450" cellspacing="10">
+    <tr> 
+      <td colspan=3 height="672"> 
+        <p><font size="+3" face="Arial, Helvetica, sans-serif" color="#0080C0"><b><strong><font color="#0000A0">Big 
+          Creek Ecological Reserve</font></strong></b></font> <font color="#0000A0"><strong><font face="Arial, Helvetica, sans-serif"><b><font size="+3">Mapping 
+          Project</font></b></font></strong></font></p>
+        <p><b><font face="Arial, Helvetica, sans-serif" color="#FF0000">Product 
+          Examples </font></b><font face="Arial, Helvetica, sans-serif" color="#FF0000"><font size="2" color="#000000">(from 
+          Interactive GIS)</font></font></p>
+        <table width="360" border="0">
+          <tr> 
+            <td width="24%" height="66"> 
+              <p><a href="productimages/bathymetriccntrs.jpg"><img src="productimages/thbathymetriccntrs.jpg" width="72" height="56" border="0"></a></p>
+            </td>
+            <td width="25%" height="66"><a href="productimages/bathymetricpolys.jpg"><img src="productimages/thbathymetricpolys.jpg" width="72" height="56" border="0"></a></td>
+            <td width="24%" height="66"><a href="productimages/3dbathy.jpg"><img src="productimages/th3dbathy.jpg" width="72" height="54" border="0"></a></td>
+            <td width="27%" height="66"><a href="productimages/3d.jpg"><img src="productimages/th3d.jpg" width="72" height="54" border="0"></a></td>
+          </tr>
+          <tr> 
+            <td width="24%" height="22"><font size="-4" face="Arial, Helvetica, sans-serif">Bathymetric 
+              Contours </font></td>
+            <td width="25%" height="22"><font size="-4" face="Arial, Helvetica, sans-serif">Bathymetric 
+              Polygons</font></td>
+            <td width="24%" height="22"><font size="-4" face="Arial, Helvetica, sans-serif">Shaded 
+              Relief Bathymetry (2d)</font></td>
+            <td width="27%" height="22"> 
+              <p><font size="-4" face="Arial, Helvetica, sans-serif">Shaded Relief 
+                Bathymetry (3d)</font></p>
+            </td>
+          </tr>
+          <tr> 
+            <td width="24%" height="53"><a href="productimages/aspectnew.jpg"><img src="productimages/thaspectnew.jpg" width="72" height="54" border="0"></a></td>
+            <td width="25%" height="53"> 
+              <p><a href="productimages/slopenew.jpg"><img src="productimages/thslopenew.jpg" width="72" height="60" border="0"></a></p>
+            </td>
+            <td width="24%" height="53"><a href="productimages/ssimage.jpg"><img src="productimages/thssimage.jpg" width="72" height="54" border="0"></a></td>
+            <td width="27%" height="53"><a href="productimages/ssinterp.jpg"><img src="productimages/thssinterp.jpg" width="72" height="54" border="0"></a></td>
+          </tr>
+          <tr> 
+            <td width="24%" height="20"><font size="-4" face="Arial, Helvetica, sans-serif">Substrate 
+              Aspect</font></td>
+            <td width="25%" height="20"><font size="-4" face="Arial, Helvetica, sans-serif">Substrate 
+              Slope </font></td>
+            <td width="24%" height="20"><font size="-4" face="Arial, Helvetica, sans-serif">Side 
+              Scan Image</font></td>
+            <td width="27%" height="20"><font size="-4" face="Arial, Helvetica, sans-serif">Side 
+              Scan Interpretation</font></td>
+          </tr>
+          <tr> 
+            <td width="24%"><a href="productimages/roxannpoints.jpg"><img src="productimages/throxannpoints.jpg" width="72" height="56" border="0"></a></td>
+            <td width="25%"><a href="productimages/roxanninterpr.jpg"><img src="productimages/throxanninterpr.jpg" width="72" height="56" border="0"></a></td>
+            <td width="24%">&nbsp;</td>
+            <td width="27%">&nbsp;</td>
+          </tr>
+          <tr> 
+            <td width="24%"><font size="-4" face="Arial, Helvetica, sans-serif">Seabed 
+              Classification RoxAnn Points</font></td>
+            <td width="25%"><font size="-4" face="Arial, Helvetica, sans-serif">Seabed 
+              Classification RoxAnn Polygons</font></td>
+            <td width="24%">&nbsp;</td>
+            <td width="27%">&nbsp;</td>
+          </tr>
+        </table>
+        <p> 
+        <b> 
+        <hr>
+        </b> 
+        <div align="left"> 
+          <p><font face="Arial, Helvetica, sans-serif" color="#FF0000"><b>On-line 
+            Interactive ArcView GIS</b></font> <br>
+          </p>
+        </div>
+        <ul>
+          <li> 
+            <div align="left"><font face="Arial, Helvetica, sans-serif"><b><font size="2" color="#0080C0"><a href="http://skyler.monterey.edu/%7Ehydrolab/bcer_ims/HabitatMap.html">Big 
+              Creek Ecological Reserve Map</a> </font></b></font></div>
+          </li>
+          <li><font size="2" color="#0080C0"><b><font face="Arial, Helvetica, sans-serif"><a href="http://skyler.monterey.edu/%7Ehydrolab/bcer_ims/FishingBlocks.html">California 
+            Fishing Blocks Map</a>: </font></b></font><font face="Arial, Helvetica, sans-serif" size="-1">To 
+            assist in selecting and ranking sites for mapping in your region- 
+            u</font><font face="Arial, Helvetica, sans-serif" size="-1">se the 
+            following map and links.</font></li>
+          <ul>
+            <li><font face="Arial, Helvetica, sans-serif" size="-1"><a href="instructions/instruc1stpg.pdf">Introductory 
+              letter</a> explaining the purpose and procedures for selecting &amp; 
+              ranking blocks </font></li>
+            <li><font face="Arial, Helvetica, sans-serif" size="-1">Instructions 
+              on <a href="instructions/instructions%20nov99.pdf">how to</a> select 
+              &amp; rank blocks for mapping priorities</font></li>
+            <li><font face="Arial, Helvetica, sans-serif" size="-1">Additional 
+              <a href="instructions/needs%20surveyrk.pdf">Data Needs</a> forms</font></li>
+            <li><font face="Arial, Helvetica, sans-serif" size="-1">Additional 
+              <a href="instructions/holdings%20surveyrk.pdf">Data Holdings</a> 
+              forms </font></li>
+          </ul>
+        </ul>
+        <table width="75%" border="0">
+          <tr> 
+            <td> 
+              <div align="center"><a href="maps/northernregion.jpg"><img src="maps/northern.jpg" width="90" height="79" border="0"></a></div>
+            </td>
+            <td> 
+              <div align="center"><a href="maps/centralregion.jpg"><img src="maps/centr.jpg" width="90" height="79" border="0"></a></div>
+            </td>
+            <td> 
+              <div align="center"><a href="maps/southernregion.jpg"><img src="maps/southern.jpg" width="90" height="79" border="0"></a></div>
+            </td>
+          </tr>
+          <tr> 
+            <td> 
+              <div align="center"><font size="1" face="Arial, Helvetica, sans-serif">Northern 
+                Region</font></div>
+            </td>
+            <td> 
+              <div align="center"><font face="Arial, Helvetica, sans-serif" size="1">Central 
+                Region</font></div>
+            </td>
+            <td> 
+              <div align="center"><font size="1" face="Arial, Helvetica, sans-serif">Southern 
+                Region</font></div>
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+</div>
+</body>
+</html>

@@ -1,0 +1,178 @@
+Identification Information:  
+	Citation:  
+		Citation Information:  
+			Originator:  Seafloor Mapping Lab- California State University Monterey Bay
+			Publication Date:  Unpublished Material
+			Publication Time:  Unknown
+			Title:  gma7sym
+			Geospatial Data Presentation Form:  view
+	Description:  
+		Abstract:  This California continental shelf geologic data set represents the current state of knowledge about the distribution of seafloor substrate types for the entire California continental shelf.  The data series is comprised of seven adjacent, but discrete map sections. Boundaries of seafloor geology type are depicted as polygon themes.
+		Purpose:  This project created digital GIS format versions of California continental shelf geology hardcopy maps originally produced by the Division of Mines and Geology, the U.S. Geological Survey and the California Coastal Commission. In addition, geologic and bathymetric data were interpreted further to produce polygons representing habitat boundaries.
+		Supplemental Information:  Original data developed by the Division of Mines and Geology, the U.S. Geological Survey and the California Coastal Commission. The principle purpose of the original DMG/USGS/CCC study was to acquire and compile all readily available geologic data for the California continental margin in a standard format. These nondigital data were presented as paper planimetric map sheets (NOAA/NOS 1:250,000 scale). For the current project, original mylars used to produce the geologic map series were scanned, and the resulting rasters were cleaned, georeferenced (UTM Zone 10 or 11, WGS84), and vectorized using TNTmips GIS software. Vector polygons and lines were then attributed and exported in ArcView shapefile format. Data covers an area from Mexico north to Oregon and from the California coastline west to the edge of the continental margin.
+	Time Period of Content:  
+		Time Period Information:  
+			Multiple Dates/Times:  
+				Single Date/Time:  
+					Calendar Date:  3/31/2001
+				Single Date/Time:  
+					Calendar Date:  1987
+		Currentness Reference:  publication date
+	Status:  
+		Progress:  Complete
+		Maintenance and Update Frequency:  None planned
+	Spatial Domain:  
+		Bounding Coordinates:  
+			West Bounding Coordinate:  282917.008792118
+			East Bounding Coordinate:  180
+			North Bounding Coordinate:  90
+			South Bounding Coordinate:  4465606.47754212
+	Keywords:  
+		Theme:  
+			Theme Keyword Thesaurus:  Geology Map Series Thesaurus
+			Theme Keyword:  geologic features
+			Theme Keyword:  marine
+			Theme Keyword:  GIS
+			Theme Keyword:  ephemeral
+			Theme Keyword:  structural
+			Theme Keyword:  habitat
+			Theme Keyword:  subsurface
+			Theme Keyword:  digital
+			Theme Keyword:  mapping
+			Theme Keyword:  symbology
+			Theme Keyword:  seafloor
+	Access Constraints:  To be determined by the California Department of Fish and Game.
+	Use Constraints:  To be determined by the California Department of Fish and Game.
+	Point of Contact:  
+		Contact Information:  
+			Contact Organization Primary:  
+				Contact Organization:  Center for Habitat Studies
+			Contact Address:  
+				Address Type:  mailing address
+				Address:  Moss Landing Marine Laboratories
+					8272 Moss Landing Rd.
+				City:  Moss Landing
+				State or Province:  California
+				Postal Code:  95039
+				Country:  USA
+			Contact Voice Telephone:  (831) 633-7268 (Habitat Studies)
+			Contact Facsimile Telephone:  (831) 633-7268 (Habitat Studies)
+			Contact Electronic Mail Address:  greene@mlml.calstate.edu
+	Browse Graphic:  
+	Data Set Credit:  Digital data processed by Seafloor Mapping Lab at California State University Monterey Bay, and the Center for Habitat Studies at Moss Landing Marine Laboratories. Original hardcopy data from Geology of the California Continental Margin: Geologic Map Series, by Kennedy, Greene, and Clark, 1987
+Data Quality Information:  
+	Lineage:  
+		Source Information:  
+			Source Citation:  
+				Citation Information:  
+					Originator:  ESRI
+					Title:  ArcView GIS
+					Edition:  3.2
+					Series Information:  
+						Series Name:  CA Dept of Conservation, Divisions of Mines and Geology
+						Issue Identification:  Bulletin 207
+			Source Citation Abbreviation:  AVGIS, TNT
+		Source Information:  
+			Source Citation:  
+				Citation Information:  
+					Originator:  ESRI
+					Title:  ArcView GIS
+					Edition:  3.2
+					Series Information:  
+						Series Name:  CA Dept of Conservation, Divisions of Mines and Geology
+						Issue Identification:  Bulletin 207
+			Source Citation Abbreviation:  AVGIS
+		Process Step:  
+			Process Description:  The following marker symbols are used for symbolizing structural layer: anticline, syncline, gas seeps, downthrown faults, upthrown faults, Miocene cuts, Pleistocene cuts, Pliocene cuts, Quaternary cuts, Holocene cuts, thrust fault active and thrust fault dormant. Markers were created from Arial and a modified Wingdings fonts in the Font Palette from the ArcView Symbol Palette. The Arial marker set was used symbolized the characters "U" (upthrown), "D" (downthrown), and "?" (queried). Wingdings font file (wingding.ttf) was modified using Font Creator Program v.3.0, High-Logic® to create anticline, syncline and gas seep fonts. The modified wingdings.ttf file was loaded into Window Fonts Font folder to be used in the ArcView Font Palette. The remaining symbols are found in ArcView default.avp and usgs.avp.
+				
+				Individual point theme layers were created for each set of symbols ( "U", "D", "?", anticline, syncline, Miocene cuts, etc). A final point theme layers containing all twelve symbols was created by merging the twelve sets of  point themes using X tools Extension in ArcView.
+				
+				A Master avl (sym.avl) was created for the symbology themes. The sym.alv contain scale and angle of rotation parameters to be used specifically with the symbology layer. The scale is set at 1:250,000 and the "angle" field from the symbology layer attribute table is used to set the angle of rotation for the marker symbols in the sym.avl.
+			Process Date:  3/31/01
+			Process Contact:  
+				Contact Information:  
+					Contact Person Primary:  
+						Contact Person:  MiRa Park
+						Contact Organization:  Center for Habitat Studies
+					Contact Position:  GIS Analyst
+					Contact Address:  
+						Address Type:  mailing address
+						Address:  Moss Landing Marine Laboratories
+							8272 Moss Landing Rd.
+						City:  Moss Landing
+						State or Province:  California
+						Postal Code:  95039
+						Country:  USA
+					Contact Voice Telephone:  (831) 633-7268 (Habitat Studies)
+					Contact Facsimile Telephone:  (831) 632-4403 (fax)
+					Contact Electronic Mail Address:  mi_park@monterey.edu
+	Cloud Cover:  0
+Spatial Data Organization Information:  
+	Indirect Spatial Reference:  California Continental Shelf
+	Direct Spatial Reference Method:  Vector
+	Point and Vector Object Information:  
+		SDTS Terms Description:  
+			SDTS Point and Vector Object Type:  Point
+			Point and Vector Object Count:  1111
+Spatial Reference Information:  
+	Horizontal Coordinate System Definition:  
+		Planar:  
+			Grid Coordinate System:  
+				Grid Coordinate System Name:  Universal Transverse Mercator 1983
+				Universal Transverse Mercator:  
+					UTM Zone Number:  10
+					Transverse Mercator:  
+						Scale Factor at Central Meridian:  0.9996
+						Longitude of Central Meridian:  -123
+						Latitude of Projection Origin:  0
+						False Easting:  500000
+						False Northing:  0
+			Planar Coordinate Information:  
+				Planar Coordinate Encoding Method:  Coordinate Pair
+				Coordinate Representation:  
+					Abscissa Resolution:  0
+					Ordinate Resolution:  0
+				Planar Distance Units:  m
+		Geodetic Model:  
+			Horizontal Datum Name:  WGS84
+			Ellipsoid Name:  WGS84
+			Semi-major Axis:  6378137
+			Denominator of Flattening Ratio:  298.257223563
+Entity and Attribute Information:  
+	Detailed Description:  
+		Entity Type:  
+			Entity Type Label:  Captured
+		Attribute:  
+			Attribute Label:  ANGLE
+			Attribute Definition:  Angle of rotation parameters to be used specifically with the symbology layer. The scale is set at 1:250,000 and the "angle" field from the symbology layer attribute table is used to set the angle of rotation for the marker symbols in the sym.avl.
+		Attribute:  
+			Attribute Label:  SYMBOL
+			Attribute Definition:  Marker symbols are used for symbolozing structural layer: anticline, syncline, gas seeps, downthrown faults, upthrown faults, Miocene cuts, Pleistocene cuts, Pliocene cuts, Quaternary cuts, Holocene cuts, thrust fault active and thrust fault dormant.
+	Overview Description:  
+		Entity and Attribute Overview:  Point theme layers were created in ArcView 3.2 to represent the symbology used in the  "Geology of the California Continental Margin" (USGS Bulletin 207 and Maps of Areas 1-7, sheets 1 of 4).
+Metadata Reference Information:  
+	Metadata Date:  3/31/2001
+	Metadata Review Date:  
+	Metadata Future Review Date:  
+	Metadata Contact:  
+		Contact Information:  
+			Contact Person Primary:  
+				Contact Person:  Carrie Bretz
+				Contact Organization:  Seafloor Mapping Lab, California State University Monterey Bay
+			Contact Position:  GIS Analyst and Metadata Manager, Geology Map Series Project Manager
+			Contact Address:  
+				Address Type:  mailing and physical address
+				Address:  California State University Monterey Bay, Institute for Earth Systems Science and Policy,100 Campus Center, Bldg 46A
+				City:  Seaside
+				State or Province:  CA
+				Postal Code:  93955
+				Country:  USA
+			Contact Voice Telephone:  831-582-4197
+			Contact Facsimile Telephone:  831-582-3073
+			Contact Electronic Mail Address:  carrie_bretz@monterey.edu
+	Metadata Standard Name:  FGDC Content Standards for Digital Geospatial Metadata
+	Metadata Standard Version:  2.0
+	Metadata Access Constraints:  None
+	Metadata Use Constraints:  None
+	Metadata Security Information:  
+		Metadata Security Classification:  Unclassified

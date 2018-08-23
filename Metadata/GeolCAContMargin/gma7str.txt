@@ -1,0 +1,161 @@
+Identification Information:  
+	Citation:  
+		Citation Information:  
+			Originator:  Seafloor Mapping Lab- California State University Monterey Bay
+			Publication Date:  Unpublished Material
+			Publication Time:  Unknown
+			Title:  gma7str
+			Geospatial Data Presentation Form:  view
+	Description:  
+		Abstract:  This California continental shelf geologic data set represents the current state of knowledge about the distribution of seafloor substrate types for the entire California continental shelf.  The data series is comprised of seven adjacent, but discrete map sections. Boundaries of seafloor geology type are depicted as polygon themes.
+		Purpose:  This project created digital GIS format versions of California continental shelf geology hardcopy maps originally produced by the Division of Mines and Geology, the U.S. Geological Survey and the California Coastal Commission. In addition, geologic and bathymetric data were interpreted further to produce polygons representing habitat boundaries.
+		Supplemental Information:  Original data developed by the Division of Mines and Geology, the U.S. Geological Survey and the California Coastal Commission. The principle purpose of the original DMG/USGS/CCC study was to acquire and compile all readily available geologic data for the California continental margin in a standard format. These nondigital data were presented as paper planimetric map sheets (NOAA/NOS 1:250,000 scale). For the current project, original mylars used to produce the geologic map series were scanned, and the resulting rasters were cleaned, georeferenced (UTM Zone 10 or 11, WGS84), and vectorized using TNTmips GIS software. Vector polygons and lines were then attributed and exported in ArcView shapefile format. Data covers an area from Mexico north to Oregon and from the California coastline west to the edge of the continental margin.
+	Time Period of Content:  
+		Time Period Information:  
+			Multiple Dates/Times:  
+				Single Date/Time:  
+					Calendar Date:  3/31/2001
+				Single Date/Time:  
+					Calendar Date:  1987
+		Currentness Reference:  publication date
+	Status:  
+		Progress:  Complete
+		Maintenance and Update Frequency:  None planned
+	Spatial Domain:  
+		Bounding Coordinates:  
+			West Bounding Coordinate:  188896.703102542
+			East Bounding Coordinate:  180
+			North Bounding Coordinate:  90
+			South Bounding Coordinate:  4465331.49997754
+	Keywords:  
+		Theme:  
+			Theme Keyword Thesaurus:  Geology Map Series Thesaurus
+			Theme Keyword:  geologic features
+			Theme Keyword:  marine
+			Theme Keyword:  GIS
+			Theme Keyword:  ephemeral
+			Theme Keyword:  structural
+			Theme Keyword:  habitat
+			Theme Keyword:  subsurface
+			Theme Keyword:  digital
+			Theme Keyword:  mapping
+			Theme Keyword:  symbology
+			Theme Keyword:  seafloor
+	Access Constraints:  To be determined by the California Department of Fish and Game.
+	Use Constraints:  To be determined by the California Department of Fish and Game.
+	Point of Contact:  
+		Contact Information:  
+			Contact Organization Primary:  
+				Contact Organization:  Seafloor Mapping Lab, California State University Monterey Bay
+			Contact Address:  
+				Address Type:  mailing address
+				Address:  California State University Monterey Bay, Institute for Earth Systems Science and Policy,100 Campus Center, Bldg 46A
+				City:  Seaside
+				State or Province:  California
+				Postal Code:  93955
+				Country:  USA
+			Contact Voice Telephone:  (831) 582-3529
+			Contact Facsimile Telephone:  (831) 582-3073
+			Contact Electronic Mail Address:  rikk_kvitek@monterey.edu
+	Browse Graphic:  
+	Data Set Credit:  Digital data processed by Seafloor Mapping Lab at California State University Monterey Bay, and the Center for Habitat Studies at Moss Landing Marine Laboratories. Original hardcopy data from Geology of the California Continental Margin: Geologic Map Series, by Kennedy, Greene, and Clark, 1987
+Data Quality Information:  
+	Lineage:  
+		Source Information:  
+			Source Citation:  
+				Citation Information:  
+					Originator:  Kennedy, M.P, H.G. Greene, S.H. Clark
+					Publication Date:  1987
+					Title:  Geology of the California Continental Margin
+					Geospatial Data Presentation Form:  maps w/ interpretive methods, symbology, stratigraphic units and bibliography
+					Series Information:  
+						Series Name:  CA Dept of Conservation, Divisions of Mines and Geology
+						Issue Identification:  Bulletin 207
+			Source Citation Abbreviation:  GCCM
+		Process Step:  
+			Process Description:  Structural linework was rendered from archived mylar traces of the original mapping study (Kennedy et al 1987). Mylar sheet(s) were scanned and recorded as TIFF image(s). The image(s) was then imported into advanced image processing/analytical software (TNTmips, MicroImages, Inc.) and run through a series of data conversions. 
+				
+				Archive mylars were scanned using an adjusted black/white threshold mode to capture all lines. The raster image(s) was examined to detect any obvious distortions of the map and then saved in TIFF format. Using TNTmips v 6.3 software (MicroImages, Inc), the unprojected TIFF was imported and georeferenced. Coordinates for the control points were taken from the hardcopy Geology Series map(s) grids. Raster to vector conversion (auto-trace function), vector edits (danging nodes), object attributing and export to ArcView (ESRI) were performed within TNTmips. Geology and subsurface polygons, and structural (linework) features were extracted and saved to separate files. Feature merge, union, split, and edge-matching functions were performed in ArcView v 3.2. Attribute tables were reviewed and updated following each of these processes. Marker symbols were created for additional attributing of the structural features(s).
+			Process Date:  3/31/01
+			Process Contact:  
+				Contact Information:  
+					Contact Person Primary:  
+						Contact Person:  Matthew Johnson
+						Contact Organization:  Seafloor Mapping Lab, California State University Monterey Bay
+					Contact Position:  GIS Analyst
+					Contact Address:  
+						Address Type:  mailing and physical address
+						Address:  California State University Monterey Bay, Institute for Earth Systems Science and Policy,100 Campus Center, Bldg 46A
+						City:  Seaside
+						State or Province:  California
+						Postal Code:  93955
+						Country:  USA
+					Contact Facsimile Telephone:  831-582-3073
+					Contact Electronic Mail Address:  matthew_johnson@monterey.edu
+	Cloud Cover:  0
+Spatial Data Organization Information:  
+	Indirect Spatial Reference:  California Continental Shelf
+	Direct Spatial Reference Method:  Vector
+	Point and Vector Object Information:  
+		SDTS Terms Description:  
+			SDTS Point and Vector Object Type:  String
+			Point and Vector Object Count:  780
+Spatial Reference Information:  
+	Horizontal Coordinate System Definition:  
+		Planar:  
+			Grid Coordinate System:  
+				Grid Coordinate System Name:  Universal Transverse Mercator 1983
+				Universal Transverse Mercator:  
+					UTM Zone Number:  10
+					Transverse Mercator:  
+						Scale Factor at Central Meridian:  0.9996
+						Longitude of Central Meridian:  -123
+						Latitude of Projection Origin:  0
+						False Easting:  500000
+						False Northing:  0
+			Planar Coordinate Information:  
+				Planar Coordinate Encoding Method:  Coordinate Pair
+				Coordinate Representation:  
+					Abscissa Resolution:  0
+					Ordinate Resolution:  0
+				Planar Distance Units:  m
+		Geodetic Model:  
+			Horizontal Datum Name:  WGS84
+			Ellipsoid Name:  WGS84
+			Semi-major Axis:  6378137
+			Denominator of Flattening Ratio:  298.257223563
+Entity and Attribute Information:  
+	Detailed Description:  
+		Entity Type:  
+			Entity Type Label:  Captured
+		Attribute:  
+			Attribute Label:  STR_FEATURE
+			Attribute Definition:  Geologic fault, fold, scarp, creep, and discontinuity types using standard stratigraphic units and unit codes (North American Stratigraphic Code).
+	Overview Description:  
+		Entity and Attribute Overview:  Geologic fault, fold, scarp, creep, and discontinuity types using standard stratigraphic units and unit codes (North American Stratigraphic Code).
+Metadata Reference Information:  
+	Metadata Date:  3/31/2001
+	Metadata Review Date:  
+	Metadata Future Review Date:  
+	Metadata Contact:  
+		Contact Information:  
+			Contact Person Primary:  
+				Contact Person:  Carrie Bretz
+				Contact Organization:  Seafloor Mapping Lab, California State University Monterey Bay
+			Contact Position:  GIS Analyst and Metadata Manager, Geology Map Series Project Manager
+			Contact Address:  
+				Address Type:  mailing and physical address
+				Address:  California State University Monterey Bay, Institute for Earth Systems Science and Policy,100 Campus Center, Bldg 46A
+				City:  Seaside
+				State or Province:  CA
+				Postal Code:  93955
+				Country:  USA
+			Contact Voice Telephone:  831-582-4197
+			Contact Facsimile Telephone:  831-582-3073
+			Contact Electronic Mail Address:  carrie_bretz@monterey.edu
+	Metadata Standard Name:  FGDC Content Standards for Digital Geospatial Metadata
+	Metadata Standard Version:  2.0
+	Metadata Access Constraints:  None
+	Metadata Use Constraints:  None
+	Metadata Security Information:  
+		Metadata Security Classification:  Unclassified

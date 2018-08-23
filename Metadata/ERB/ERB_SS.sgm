@@ -1,0 +1,85 @@
+<!DOCTYPE FGDC METADATA "-//FGDC//DTD METADATA 1.0//EN">
+<metadata>
+<idinfo>
+<citation>
+<citeinfo>
+<title>ERB_SS</title>
+</citeinfo>
+</citation>
+<descript>
+<abstract>Information produced from this project contributes new seafloor images and maps that will be used to assess regional geology and characterize habitats critical to fisheries management and planning of Marine Protected Areas (MPAs), as required by Federal mandates stated in the Magnunson-Stevens Fishery Conservation and Management Act and Sustainable Fisheries Act. Seafloor mapping effort was focused on priority areas outlined by multi-agency participants of the California Marine Habitat Task Force (CMHTF) Strategic Planning Meeting (1/20-21/2000).</abstract>
+<purpose>These data are presented as part of a program objective to identify, quantify and synthesize existing information critical to the understanding of the linkage between fisheries and habitats. Before regional exploration and site specific studies are undertake in regard to Essential Fish Habitats (EFH), all possible data that can be used to characterize substrate of EFH should be examined and, where possible, used to delineate habitat. To complete this goal we identified, catalogued, digitized, re-interpreted, and archived proprietary industry data including side scan sonar mosaics, subbottom seismic profiles and bathymetry not previously available to the general scientific community for the purpose of providing critical marine habitat maps of the California margin. In areas where industry data did not overlap the recommendations of the CMHFT, the CSUMB state-of-the-art seafloor mapping facility acquired and processed new data.</purpose>
+<supplinf>Comprehensive industry data sets consisted of analog side scan mosaics, microfilm of high resolution seismic reflection and single channel bathymetric profiles, rock samples and thin sections, core logs, and written reports.</supplinf>
+</descript>
+<timeperd>
+<timeinfo>
+<sngdate>
+<caldate>Unknown</caldate>
+<time>Unknown</time>
+</sngdate>
+</timeinfo>
+<current>publication date</current>
+</timeperd>
+<status>
+<progress>Complete</progress>
+<update>None planned</update>
+</status>
+<keywords>
+<theme>
+<themekt>None</themekt>
+</theme>
+</keywords>
+<accconst>Proprietary data</accconst>
+<useconst>Proprietary data</useconst>
+<ptcontac>
+<cntinfo>
+<cntorgp>
+<cntorg>GeoCubic, Inc.</cntorg>
+</cntorgp>
+</cntinfo>
+</ptcontac>
+<datacred>Survey Company: GeoCubic Inc., Contributor: Delta</datacred>
+<crossref>
+<citeinfo>
+<title>Eel River Basin</title>
+</citeinfo>
+</crossref>
+</idinfo>
+<dataqual>
+<cloud>Unknown</cloud>
+</dataqual>
+<spdoinfo>
+</spdoinfo>
+<spref>
+<horizsys>
+<planar>
+<gridsys>
+<gridsysn>Universal Transverse Mercator 1983</gridsysn>
+<utm>
+<utmzone>10</utmzone>
+<transmer>
+<sfctrmer>0.9996</sfctrmer>
+<longcm>-123</longcm>
+<latprjo>0</latprjo>
+<feast>500000</feast>
+<fnorth>0</fnorth>
+</transmer>
+</utm>
+</gridsys>
+<planci>
+<plance>Coordinate Pair</plance>
+</planci>
+</planar>
+<geodetic>
+<ellips>Clarke 1866</ellips>
+<semiaxis>6378206</semiaxis>
+<denflat>294.9786982</denflat>
+</geodetic>
+</horizsys>
+</spref>
+<metainfo>
+<metd></metd>
+<metrd></metrd>
+<metfrd></metfrd>
+</metainfo>
+</metadata>

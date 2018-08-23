@@ -1,0 +1,91 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><!-- InstanceBegin template="/Templates/siva.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>SIVA | CSU COAST Technology Center</title>
+<style type="text/css">
+<!--
+.style6 {	font-size: 14pt;
+	font-style: italic;
+	font-weight: bold;
+}
+-->
+</style>
+<link href="css/siva_style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+<table width="750 px" border="0" cellpadding="0" cellspacing="0">
+  <tr>
+    <td height="100" align="right" valign="bottom" class="rtbt_bdr"><a href="http://www.calstate.edu/coast/"><img src="images/coast_head.jpg" width="138" height="82" border="0" /></a></td>
+    <td width="*" valign="bottom" class="bt_bdr"><a href="http://www.calstate.edu/coast/"><img src="images/coast_body.jpg" width="609" height="82" border="0" /></a></td>
+  </tr>
+  <tr>
+    <td class="rt_bdr">&nbsp;</td>
+    <td align="center"><img src="images/siva_header.gif" alt="SIVA" width="561" height="62" vspace="4" />    </td>
+  </tr>
+  <tr>
+    <td width="140" class="rt_bdr">&nbsp;</td>
+    <td><!-- InstanceBeginEditable name="content" -->
+      <table width="100%" border="0" cellspacing="0">
+        <tr>
+          <td class="nav_cell" align="center">
+		   <span class="inactiveLink"><a href="siva-home.shtml">Home</a> . <a href="siva-capabilities.shtml">Capabilities & Assets</a>  . <a href="siva-research-labs.shtml">Research Labs</a> . <a href="siva-dataresources.shtml">Data Resources</a> . <a href="siva-training-curriculum.shtml">Training &amp; Curriculum</a> </span>		  </td>
+        </tr>
+        <tr>
+          <td class="content">
+		  <p class="ItOrange"><br />
+		    Seafloor Mapping Lab - Seafloor/Habitat Data Access Catalog</p>
+	    <p class="update">High resolution multibeam bathymetry data 
+	      
+        collected and processed by the Seafloor Mapping Lab is distributed to partners and the wider research community for use in ecological modeling, coastal conservation, baseline habitat maps, etc. The group is developing an online portal via Google Earth interface in addition to its existing direct data download capabilities. <br />
+	    </p>
+	    <p class="update"><img src="images/active.gif" width="15" height="15" /> indicates an active download/information link
+          <br />
+          <img src="images/inactive.gif" width="15" height="15" /> currently inactive</p>
+	    <p>
+	      <iframe width="500" height="500" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com/maps/ms?msa=0&amp;msid=210487879100689560003.0004a392e93a4eae1b427&amp;ie=UTF8&amp;t=p&amp;vpsrc=6&amp;ll=37.291535,-121.937256&amp;spn=6.116998,6.317139&amp;z=7&amp;output=embed"></iframe><br /><small>View <a href="http://maps.google.com/maps/ms?msa=0&amp;msid=210487879100689560003.0004a392e93a4eae1b427&amp;ie=UTF8&amp;t=p&amp;vpsrc=6&amp;ll=37.291535,-121.937256&amp;spn=6.116998,6.317139&amp;z=7&amp;source=embed" style="color:#0000FF;text-align:left">SFML Data Catalog 2011 v1129</a> in a larger map(s)</small></p>
+	    <p><span class="ItOrange">How to View or Download Data</span><br />
+          <span class="update">For each survey you may (1) download data directly from the <a href="http://seafloor.csumb.edu/SFMLwebDATA.htm">SFML Data Library</a>, or (2) view specific data files in <a href="http://earth.google.com/">Google Earth</a>. Data products include high-resolution multibeam bathymetry and backscatter imagery, generalized habitat interpretations, bathymetric soundings and contours, survey tracklines, and FGDC metadata.
+
+          <br />
+          <br />
+          The data available for each region is shown on the map as survey footprint polygons (squares). Yellow squares mean the data link is not active at this time, orange squares indicate an active infromation/download link. Click on the data "blocks" or placemark for the list of data and viewing options. At this time, only multibeam bathymetry images are available in KMZ format and can be selected and viewed in Google Earth. The grayscale and depth-colored images are large files and may take a bit longer to load. <br />
+<br />
+- Clicking on a data block will open a download menu. When selecting a file from the menu you will be prompted to either save the file (zip or KMZ formats) or open it in Google Earth (KMZ).
+<br />
+- Hint: To return to the original map(s) display select the browser Reload/Refresh icon.</span><br />
+	      <br />
+	        <br />
+	        <br />
+	        <br />
+	        <br />
+	        <br />
+	        <br />
+	        <br />
+	        <br />
+	        <br />
+	        <br />
+	        <br />
+	        <br />
+	        <br />
+	        <br />
+	        <br />
+	        <br />
+	        <br />
+	        <br />
+	      </p>
+	    <p>&nbsp;</p>
+	    <p>&nbsp;</p>		  </td>
+        </tr>
+      </table>
+	 
+    <!-- InstanceEndEditable --></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>
+</table>
+</body>
+<!-- InstanceEnd --></html>

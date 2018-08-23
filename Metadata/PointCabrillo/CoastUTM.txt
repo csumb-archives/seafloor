@@ -1,0 +1,77 @@
+Identification_Information:  
+	Citation:  
+		Citation_Information:  
+			Title:  CoastUTM
+	Description:  
+		Abstract:  California shoreline from the Oregon border to the Mexico border including Humboldt, Arcata, San Francisco, San Pablo, Suisun, Honker, and San Diego Bays and includes offshore rocks.
+			
+			This shoreline represents the mean high tide line along the coast. Accuracy of this coverage is fairly good with respects to the original source material.
+		Purpose:  Used for spatial reference
+		Supplemental_Information:  This coverage was originally compiled from individually digitized 7.5' USGS quadrangles controlled by NGS triangulation stations and individual quad corners. RMS errors averaged under 5 meters per quad.
+	Time_Period_of_Content:  
+		Time_Period_Information:  
+			Single_Date/Time:  
+				Calendar_Date:  20010331
+				Time_of_Day:  Unknown
+	Point_of_Contact:  
+		Contact_Information:  
+			Contact_Organization_Primary:  
+				Contact_Organization:  California State Lands Commission, Environmental Planning Division
+			Contact_Address:  
+				Address_Type:  mailing address
+				Address:  1807 13th Street
+				City:  Sacramento
+				State_or_Province:  California
+				Postal_Code:  95814-7187
+				Country:  USA
+			Contact_Voice_Telephone:  (916)574-1880
+	Data_Set_Credit:  Teale Data Center, US Geological Survey (Various years) 1:24 000 topographic map series.
+Data_Quality_Information:  
+	Lineage:  
+		Process_Step:  
+			Process_Description:  The coastline was extracted from the Teale data set (COAST24A) and warped from Albers NAD27 to UTM zone 10 & 11, WGS84. Select segments were clipped from the  file which extended along the entire California coast.
+				
+				Vital Information:
+				
+				ARC/INFO Coverage type:            line, point
+				ARC/INFO tolerances:               5 meters
+				Number of features:                28346 arcs, 12077 points
+				Source media:                      mylar, paper
+				Source scale:                      1:24,000
+				Source projection and parameters:  Lambert
+				Date updated:                      9/1993
+			Process_Contact:  
+				Contact_Information:  
+					Contact_Person_Primary:  
+						Contact_Person:  Pat Iampietro
+						Contact_Organization:  Seafloor Mapping Lab, California State University Monterey Bay
+					Contact_Position:  Project Manager, Chief Hydrographer
+					Contact_Address:  
+						Address_Type:  mailing and physical address
+						Address:  California State University Monterey Bay, Institute for Earth Systems Science and Policy,100 Campus Center, Bldg 46A
+						City:  Seaside
+						State_or_Province:  California
+						Postal_Code:  93955
+						Country:  USA
+					Contact_Voice_Telephone:  (831) 582-4214
+					Contact_Facsimile_Telephone:  (831) 582-3073
+					Contact_Electronic_Mail_Address:  pat_iampietro@monterey.edu
+	Cloud_Cover:  0
+Spatial_Data_Organization_Information:  
+Spatial_Reference_Information:  
+	Horizontal_Coordinate_System_Definition:  
+		Planar:  
+			Map_Projection:  
+				Map_Projection_Name:  Albers Conical Equal Area
+			Planar_Coordinate_Information:  
+				Planar_Coordinate_Encoding_Method:  Coordinate Pair
+		Geodetic_Model:  
+			Semi-major_Axis:  0
+			Denominator_of_Flattening_Ratio:  0
+Entity_and_Attribute_Information:  
+	Overview_Description:  
+		Entity_and_Attribute_Overview:  There are is only standard attribute information for the PAT and AAT files.
+Metadata_Reference_Information:  
+	Metadata_Date:  20020731
+	Metadata_Review_Date:  
+	Metadata_Future_Review_Date:  

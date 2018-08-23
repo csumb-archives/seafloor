@@ -1,0 +1,294 @@
+<!DOCTYPE FGDC METADATA "-//FGDC//DTD METADATA 1.0//EN">
+<metadata>
+<idinfo>
+<citation>
+<citeinfo>
+<origin>Seafloor Mapping Lab- California State University Monterey Bay</origin>
+<pubdate>Unpublished Material</pubdate>
+<pubtime>Unknown</pubtime>
+<title>SCB9_28_Habitat</title>
+<geoform>view</geoform>
+</citeinfo>
+</citation>
+<descript>
+<abstract>Information produced from this project contributes new seafloor images and maps that will be used to assess regional geology and characterize habitats critical to fisheries management and planning of Marine Protected Areas (MPAs), as required by Federal mandates stated in the Magnunson-Stevens Fishery Conservation and Management Act and Sustainable Fisheries Act. Seafloor mapping effort was focused on priority areas outlined by multi-agency participants of the California Marine Habitat Task Force (CMHTF) Strategic Planning Meeting (1/20-21/2000).</abstract>
+<purpose>These data are presented as part of a program objective to identify, quantify and synthesize existing information critical to the understanding of the linkage between fisheries and habitats. Before regional exploration and site specific studies are undertake in regard to Essential Fish Habitats (EFH), all possible data that can be used to characterize substrate of EFH should be examined and, where possible, used to delineate habitat. To complete this goal we identified, catalogued, digitized, re-interpreted, and archived proprietary industry data including side scan sonar mosaics, subbottom seismic profiles and bathymetry not previously available to the general scientific community for the purpose of providing critical marine habitat maps of the California margin. In areas where industry data did not overlap the recommendations of the CMHFT, the CSUMB state-of-the-art seafloor mapping facility acquired and processed new data.</purpose>
+<supplinf>Comprehensive industry data sets consisted of analog side scan mosaics, microfilm of high resolution seismic reflection and single channel bathymetric profiles, rock samples and thin sections,core logs, and written reports.</supplinf>
+</descript>
+<timeperd>
+<timeinfo>
+<sngdate>
+<caldate>20020731</caldate>
+<time>Unknown</time>
+</sngdate>
+</timeinfo>
+<current>publication date</current>
+</timeperd>
+<status>
+<progress>Complete</progress>
+<update>None planned</update>
+</status>
+<spdom>
+<bounding>
+<westbc>-122.68126</westbc>
+<eastbc>-122.43487</eastbc>
+<northbc>37.43385</northbc>
+<southbc>37.27955</southbc>
+</bounding>
+</spdom>
+<keywords>
+<theme>
+<themekt>Geology Map Series Thesaurus</themekt>
+<themekey>geologic features</themekey>
+<themekey>marine</themekey>
+<themekey>GIS</themekey>
+<themekey>multibeam</themekey>
+<themekey>habitat</themekey>
+<themekey>side scan</themekey>
+<themekey>digitize</themekey>
+<themekey>mapping</themekey>
+<themekey>seafloor</themekey>
+<themekey>industry</themekey>
+</theme>
+</keywords>
+<accconst>To be determined by Center for Habitat Studies and contractor.</accconst>
+<useconst>To be determined by Center for Habitat Studies and contractor.</useconst>
+<ptcontac>
+<cntinfo>
+<cntorgp>
+<cntorg>Center for Habitat Studies</cntorg>
+</cntorgp>
+<cntaddr>
+<addrtype>mailing address</addrtype>
+<address>Moss Landing Marine Laboratories
+8272 Moss Landing Rd.</address>
+<city>Moss Landing</city>
+<state>California</state>
+<postal>95039</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>(831) 771-4140 (Habitat Studies)</cntvoice>
+<cntfax>(831) 633-7264 (Habitat Studies)</cntfax>
+<cntemail>greene@mlml.calstate.edu</cntemail>
+</cntinfo>
+</ptcontac>
+<browse>
+</browse>
+<datacred>Habitat data processed by the Center for Habitat Studies at Moss Landing Marine Laboratories.</datacred>
+</idinfo>
+<dataqual>
+<posacc>
+<horizpa>
+<horizpar>Problems and Solutions Summary
+In this summary the term ""geotiff"" is used to describe both .tif images with corresponding georeference information embedded in the header of the file, and images with their corresponding georeference information in a separate .tfw file. Also, the term ""source geotiff"" refers to the scanned industrial data that was processed as geotiffs and written to CDs during the first year of the project. 
+Not only does a Habitat map reflect the features and the footprint of its source geotiff, the map also reflects the accuracy of the georeferencing and rectification of the source geotiff. We tested for geo-locational accuracy of the source geotiff and the Habitat map at 4 points during the map creation and processing. If discrepancies were found during these checks, they were resolved before the processing was continued. 
+The first check for geo-locational accuracy was during the Layout and Interpretation process. Any obvious inconsistencies within the source geotiffs that would affect the accuracy of the Habitat map were noted and resolved. 
+Two types of problems were fixed at this checkpoint: 
+?  Pieces of the geotiff mosaic that were out of position. 
+?  Geotiffs with stretched or warped features. 
+
+To fix the geotiffs that had pieces of the mosaic that were obviously out of position, we examined the original hard copy ""paste-up"" mosaic and the industry hard copy. The out-of-position area was identified both on the hard copies and in the geotiff. The geotiff was imported into TNTMips and the out-of-position area was digitally extracted, georeferenced, and re-mosaicked. Next, this repaired raster mosaic was resampled. At this point, the raster was overlaid with a TNTMips generated map grid, using the same projection as the original source data. The overlaid grid was checked to see that the lines of the map grid aligned with grid lines that are embedded in the original source images. The TNTMIPS map calculator was also used to convert the original coordinate values of the grid intersections in the geotiff to the appropriate coordinate values of those same grid intersections, using the project's projection standard (UTM, Zones 10 or 11, WGS 1984). These calculated values were used to further verify the accuracy of the geotiff repair. After the geotiff raster was repaired and tested, it was exported as a .tif file along with it's corresponding .tfw world file. 
+Those geotiffs that appeared to have stretched or warped features were also compared with the hard copy ""paste-up"" mosaics and the industry hard copy. If there was an obvious difference between the digital geotiff and the hard copies, then the geotiff was imported into TNTMips for repair. These rasters were resampled and then tested against a map grid overlay. If georeferencing adjustments were required, they were done at this point. Once the raster was repaired in TNTMips, it was exported as a .tif along with the corresponding .tfw world file. Geotiffs repaired at this point in the processing were used to create new layouts and the Habitat interpretation process was continued. 
+The second check for geo-locational accuracy was during the Habitat map vectorization process. This check took place after the scanned Habitat map had been vectorized and georeferenced, but before it was smoothed or merged. This is a particularly critical processing checkpoint because errors in georeferencing found at this point in the Habitat map processing can be corrected more readily than if those errors are not discovered until after the merging and smoothing processes. First the Habitat map's corresponding source geotiff was imported into TNTMips. The imported geotiff raster was displayed with the vectorized Habitat map and a TNTMips generated map grid as overlays. The map grid was in the same projection as the original source data. An accuracy check was performed. The footprint of the Habitat map and the map feature polygons were checked to see that they matched the footprint edges and corresponding features in the geotiff. 
+Discrepancies in footprint and feature alignment between the Habitat map and its corresponding geotiff were indications of errors caused by: 
+?  Inaccurate georeferencing. 
+?  Use of the wrong projection. 
+
+If alignment errors were discovered at this point, the repair and testing was done in 2 parts. First the geotiff georeferencing was checked using a TNTMips map grid overlay, as we detailed earlier. If the geotiff needed to be re-georeferenced then that was accomplished before any additional testing or repair was done to the Habitat map. Once any repair required for the geotiff was finished, we began the second part of the testing and repair. The geotiff raster and the Habitat map were overlaid again to check that the footprint and feature edges aligned. If they still did not align, then the Habitat map was re-georeferenced using the geotiff raster as a reference raster. When the repairs were completed and the geo-locational accuracy of the geotiff raster and the Habitat map were verified, the repaired rasters were exported as .tif files along with a .tfw world file and the Habitat map processing was continued. 
+After the Map smoothing and merging processes were completed, the geotiff and Habitat map were again overlaid and the alignment of the footprint edges and the features were visually inspected. If discrepancies were noted at this point, they were corrected before the Habitat map was exported from TNTMips as an ArcView shapefile. 
+The final test of geo-locational accuracy was done in ArcView. 
+A view was created using: 
+?  The composite shapefile of all the geotiff footprints - from the first year of the project. 
+?  The California coastline shapefile. 
+?  The source geotiffs and any corrected geotiffs. 
+?  The Habitat map shapefiles. 
+
+This view was then inspected for positional discrepancies between the various layers. Any geo-locational errors in the Habitat maps that were discovered at this point usually required returning to the intermediate vector map products saved prior merging and smoothing. The errors were then corrected and the Habitat map was reprocessed from that point.</horizpar>
+</horizpa>
+</posacc>
+<lineage>
+<procstep>
+<procdesc>From scanned industrial and new SFML multibeam data files, we created layouts in ArcView and exported them as *.tif files using the extension ArcPress.  This process was repeated at different scales until a final scale, most appropriate to the data quality, was chosen. The layouts were then printed out in PosterShop.  Mylar sheets were placed over the printed layouts.  Expert marine geologists interpreted the areas using pencil to draw polygons characterizing features based on their knowledge of the geology of the areas.  In addition, they noted tick marks and northing/easting coordinates obtained from the printed layouts.  
+
+The Mylar interpretations were then scanned (WideImage program, scan preset is set to mylar) and processed in GIS programs (TNT Mips and ArcView).  Scanned mylars were then printed and used to attribute habitats. This also served as a double-check to edit the habitat interpretation as needed.
+
+When processing the scanned image within TNT Mips, the file was imported from a raster *.tif file as *_rasimp.rvc.  At this step, settings for the Georeferencing are none and the Projection is undefined.  The raster was georeferenced using the appropriate projections UTM, Zone 10N or 11N, WGS 1984.  5 tick marks and associated northing/easting coordinates were used for georeferencing.  The georeferencing cross-hair in TNT Mips was used to match up with tick marks on the image.  Residuals for each of the tick marks were no greater than 1 meter and in most cases under 0.5 m.  The UTM coordinates were saved (*_UTM) and the file was re-sampled using the projection UTM, Zone 10N or 11N, WGS 1984 (*_georef).  
+
+Next, the resampled file was raster edited in the Spatial Data Editor within TNT Mips.  Unwanted features such as speckles, attribute numbers and text from the polygons, and tick marks were erased using an erasing tool.  Dashed lines were connected and lines were re-drawn using a drawing tool.  The scanned, printed and colored mylars were used as reference for editing.  During raster editing files were saved frequently as *_ras1, *_ras2, final version was named *_finras.rvc.
+
+The final raster was then converted to a vector file (*_vect) using the Auto Trace method (Trace 0 value cells, Remove Dangling Lines -6, Remove Bubble Polygons -6, Thinning factor -1.25/1.50). Several tests were run before the final conversion to check the result of the tracing. Conversion took several hours so this process was run overnight. 
+
+The vector file was then edited to delete or add nodes and lines and to correct the shape of polygons (*_vec1, *_vec2 etc.).  During vector editing the original sidescan and bathymetry geotiffs were used as reference. Original geotiffs were imported into TNT Mips using the correct georeferencing and then projected as layers underneath the vector file in the Spatial Data Editor. The final vector file was named *_finvec.
+
+The edited vector was then warped in order to create an implied georeference (*_warp).  Output projection was set to UTM, Zone 10N or 11N, WGS 1984. 
+Smoothing of the warped vector file was performed with the Vector Filtering tool based on necessity. If the lines were too angular smoothing could round the curves. Several tests were run before the actual smoothing to make sure we did not loose any features. Smoothed vector file was saved as *_filt.rvc.
+
+If there was more than one sheet to an area, the warped (and filtered) vector files were merged (*_merge).  Final cleaning was done in the Spatial Data Editor (*_merge1, *_merge2 etc.).  Again the original sidescan and bathymetry geotiffs projected as layers underneath the vector file were used as reference. Special attention was paid to the overlying areas to make sure all the lines meet and polygons are closed. Once final cleaning changes were made, the file (*_finmerge) was exported as a shape file (*.dbf, *.prj, *.shp and *.shx).  
+
+Attributes were assigned to the polygons in ArcView based on the geologist's assigned habitat characterizations.  Attribute table was filled out based on former SeaGrant files adding the same fields to the table. First only the Hab_type field was filled out due to expected modifications of the habitat classification scheme. Project was saved as *_hab.apr.</procdesc>
+<procdate>7/31/02</procdate>
+<proccont>
+<cntinfo>
+<cntperp>
+<cntper>Joe Bizzarro</cntper>
+<cntorg>Center for Habitat Studies</cntorg>
+</cntperp>
+<cntpos>GIS Manager,  Project Manager</cntpos>
+<cntaddr>
+<addrtype>mailing and physical address</addrtype>
+<address>Moss Landing Marine Laboratories
+8272 Moss Landing Rd.</address>
+<city>Moss Landing</city>
+<state>California</state>
+<postal>95039</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>(831) 632-4419 (Ichthyology)
+(831) 771-4140 (Habitat Studies)</cntvoice>
+<cntfax>(831) 633-7264 (Habitat Studies)</cntfax>
+<cntemail>jbizzarro@mlml.calstate.edu</cntemail>
+</cntinfo>
+</proccont>
+</procstep>
+</lineage>
+<cloud>0</cloud>
+</dataqual>
+<spdoinfo>
+<indspref>California Continental Margin</indspref>
+<direct>Vector</direct>
+<ptvctinf>
+<sdtsterm>
+<sdtstype>G-polygon</sdtstype>
+<ptvctcnt>1069</ptvctcnt>
+</sdtsterm>
+</ptvctinf>
+</spdoinfo>
+<spref>
+<horizsys>
+<planar>
+<gridsys>
+<gridsysn>Universal Transverse Mercator 1983</gridsysn>
+<utm>
+<utmzone>10</utmzone>
+<transmer>
+<sfctrmer>0.9996</sfctrmer>
+<longcm>-123</longcm>
+<latprjo>0</latprjo>
+<feast>500000</feast>
+<fnorth>0</fnorth>
+</transmer>
+</utm>
+</gridsys>
+<planci>
+<plance>Coordinate Pair</plance>
+<coordrep>
+<absres>0</absres>
+<ordres>0</ordres>
+</coordrep>
+<plandu>m</plandu>
+</planci>
+</planar>
+<geodetic>
+<horizdn>North American Datum of 1983</horizdn>
+<ellips>Geodetic Reference System 80</ellips>
+<semiaxis>6378137</semiaxis>
+<denflat>298.257</denflat>
+</geodetic>
+</horizsys>
+</spref>
+<eainfo>
+<detailed>
+<enttyp>
+<enttypl>Captured</enttypl>
+</enttyp>
+<attr>
+<attrlabl>Bottom</attrlabl>
+<attrdef>Short description of the bottom induration attributes</attrdef>
+</attr>
+<attr>
+<attrlabl>Bottom_id</attrlabl>
+<attrdef>Second letter of habitat characterization code to designate the bottom induration. Attribute records for the field consist of, s, h, and m.</attrdef>
+</attr>
+<attr>
+<attrlabl>Geo_confid</attrlabl>
+<attrdef>The level of confidence of the geoglogic unit. This will either be defined, questionabley defined, or unclassfied.</attrdef>
+</attr>
+<attr>
+<attrlabl>Geo_unit</attrlabl>
+<attrdef>Geologic unit</attrdef>
+</attr>
+<attr>
+<attrlabl>Hab_confid</attrlabl>
+<attrdef>The level of confidence of the habitat type. This will either be defined, questionabley define, or unclassfied.</attrdef>
+</attr>
+<attr>
+<attrlabl>Hab_type</attrlabl>
+<attrdef>Habitat type. This consist of the sequence of habitat (id)s.</attrdef>
+</attr>
+<attr>
+<attrlabl>Mdfr</attrlabl>
+<attrdef>Short description of the modifiers.</attrdef>
+</attr>
+<attr>
+<attrlabl>Mdfr_id</attrlabl>
+<attrdef>Third or fourth letter of the habitat characterization code to describe the texture bedform, biology, or rocky type and consists of _u, _c, _f, _m, _d, _v/g, _b, _h, _r, _s, and _a. Undersocore preceding the letter denotes subscript.</attrdef>
+</attr>
+<attr>
+<attrlabl>Mega</attrlabl>
+<attrdef>Short description of the megahabitat attributes</attrdef>
+</attr>
+<attr>
+<attrlabl>Mega_id</attrlabl>
+<attrdef>First letter of the habitat characterization code to designate the megahabitat type. Attibute records for this field consist of  S, F, A, P, B, R. These will be in capital case letters.</attrdef>
+</attr>
+<attr>
+<attrlabl>Mso_Mcr</attrlabl>
+<attrdef>Short description of meso- or macrohabitat types.</attrdef>
+</attr>
+<attr>
+<attrlabl>Mso_Mcr_id</attrlabl>
+<attrdef>Third or absent (unclassified) letter of the habitat characteriztion code to designate the meso- or macrohabitat type. Attibute records for this field consist of  c, m, b, g, l, f, p/b, r, o, w, i, t, s, and e.</attrdef>
+</attr>
+<attr>
+<attrlabl>Shape</attrlabl>
+<attrdef>Polygon</attrdef>
+</attr>
+</detailed>
+<overview>
+<eaover>Attributes assigned to polygon features were based on geologic interpretations. [See MarineGeol_StrataUnits.doc]</eaover>
+<eadetcit>Greene et al. (1999)- A Classification Scheme for Deep Seafloor Habitats, OCEANOLOGICA ACTA, vol. 22(6).</eadetcit>
+</overview>
+</eainfo>
+<metainfo>
+<metd>20020731</metd>
+<metrd></metrd>
+<metfrd></metfrd>
+<metc>
+<cntinfo>
+<cntperp>
+<cntper>Carrie Bretz</cntper>
+<cntorg>Seafloor Mapping Lab, California State University Monterey Bay</cntorg>
+</cntperp>
+<cntpos>Project Manager, GIS Analyst and Metadata Manager</cntpos>
+<cntaddr>
+<addrtype>mailing and physical address</addrtype>
+<address>California State University Monterey Bay, Institute for Earth Systems Science and Policy,100 Campus Center, Bldg 46A</address>
+<city>Seaside</city>
+<state>CA</state>
+<postal>93955</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>831-582-4197</cntvoice>
+<cntfax>831-582-3073</cntfax>
+<cntemail>carrie_bretz@monterey.edu</cntemail>
+</cntinfo>
+</metc>
+<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+<metstdv>2.0</metstdv>
+<metac>None</metac>
+<metuc>None</metuc>
+<metsi>
+<metsc>Unclassified</metsc>
+</metsi>
+</metainfo>
+</metadata>

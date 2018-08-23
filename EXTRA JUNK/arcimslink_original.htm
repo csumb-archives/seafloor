@@ -1,0 +1,677 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD><TITLE>Seafloor Mapping Lab ArcIMS Services</TITLE>
+<META http-equiv=Content-Type content="text/html; charset=iso-8859-1">
+<SCRIPT language=JavaScript>
+<!--
+function MM_openWindow(theURL,winName,launchWin,features) { //v1.0
+  if (launchWin == ''){
+    window.open(theURL,winName,features);
+  }
+  else{
+    var controller = window.open(theURL,winName,features);
+    if (controller.opener == null){
+      controller.opener = self;
+    }
+    controller.opener.name = launchWin;
+    return controller;
+  }
+}
+
+function MM_displayStatusMsg(msgStr) { //v1.0
+  status=msgStr;
+  document.MM_returnValue = true;
+}
+//-->
+</SCRIPT>
+
+<META content="MSHTML 6.00.2800.1141" name=GENERATOR></HEAD>
+<BODY bgColor="#66ccff" topmargin="0" leftmargin="0" marginwidth="0" marginheight="0">  
+
+<TABLE height=1500 cellSpacing=0 cellPadding=0 width=965 border=0>
+  <TBODY> 
+  <TR>
+    <TD width=177 height=135><img src="images/content_top_left_IMS.jpg" width="177" height="138" usemap="#Map" border="0"></TD>
+    <TD colSpan=3 height=135><IMG height=138 alt="header image right" 
+      src="images/content_top_right_IMS.jpg" width=708 align=top 
+      useMap=#TopRightMap border=0></TD>
+  </TR>
+  <TR>
+    <TD vAlign=top width=177 height=1266><IMG height=158 
+      src="images/mainmenu.gif" width=176 align=top useMap=#NavMap 
+      border=0><IMG height=159 alt="SFML Logo" src="images/logo.gif" 
+      width=176 align=top useMap=#LogoMap border=0></TD>
+    <TD vAlign=top width=42 height=1266><IMG height=50 
+      src="file:///D|/ArcIMS/CUSTOM_TOOLS/arcims_files/pixel.gif" width=5 align=top></TD>
+    <TD vAlign=top align=middle width=746 height=1266> 
+      <P align=left><font face="Verdana, Arial, Helvetica, sans-serif" size="+1" color="#FFFFFF"><font size="+2">INTERNET 
+        MAP SERVER (IMS)</font></font></P>
+      <P align=center><FONT face="Geneva, Arial, Helvetica, san-serif" 
+      color=#ffffff size=2><B><font color="#000000" size="3">Map Services</font></B><FONT color=#000000 size=1><FONT 
+      face=Wingdings>*</FONT></FONT></FONT><FONT face=Wingdings color=#000000 
+      size=1> </FONT></P>
+      <P align=left><font face="Geneva, Arial, Helvetica, san-serif" size="2">Welcome 
+        to the Seafloor Mapping Lab IMS: please choose your desired Map Service 
+        from the list on the right. Click on the service name to access the live 
+        map (if yellow box is present). The </font><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font size="1"><img src="images/IMStools/identify_1.gif" width="15" height="15" align="absmiddle"></font></b></font></b></font><font face="Geneva, Arial, Helvetica, san-serif" size="2"> 
+        button will link you to project information. Selected FGDC-compliant metadata 
+        can be viewed from our web interface- however, detailed metadata is embedded 
+        within all downloadable (ArcGIS format) files. Complete data sets can 
+        be downloaded directly from the IMS live map(s) toolbar or via the download 
+        icon below. </font></P>
+      <p align=left><font face=Wingdings color=#000000 size=2>*</font><b><font 
+      face="Geneva, Arial, Helvetica, san-serif" color=#000000 size=3><font 
+      size=1>Active Map Services posted here are not necessarily complete products. 
+        The IMS Server is populated with updated and additional data as it becomes 
+        available. Please contact carrie_bretz@csumb.edu for further information. 
+        </font><font color="#FF3300"><b><font face="Geneva, Arial, Helvetica, san-serif" size=3><font size=1><u>Map 
+        Services are published in: </u></font><font color="#FF3300"><b><font face="Geneva, Arial, Helvetica, san-serif" size=3><font size=1>Coordinates: 
+        UTM, Zone-varies / </font><font color="#FF3300"><b><font face="Geneva, Arial, Helvetica, san-serif" size=3><font size=1>Datum: 
+        WGS 1984</font></font></b></font> </font><font color="#FF3300"><b><font face="Geneva, Arial, Helvetica, san-serif" size=3><font color="#FF3300"><b><font face="Geneva, Arial, Helvetica, san-serif" size=3><font size=1>/ 
+        </font><font color="#FF3300"><b><font face="Geneva, Arial, Helvetica, san-serif" size=3><font size=1></font><font color="#FF3300"><b><font face="Geneva, Arial, Helvetica, san-serif" size=3><font size=1>Bathymetric 
+        reference: MLLW</font></font></b></font></font></b></font></font></b></font></font></b></font></b></font></font></b></font></font></b></p>
+      <DIV align=left></DIV>
+      <TABLE width="98%" border=0>
+        <TBODY> 
+        <TR> 
+          <TD height=3> 
+            <div align="right"><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font size="1"><img src="images/IMStools/Service_list/Active.gif" width="14" height="14" align="absmiddle">=Service 
+              Active <font face="Geneva, Arial, Helvetica, san-serif" size="3">.</font><font size="3" face="Geneva, Arial, Helvetica, san-serif" color="#000000"> 
+              </font></font></b></font></b></font><font size="1"><img src="images/IMStools/identify_1.gif" width="20" height="20" align="absmiddle">= 
+              Information <font face="Geneva, Arial, Helvetica, san-serif" size="3">.</font><font size="3" face="Geneva, Arial, Helvetica, san-serif" color="#000000"> 
+              <img src="images/IMStools/metadata.gif" width="19" height="18" align="absmiddle"></font></font><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font size="1">= 
+              Metadata </font><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font size="3" face="Geneva, Arial, Helvetica, san-serif">. 
+              </font><font size="1"><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font size="1"><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font size="1"><img src="images/downloadred.gif" width="18" height="18" align="absmiddle"></font><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font size="1">= 
+              Data Download</font></b></font></b></font></b></font></font></b></font></font></b></font></b></font></b></font></b></font></b></font></div>
+          </TD>
+        </TR>
+        </TBODY> 
+      </TABLE>
+      <TABLE height=1117 cellSpacing=2 cellPadding=1 width=761 align=left 
+      border=0>
+        <TBODY> 
+        <TR> 
+          <TH noWrap width=377 bgColor=#0099cc height="1020" valign="top"> 
+            <blockquote> 
+              <p align="center">&nbsp;</p>
+            </blockquote>
+            <table width="95%" border="0" height="533">
+              <tr> 
+                <td width="27%" height="651" valign="top"> 
+                  <p><font face="Geneva, Arial, Helvetica, san-serif" size="2"><b>Data 
+                    overview </b>:</font></p>
+                  <p align="left"><font face="Geneva, Arial, Helvetica, san-serif" size="2"><font size="1"><font size="-2" face="Verdana, Arial, Helvetica, sans-serif">The 
+                    CSUMB Seafloor Mapping Lab is a state-of-the-art acoustic 
+                    remote sensing and GIS analysis facility, specializing in 
+                    nearshore marine habitat mapping. SFML operates a dedicated 
+                    32 ft trailerable survey vessel, equipped with over $1,000,000 
+                    in instrumentation optimized for shallow water (5-250 m) multibeam, 
+                    sidescan sonar and ROV video surveys. </font></font><font size="-2" face="Verdana, Arial, Helvetica, sans-serif">Mapping 
+                    products include high resolution (1m) bathymetry in shaded 
+                    relief, contours, xyz grids, and 3D fly-through simulations, 
+                    sidescan sonar mosaics and substrate interpretations, georeferenced 
+                    ROV video groundtruth imagery of identifiable substrate and 
+                    habitat types, classified seafloor habitat maps based on the 
+                    integration of all data sources, multimedia GIS output. Several 
+                    of these data types are available for viewing through the 
+                    SFML IMS server. </font></font></p>
+                  <p><font face="Geneva, Arial, Helvetica, san-serif" size="2"><b>Tools/Functions</b>: 
+                    </font></p>
+                  <p><font face="Verdana, Arial, Helvetica, sans-serif" size="-2">-Select 
+                    the <b>Refresh Map</b> button when turning any data layers 
+                    on and/or off (visible layers).</font></p>
+                  <p><font face="Verdana, Arial, Helvetica, sans-serif" size="-2">-Selected 
+                    tools for display, query and analyses will function on the 
+                    <b>Active</b> layer of the Table of Contents List (right hand 
+                    side) only.</font></p>
+                  <p><font face="Verdana, Arial, Helvetica, sans-serif" size="-2">-Do 
+                    NOT hit the BACK button in a &quot;live map&quot; window. 
+                    Reload the map if necessary, or open a new map from the IMS 
+                    Map Services list. </font></p>
+                  <table width="100%" border="0" align="center">
+                    <tr> 
+                      <td width="7%" height="35"> 
+                        <div align="center"><img src="images/IMStools/legend&layerlist.gif" width="24" height="23"></div>
+                      </td>
+                      <td width="38%" height="35"><font face="Verdana, Arial, Helvetica, sans-serif" size="-2">Toggle 
+                        between legend &amp; layers list</font></td>
+                      <td width="10%"> 
+                        <div align="center"><img src="images/IMStools/overviewmap.gif" width="25" height="23"></div>
+                      </td>
+                      <td width="45%"><font face="Verdana, Arial, Helvetica, sans-serif" size="-2">Overview 
+                        map</font></td>
+                    </tr>
+                    <tr> 
+                      <td width="7%" height="35"> 
+                        <div align="center"><img src="images/IMStools/zoomin.gif" width="24" height="25"></div>
+                      </td>
+                      <td width="38%" height="35"><font face="Verdana, Arial, Helvetica, sans-serif" size="-2">Zoom 
+                        in </font></td>
+                      <td width="7%" height="35"> 
+                        <div align="center"><img src="images/IMStools/zoomout.gif" width="25" height="24"></div>
+                      </td>
+                      <td width="38%" height="35"><font face="Verdana, Arial, Helvetica, sans-serif" size="-2">Zoom 
+                        out </font></td>
+                    </tr>
+                    <tr> 
+                      <td width="7%" height="35"> 
+                        <div align="center"><img src="images/IMStools/zoomtoextent.gif" width="24" height="24"></div>
+                      </td>
+                      <td width="38%" height="35"><font face="Verdana, Arial, Helvetica, sans-serif" size="-2">Zoom 
+                        to full extent</font></td>
+                      <td width="7%" height="35"> 
+                        <div align="center"><img src="images/IMStools/zoomtoactivelayer.gif" width="25" height="23"></div>
+                      </td>
+                      <td width="38%" height="35"><font face="Verdana, Arial, Helvetica, sans-serif" size="-2">Zoom 
+                        to active layer</font></td>
+                    </tr>
+                    <tr> 
+                      <td width="7%" height="35"> 
+                        <div align="center"><img src="images/IMStools/backtolastextent.gif" width="24" height="24"></div>
+                      </td>
+                      <td width="38%" height="35"><font face="Verdana, Arial, Helvetica, sans-serif" size="-2">Back 
+                        to last extent</font></td>
+                      <td width="7%" height="35"> 
+                        <div align="center"><img src="images/IMStools/pan.gif" width="24" height="24"></div>
+                      </td>
+                      <td width="38%" height="35"><font face="Verdana, Arial, Helvetica, sans-serif" size="-2">Pan</font></td>
+                    </tr>
+                    <tr> 
+                      <td width="7%" height="35"> 
+                        <div align="center"><img src="images/IMStools/information.gif" width="24" height="23"></div>
+                      </td>
+                      <td width="38%" height="35"><font face="Verdana, Arial, Helvetica, sans-serif" size="-2">Information/Identify</font></td>
+                      <td width="7%" height="35"> 
+                        <div align="center"><img src="images/IMStools/query.gif" width="24" height="24"></div>
+                      </td>
+                      <td width="38%" height="35"><font face="Verdana, Arial, Helvetica, sans-serif" size="-2">Query 
+                        data </font></td>
+                    </tr>
+                    <tr> 
+                      <td width="7%" height="35"> 
+                        <div align="center"><img src="images/IMStools/find.gif" width="23" height="22"></div>
+                      </td>
+                      <td width="38%" height="35"><font face="Verdana, Arial, Helvetica, sans-serif" size="-2">Find 
+                        data </font></td>
+                      <td width="7%" height="35"> 
+                        <div align="center"><img src="images/IMStools/measure.gif" width="23" height="23"></div>
+                      </td>
+                      <td width="38%" height="35"><font face="Verdana, Arial, Helvetica, sans-serif" size="-2">Measure</font></td>
+                    </tr>
+                    <tr> 
+                      <td width="7%" height="35"> 
+                        <div align="center"><img src="images/IMStools/selectbyrectangle.gif" width="24" height="24"></div>
+                      </td>
+                      <td width="38%" height="35"><font face="Verdana, Arial, Helvetica, sans-serif" size="-2">Select 
+                        by rectangle</font></td>
+                      <td width="7%" height="35"> 
+                        <div align="center"><img src="images/IMStools/selectbyline_polygon.gif" width="24" height="24"></div>
+                      </td>
+                      <td width="38%" height="35"><font face="Verdana, Arial, Helvetica, sans-serif" size="-2">Select 
+                        by line or polygon</font></td>
+                    </tr>
+                    <tr> 
+                      <td width="7%" height="35"> 
+                        <div align="center"><img src="images/IMStools/clearselection.gif" width="24" height="25"></div>
+                      </td>
+                      <td width="38%" height="35"><font face="Verdana, Arial, Helvetica, sans-serif" size="-2">Clear 
+                        selection </font></td>
+                      <td width="7%" height="35"> 
+                        <div align="center"><img src="images/IMStools/print.gif" width="24" height="26"></div>
+                      </td>
+                      <td width="38%" height="35"><font face="Verdana, Arial, Helvetica, sans-serif" size="-2">Print</font></td>
+                    </tr>
+                    <tr> 
+                      <td width="7%" height="35"> 
+                        <div align="center"><img src="images/IMStools/extract.gif" width="24" height="24"></div>
+                      </td>
+                      <td width="38%" height="35"><font face="Verdana, Arial, Helvetica, sans-serif" size="-2">Extract 
+                        data (vector only)</font></td>
+                      <td width="10%" height="35"> 
+                        <div align="center"><img src="images/downloadred.gif" width="24" height="24"></div>
+                      </td>
+                      <td width="45%" height="35"><font face="Verdana, Arial, Helvetica, sans-serif" size="-2">Download 
+                        data (images/grids/shapefiles)</font></td>
+                    </tr>
+                  </table>
+                  <p><font face="Geneva, Arial, Helvetica, san-serif" size="2"><b>IMS 
+                    Software</b>: <font face="Verdana, Arial, Helvetica, sans-serif" size="-2">ESRI 
+                    ArcIMS provides the framework for distributing our SFML high-resolution 
+                    marine survey data. </font></font></p>
+                  <p><font face="Verdana, Arial, Helvetica, sans-serif" size="-2">Map 
+                    Services are HTML versions so you will not be prompted to 
+                    download Java-required files. You can load Map Services to 
+                    your local computer via ArcGIS products. Enhanced Java viewer 
+                    map services are available for some sites/projects to allow 
+                    greater User flexibility. Redundant HTML &amp; Java map services 
+                    will be available in future SFML site upgrades.</font></p>
+                  <p><font face="Verdana, Arial, Helvetica, sans-serif" size="-2">Please 
+                    contact Carrie Bretz (<a href="mailto:carrie_bretz@csumb.edu">carrie_bretz@csumb.edu</a>) 
+                    if you are experiencing any difficulties viewing SFML IMS 
+                    data. </font></p>
+                  <p>&nbsp;</p>
+                </td>
+              </tr>
+            </table>
+          </TH>
+          <TH noWrap width=374 bgColor=#0099cc height="1020" valign="top"> 
+            <p>&nbsp;</p>
+            <p><img src="images/mapservicelist.gif" width="110" height="20"></p>
+            <table width="95%" border="0" height="863">
+              <tr> 
+                <td valign="top" height="20" colspan="2"><b><font face="Geneva, Arial, Helvetica, san-serif" size="2">Habitat 
+                  Maps </font></b><font face="Geneva, Arial, Helvetica, san-serif" size="2">:</font></td>
+              </tr>
+              <tr> 
+                <td valign="middle" height="13" width="73%"> 
+                  <div align="left"><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><a href="http://arcims.csumb.edu/sfmlweb/CAGeologySeries82"><img src="images/IMStools/Service_list/CAgeol.gif" width="226" height="20" border="0"></a></b></font></div>
+                </td>
+                <td valign="top" height="13" width="27%"> 
+                  <div align="left"><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b> 
+                    <font size="1"><a href="http://seafloor.csumb.edu/projectsabstracts.html#EssentialFishHab"><img src="images/IMStools/identify_1.gif" width="20" height="20" align="absmiddle" border="0"></a></font></b></font></b></font><font face="Verdana, Arial, Helvetica, sans-serif"><font size="1"><font size="3" face="Geneva, Arial, Helvetica, san-serif"> 
+                    </font></font></font><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font size="1"><font size="3" face="Geneva, Arial, Helvetica, san-serif" color="#000000"><a href="http://seafloor.csumb.edu/Metadata/GeolCAContMargin/GeolCAcontlmarg.htm"><img src="images/IMStools/metadata.gif" width="19" height="18" border="0" align="absmiddle"></a> 
+                    </font><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font size="1"><a href="SFMLwebDATA.htm"><img src="images/downloadred.gif" width="18" height="18" align="absmiddle" border="0"></a></font><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font size="1"><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font size="1"> 
+                    <img src="images/IMStools/sm_yl.gif" width="9" height="9" align="absmiddle"></font></b></font></b></font></b></font></b></font></b></font></font></b></font></b></font></font></b></font></div>
+                </td>
+              </tr>
+              <tr> 
+                <td valign="top" height="20" colspan="2"><b><font face="Geneva, Arial, Helvetica, san-serif" size="2" color="#000066">Northern 
+                  California</font><font face="Geneva, Arial, Helvetica, san-serif" size="2"> 
+                  </font></b></td>
+              </tr>
+              <tr> 
+                <td height="15" width="73%"><b><a href="http://arcims.csumb.edu/sfmlweb/bodegabasin"><img src="images/IMStools/Service_list/BODEGA.gif" width="107" height="18" border="0"></a></b></td>
+                <td height="15" width="27%"> 
+                  <div align="left"><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font size="1"><a href="http://seafloor.csumb.edu/projectsabstracts.html#EssentialFishHab"><img src="images/IMStools/identify_1.gif" width="20" height="20" align="absmiddle" border="0"></a></font></b></font></b></font><font face="Verdana, Arial, Helvetica, sans-serif"><font size="1"><font face="Verdana, Arial, Helvetica, sans-serif"><font size="1"><font size="3" face="Geneva, Arial, Helvetica, san-serif"> 
+                    </font></font></font><font size="3" face="Geneva, Arial, Helvetica, san-serif"></font></font></font><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font size="1"><font size="3" face="Geneva, Arial, Helvetica, san-serif" color="#000000"><a href="http://seafloor.csumb.edu/Seagrant/SeaGrantIMS.HTM"><img src="images/IMStools/metadata.gif" width="19" height="18" border="0" align="absmiddle"></a> 
+                    </font><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font size="1"><a href="SFMLwebDATA.htm#BB"><img src="images/downloadred.gif" width="18" height="18" align="absmiddle" border="0"></a></font><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font size="1"><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font size="1"><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font size="1"> 
+                    <img src="images/IMStools/Service_list/Active.gif" width="10" height="10" align="absmiddle"></font></b></font></b></font></b></font></b></font></b></font></font></b></font></b></font></font></b></font></b></font></font></b></font></div>
+                </td>
+              </tr>
+              <tr> 
+                <td height="24" width="73%"><a href="http://arcims.csumb.edu/sfmlweb/mackerricher_ims"><img src="images/IMStools/Service_list/mackerricher.gif" width="194" height="18" border="0"></a></td>
+                <td height="24" width="27%"> 
+                  <div align="left"><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font size="1"><a href="http://seafloor.csumb.edu/projectsabstracts.html#EssentialFishHab"><img src="images/IMStools/identify_1.gif" width="20" height="20" align="absmiddle" border="0"></a></font></b></font></b></font><font face="Verdana, Arial, Helvetica, sans-serif"><font size="1"><font face="Verdana, Arial, Helvetica, sans-serif"><font size="1"><font size="3" face="Geneva, Arial, Helvetica, san-serif"> 
+                    </font></font></font><font size="3" face="Geneva, Arial, Helvetica, san-serif"><a href="http://seafloor.csumb.edu/Metadata/GeolCAContMargin/GeolCAcontlmarg.htm"> 
+                    </a></font></font></font><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font size="1"><font size="3" face="Geneva, Arial, Helvetica, san-serif" color="#000000"><a href="http://seafloor.csumb.edu/Seagrant/SeaGrantIMS.HTM"><img src="images/IMStools/metadata.gif" width="19" height="18" border="0" align="absmiddle"></a> 
+                    </font><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font size="1"><a href="SFMLwebDATA.htm#MACK"><img src="images/downloadred.gif" width="18" height="18" align="absmiddle" border="0"></a></font><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font size="1"><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font size="1"><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font size="1"> 
+                    <img src="images/IMStools/Service_list/Active.gif" width="10" height="10" align="absmiddle"></font></b></font></b></font></b></font></b></font></b></font></font></b></font></b></font></font></b></font></b></font></font></b></font></div>
+                </td>
+              </tr>
+              <tr> 
+                <td height="12" width="73%"><b><a href="http://arcims.csumb.edu/sfmlweb/pointcabrillo"><img src="images/IMStools/Service_list/cabrillo.gif" width="106" height="20" border="0"></a></b></td>
+                <td height="12" width="27%"> 
+                  <div align="left"><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font size="1"><a href="http://seafloor.csumb.edu/projectsabstracts.html#EssentialFishHab"><img src="images/IMStools/identify_1.gif" width="20" height="20" align="absmiddle" border="0"></a></font></b></font></b></font><font face="Verdana, Arial, Helvetica, sans-serif"><font size="1"><font face="Verdana, Arial, Helvetica, sans-serif"><font size="1"><font size="3" face="Geneva, Arial, Helvetica, san-serif"> 
+                    </font></font></font><font size="3" face="Geneva, Arial, Helvetica, san-serif"></font></font></font><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font size="1"><font size="3" face="Geneva, Arial, Helvetica, san-serif" color="#000000"><a href="http://seafloor.csumb.edu/Seagrant/SeaGrantIMS.HTM"><img src="images/IMStools/metadata.gif" width="19" height="18" border="0" align="absmiddle"></a> 
+                    </font><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font size="1"><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font size="1"><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font size="1"><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font size="1"><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font size="1"><a href="SFMLwebDATA.htm#CAB"><img src="images/downloadred.gif" width="18" height="18" align="absmiddle" border="0"></a></font></b></font></font></b></font><font size="1"></font></b></font></font></b></font></b></font></font></b></font><font size="1"></font></b></font></font></b></font><font size="1"></font><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font size="1"><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font size="1"><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font size="1"> 
+                    <img src="images/IMStools/Service_list/Active.gif" width="10" height="10" align="absmiddle"></font></b></font></b></font></b></font></b></font></b></font></font></b></font></b></font></font></b></font></b></font></font></b></font></div>
+                </td>
+              </tr>
+              <tr> 
+                <td height="4" width="73%"><b><img src="images/IMStools/Service_list/ptarena.gif" width="101" height="19"></b></td>
+                <td height="4" width="27%"> 
+                  <div align="left"><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font size="1"><a href="http://seafloor.csumb.edu/projectsabstracts.html#PtArena"><img src="images/IMStools/identify_1.gif" width="20" height="20" align="absmiddle" border="0"></a></font></b></font></b></font><font face="Verdana, Arial, Helvetica, sans-serif"><font size="1"><font face="Verdana, Arial, Helvetica, sans-serif"><font size="1"><font size="3" face="Geneva, Arial, Helvetica, san-serif"> 
+                    </font></font></font><font size="3" face="Geneva, Arial, Helvetica, san-serif"></font></font></font><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font size="1"><font size="3" face="Geneva, Arial, Helvetica, san-serif" color="#000000"><img src="images/IMStools/placeholder.gif" width="20" height="20" border="0" align="absmiddle"> 
+                    </font><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font size="1"><a href="SFMLwebDATA.htm#ARENA"><img src="images/downloadred.gif" width="18" height="18" align="absmiddle" border="0"></a></font></b></font></font></b></font></div>
+                </td>
+              </tr>
+              <tr> 
+                <td height="14" width="73%"><b><a href="http://arcims.csumb.edu/sfmlweb/pab"><img src="images/IMStools/Service_list/pab.gif" width="138" height="19" border="0"></a></b></td>
+                <td height="14" width="27%"> 
+                  <div align="left"><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font size="1"><a href="http://seafloor.csumb.edu/projectsabstracts.html#EssentialFishHab"><img src="images/IMStools/identify_1.gif" width="20" height="20" align="absmiddle" border="0"></a></font></b></font></b></font><font face="Verdana, Arial, Helvetica, sans-serif"><font size="1"><font face="Verdana, Arial, Helvetica, sans-serif"><font size="1"><font size="3" face="Geneva, Arial, Helvetica, san-serif"> 
+                    </font></font></font><font size="3" face="Geneva, Arial, Helvetica, san-serif"></font></font></font><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font size="1"><font size="3" face="Geneva, Arial, Helvetica, san-serif" color="#000000"><a href="http://seafloor.csumb.edu/Seagrant/SeaGrantIMS.HTM"><img src="images/IMStools/metadata.gif" width="19" height="18" border="0" align="absmiddle"></a> 
+                    </font><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font size="1"><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font size="1"><a href="SFMLwebDATA.htm#CAB"><img src="images/IMStools/placeholder.gif" width="18" height="18" align="absmiddle" border="0"></a></font></b></font></font></b></font><font size="1"></font><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font size="1"><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font size="1"><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font size="1"> 
+                    <img src="images/IMStools/Service_list/Active.gif" width="10" height="10" align="absmiddle"></font></b></font></b></font></b></font></b></font></b></font></font></b></font></b></font></font></b></font></b></font></font></b></font></div>
+                </td>
+              </tr>
+              <tr> 
+                <td height="16" width="73%"><b><a href="http://arcims.csumb.edu/sfmlweb/erb"><img src="images/IMStools/Service_list/erb.gif" width="123" height="18" border="0"></a></b></td>
+                <td height="16" width="27%"> 
+                  <div align="left"><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font size="1"><a href="http://seafloor.csumb.edu/projectsabstracts.html#EssentialFishHab"><img src="images/IMStools/identify_1.gif" width="20" height="20" align="absmiddle" border="0"></a></font></b></font></b></font><font face="Verdana, Arial, Helvetica, sans-serif"><font size="1"><font face="Verdana, Arial, Helvetica, sans-serif"><font size="1"><font size="3" face="Geneva, Arial, Helvetica, san-serif"> 
+                    </font></font></font><font size="3" face="Geneva, Arial, Helvetica, san-serif"></font></font></font><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font size="1"><font size="3" face="Geneva, Arial, Helvetica, san-serif" color="#000000"><a href="http://seafloor.csumb.edu/Seagrant/SeaGrantIMS.HTM"><img src="images/IMStools/metadata.gif" width="19" height="18" border="0" align="absmiddle"></a> 
+                    </font><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font size="1"><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font size="1"><a href="SFMLwebDATA.htm#CAB"><img src="images/IMStools/placeholder.gif" width="18" height="18" align="absmiddle" border="0"></a></font></b></font></font></b></font><font size="1"></font><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font size="1"><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font size="1"><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font size="1"> 
+                    <img src="images/IMStools/Service_list/Active.gif" width="10" height="10" align="absmiddle"></font></b></font></b></font></b></font></b></font></b></font></font></b></font></b></font></font></b></font></b></font></font></b></font></div>
+                </td>
+              </tr>
+              <tr> 
+                <td valign="top" height="20" colspan="2"><b><font face="Geneva, Arial, Helvetica, san-serif" size="2" color="#000066">Central 
+                  California</font><font face="Geneva, Arial, Helvetica, san-serif" size="2"> 
+                  </font></b></td>
+              </tr>
+              <tr> 
+                <td height="14" width="73%"><b><a href="http://arcims.csumb.edu/sfmlweb/farallon"><img src="images/IMStools/Service_list/farallon.gif" width="124" height="18" border="0"></a></b></td>
+                <td height="14" width="27%"> 
+                  <div align="left"><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font size="1"><a href="http://seafloor.csumb.edu/projectsabstracts.html#EssentialFishHab"><img src="images/IMStools/identify_1.gif" width="20" height="20" align="absmiddle" border="0"></a></font></b></font></b></font><font face="Verdana, Arial, Helvetica, sans-serif"><font size="1"><font face="Verdana, Arial, Helvetica, sans-serif"><font size="1"><font size="3" face="Geneva, Arial, Helvetica, san-serif"> 
+                    </font></font></font><font size="3" face="Geneva, Arial, Helvetica, san-serif"></font></font></font><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font size="1"><font size="3" face="Geneva, Arial, Helvetica, san-serif" color="#000000"><a href="http://seafloor.csumb.edu/Seagrant/SeaGrantIMS.HTM"><img src="images/IMStools/metadata.gif" width="19" height="18" border="0" align="absmiddle"></a> 
+                    </font><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font size="1"><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font size="1"><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font size="1"><a href="SFMLwebDATA.htm#FI"><img src="images/downloadred.gif" width="18" height="18" align="absmiddle" border="0"></a></font></b></font></font></b></font><font size="1"></font></b></font></font></b></font><font size="1"></font><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font size="1"><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font size="1"><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font size="1"> 
+                    <img src="images/IMStools/Service_list/Active.gif" width="10" height="10" align="absmiddle"></font></b></font></b></font></b></font></b></font></b></font></font></b></font></b></font></font></b></font></b></font></font></b></font></div>
+                </td>
+              </tr>
+              <tr> 
+                <td height="12" width="73%"><b><a href="http://arcims.csumb.edu/sfmlweb/montpen"><img src="images/IMStools/Service_list/monterey.gif" width="136" height="20" border="0"></a></b></td>
+                <td height="12" width="27%"> 
+                  <div align="left"><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font size="1"><a href="http://seafloor.csumb.edu/projectsabstracts.html#EssentialFishHab"><img src="images/IMStools/identify_1.gif" width="20" height="20" align="absmiddle" border="0"></a></font></b></font></b></font><font face="Verdana, Arial, Helvetica, sans-serif"><font size="1"><font face="Verdana, Arial, Helvetica, sans-serif"><font size="1"><font size="3" face="Geneva, Arial, Helvetica, san-serif"> 
+                    </font></font></font><font size="3" face="Geneva, Arial, Helvetica, san-serif"></font></font></font><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font size="1"><font size="3" face="Geneva, Arial, Helvetica, san-serif" color="#000000"><a href="http://seafloor.csumb.edu/Seagrant/SeaGrantIMS.HTM"><img src="images/IMStools/metadata.gif" width="19" height="18" border="0" align="absmiddle"></a> 
+                    </font><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font size="1"><a href="SFMLwebDATA.htm#MONT"><img src="images/downloadred.gif" width="18" height="18" align="absmiddle" border="0"></a></font><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font size="1"><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font size="1"><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font size="1"> 
+                    <img src="images/IMStools/Service_list/Active.gif" width="10" height="10" align="absmiddle"></font></b></font></b></font></b></font></b></font></b></font></font></b></font></b></font></font></b></font></b></font></font></b></font></div>
+                </td>
+              </tr>
+              <tr> 
+                <td height="15" width="73%"><b><img src="images/IMStools/Service_list/elkhornslough.gif" width="125" height="20"></b></td>
+                <td height="15" width="27%"> 
+                  <div align="left"><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font size="1"><a href="projectsabstracts.html#CICEET"><img src="images/IMStools/identify_1.gif" width="20" height="20" align="absmiddle" border="0"></a><font size="3" face="Geneva, Arial, Helvetica, san-serif" color="#000000"><img src="images/IMStools/placeholder.gif" width="24" height="20" border="0" align="absmiddle"></font></font></b></font><font face="Geneva, Arial, Helvetica, san-serif" size="3" color="#000000"> 
+                    </font><font size="1"><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font size="1"><a href="SFMLwebDATA.htm#ELK"><img src="images/downloadred.gif" width="18" height="18" align="absmiddle" border="0"></a></font></b></font></font></b></font></div>
+                </td>
+              </tr>
+              <tr> 
+                <td height="14" width="73%"><b><img src="images/IMStools/Service_list/canyon.gif" width="186" height="19"></b></td>
+                <td height="14" width="27%"> 
+                  <div align="left"><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font size="1"><img src="images/IMStools/identify_1.gif" width="20" height="20" align="absmiddle"></font></b></font></b></font><font face="Verdana, Arial, Helvetica, sans-serif"><font size="1"><font face="Verdana, Arial, Helvetica, sans-serif"><font size="1"><font size="3" face="Geneva, Arial, Helvetica, san-serif"> 
+                    </font></font></font><font size="3" face="Geneva, Arial, Helvetica, san-serif"></font></font></font><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font size="1"><font size="3" face="Geneva, Arial, Helvetica, san-serif" color="#000000"><img src="images/IMStools/placeholder.gif" width="24" height="20" border="0" align="absmiddle"></font></font></b></font></b></font><font size="1"><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font size="1"><a href="SFMLwebDATA.htm#CANYON"><img src="images/downloadred.gif" width="18" height="18" align="absmiddle" border="0"></a></font></b></font></font></b></font></div>
+                </td>
+              </tr>
+              <tr> 
+                <td height="15" width="73%"><b><img src="images/IMStools/Service_list/mlharbor.gif" width="150" height="21"></b></td>
+                <td height="15" width="27%"> 
+                  <div align="left"><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font size="1"><img src="images/IMStools/identify_1.gif" width="20" height="20" align="absmiddle"></font></b></font></b></font><font face="Verdana, Arial, Helvetica, sans-serif"><font size="1"><font face="Verdana, Arial, Helvetica, sans-serif"><font size="1"><font size="3" face="Geneva, Arial, Helvetica, san-serif"> 
+                    </font></font></font><font size="3" face="Geneva, Arial, Helvetica, san-serif"></font></font></font><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font size="1"><font size="3" face="Geneva, Arial, Helvetica, san-serif" color="#000000"><img src="images/IMStools/placeholder.gif" width="24" height="20" border="0" align="absmiddle"></font></font></b></font></b></font><font size="1"><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font size="1"><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font size="1"><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font size="1"><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font size="1"><a href="SFMLwebDATA.htm#MOSS"><img src="images/downloadred.gif" width="18" height="18" align="absmiddle" border="0"></a></font></b></font></font></b></font><font size="1"></font></b></font></font></b></font></b></font></font></b></font></font></b></font></div>
+                </td>
+              </tr>
+              <tr> 
+                <td height="12" width="73%"><b><a href="http://arcims.csumb.edu/sfmlweb/pointlobos_ims"><img src="images/IMStools/Service_list/lobos.gif" width="92" height="18" border="0"></a></b></td>
+                <td height="12" width="27%"> 
+                  <div align="left"><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font size="1"><a href="http://seafloor.csumb.edu/projectsabstracts.html#EssentialFishHab"><img src="images/IMStools/identify_1.gif" width="20" height="20" align="absmiddle" border="0"></a></font></b></font></b></font><font face="Verdana, Arial, Helvetica, sans-serif"><font size="1"><font face="Verdana, Arial, Helvetica, sans-serif"><font size="1"><font size="3" face="Geneva, Arial, Helvetica, san-serif"> 
+                    </font></font></font><font size="3" face="Geneva, Arial, Helvetica, san-serif"></font></font></font><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font size="1"><font size="3" face="Geneva, Arial, Helvetica, san-serif" color="#000000"><a href="http://seafloor.csumb.edu/Seagrant/SeaGrantIMS.HTM"><img src="images/IMStools/metadata.gif" width="19" height="18" border="0" align="absmiddle"></a> 
+                    </font><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font size="1"><a href="SFMLwebDATA.htm#PLOB"><img src="images/downloadred.gif" width="18" height="18" align="absmiddle" border="0"></a></font><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font size="1"><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font size="1"><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font size="1"> 
+                    <img src="images/IMStools/Service_list/Active.gif" width="10" height="10" align="absmiddle"></font></b></font></b></font></b></font></b></font></b></font></font></b></font></b></font></font></b></font></b></font></font></b></font></div>
+                </td>
+              </tr>
+              <tr> 
+                <td height="9" width="73%"><b><a href="http://arcims.csumb.edu/sfmlweb/oscb"><img src="images/IMStools/Service_list/oscb.gif" width="167" height="20" border="0"></a></b></td>
+                <td height="9" width="27%"> 
+                  <div align="left"><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font size="1"><a href="http://seafloor.csumb.edu/projectsabstracts.html#EssentialFishHab"><img src="images/IMStools/identify_1.gif" width="20" height="20" align="absmiddle" border="0"></a></font></b></font></b></font><font face="Verdana, Arial, Helvetica, sans-serif"><font size="1"><font face="Verdana, Arial, Helvetica, sans-serif"><font size="1"><font size="3" face="Geneva, Arial, Helvetica, san-serif"> 
+                    </font></font></font><font size="3" face="Geneva, Arial, Helvetica, san-serif"></font></font></font><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font size="1"><font size="3" face="Geneva, Arial, Helvetica, san-serif" color="#000000"><a href="http://seafloor.csumb.edu/Seagrant/SeaGrantIMS.HTM"><img src="images/IMStools/metadata.gif" width="19" height="18" border="0" align="absmiddle"></a> 
+                    </font><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font size="1"><a href="SFMLwebDATA.htm#OSCB"><img src="images/downloadred.gif" width="18" height="18" align="absmiddle" border="0"></a></font><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font size="1"><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font size="1"><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font size="1"> 
+                    <img src="images/IMStools/Service_list/Active.gif" width="10" height="10" align="absmiddle"></font></b></font></b></font></b></font></b></font></b></font></font></b></font></b></font></font></b></font></b></font></font></b></font></div>
+                </td>
+              </tr>
+              <tr> 
+                <td height="18" width="73%"><b><a href="http://arcims.csumb.edu/sfmlweb/pcpa"><img src="images/IMStools/Service_list/pcpa.gif" width="197" height="20" border="0"></a></b></td>
+                <td height="18" width="27%"> 
+                  <div align="left"><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font size="1"><a href="http://seafloor.csumb.edu/projectsabstracts.html#EssentialFishHab"><img src="images/IMStools/identify_1.gif" width="20" height="20" align="absmiddle" border="0"></a></font></b></font></b></font><font face="Verdana, Arial, Helvetica, sans-serif"><font size="1"><font face="Verdana, Arial, Helvetica, sans-serif"><font size="1"><font size="3" face="Geneva, Arial, Helvetica, san-serif"> 
+                    </font></font></font><font size="3" face="Geneva, Arial, Helvetica, san-serif"></font></font></font><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font size="1"><font size="3" face="Geneva, Arial, Helvetica, san-serif" color="#000000"><a href="http://seafloor.csumb.edu/Seagrant/SeaGrantIMS.HTM"><img src="images/IMStools/metadata.gif" width="19" height="18" border="0" align="absmiddle"></a> 
+                    </font><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font size="1"><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font size="1"><a href="SFMLwebDATA.htm#CAB"><img src="images/IMStools/placeholder.gif" width="18" height="18" align="absmiddle" border="0"></a></font></b></font></font></b></font><font size="1"></font><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font size="1"><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font size="1"><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font size="1"> 
+                    <img src="images/IMStools/Service_list/Active.gif" width="10" height="10" align="absmiddle"></font></b></font></b></font></b></font></b></font></b></font></font></b></font></b></font></font></b></font></b></font></font></b></font></div>
+                </td>
+              </tr>
+              <tr> 
+                <td height="9" width="73%"><b><a href="http://arcims.csumb.edu/sfmlweb/spc"><img src="images/IMStools/Service_list/spc.gif" width="172" height="21" border="0"></a></b></td>
+                <td height="9" width="27%"> 
+                  <div align="left"><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font size="1"><a href="http://seafloor.csumb.edu/projectsabstracts.html#EssentialFishHab"><img src="images/IMStools/identify_1.gif" width="20" height="20" align="absmiddle" border="0"></a></font></b></font></b></font><font face="Verdana, Arial, Helvetica, sans-serif"><font size="1"><font face="Verdana, Arial, Helvetica, sans-serif"><font size="1"><font size="3" face="Geneva, Arial, Helvetica, san-serif"> 
+                    </font></font></font><font size="3" face="Geneva, Arial, Helvetica, san-serif"></font></font></font><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font size="1"><font size="3" face="Geneva, Arial, Helvetica, san-serif" color="#000000"><a href="http://seafloor.csumb.edu/Seagrant/SeaGrantIMS.HTM"><img src="images/IMStools/metadata.gif" width="19" height="18" border="0" align="absmiddle"></a> 
+                    </font><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font size="1"><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font size="1"><a href="SFMLwebDATA.htm#CAB"><img src="images/IMStools/placeholder.gif" width="18" height="18" align="absmiddle" border="0"></a></font></b></font></font></b></font><font size="1"></font><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font size="1"><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font size="1"><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font size="1"> 
+                    <img src="images/IMStools/Service_list/Active.gif" width="10" height="10" align="absmiddle"></font></b></font></b></font></b></font></b></font></b></font></font></b></font></b></font></font></b></font></b></font></font></b></font></div>
+                </td>
+              </tr>
+              <tr> 
+                <td height="16" width="73%"><b><a href="http://arcims.csumb.edu/sfmlweb/asmr"><img src="images/IMStools/Service_list/asmr.gif" width="197" height="17" border="0"></a></b></td>
+                <td height="16" width="27%"> 
+                  <div align="left"><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font size="1"><a href="http://seafloor.csumb.edu/projectsabstracts.html#EssentialFishHab"><img src="images/IMStools/identify_1.gif" width="20" height="20" align="absmiddle" border="0"></a></font></b></font></b></font><font face="Verdana, Arial, Helvetica, sans-serif"><font size="1"><font face="Verdana, Arial, Helvetica, sans-serif"><font size="1"><font size="3" face="Geneva, Arial, Helvetica, san-serif"> 
+                    </font></font></font><font size="3" face="Geneva, Arial, Helvetica, san-serif"></font></font></font><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font size="1"><font size="3" face="Geneva, Arial, Helvetica, san-serif" color="#000000"><a href="http://seafloor.csumb.edu/Seagrant/SeaGrantIMS.HTM"><img src="images/IMStools/metadata.gif" width="19" height="18" border="0" align="absmiddle"></a> 
+                    </font><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font size="1"><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font size="1"><a href="SFMLwebDATA.htm#CAB"><img src="images/IMStools/placeholder.gif" width="18" height="18" align="absmiddle" border="0"></a></font></b></font></font></b></font><font size="1"></font><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font size="1"><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font size="1"><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font size="1"> 
+                    <img src="images/IMStools/Service_list/Active.gif" width="10" height="10" align="absmiddle"></font></b></font></b></font></b></font></b></font></b></font></font></b></font></b></font></font></b></font></b></font></font></b></font></div>
+                </td>
+              </tr>
+              <tr> 
+                <td valign="top" height="20" colspan="2"><b><font face="Geneva, Arial, Helvetica, san-serif" size="2" color="#000066">Southern 
+                  California</font></b></td>
+              </tr>
+              <tr> 
+                <td height="6" width="73%"><b><img src="images/IMStools/Service_list/channel.gif" width="128" height="20"></b></td>
+                <td height="6" width="27%"> 
+                  <div align="left"><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font size="1"><a href="http://seafloor.csumb.edu/projectsabstracts.html#MLPA"><img src="images/IMStools/identify_1.gif" width="20" height="20" align="absmiddle" border="0"></a></font></b></font></b></font><font face="Verdana, Arial, Helvetica, sans-serif"><font size="1"><font face="Verdana, Arial, Helvetica, sans-serif"><font size="1"><font size="3" face="Geneva, Arial, Helvetica, san-serif"> 
+                    </font></font></font><font size="3" face="Geneva, Arial, Helvetica, san-serif"></font></font></font><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font size="1"><font size="3" face="Geneva, Arial, Helvetica, san-serif" color="#000000"><img src="images/IMStools/placeholder.gif" width="23" height="20" border="0" align="absmiddle"></font></font></b></font></b></font></b></font><font size="1"><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font size="1"><a href="SFMLwebDATA.htm#CI"><img src="images/downloadred.gif" width="18" height="18" align="absmiddle" border="0"></a></font></b></font></font></b></font></div>
+                </td>
+              </tr>
+              <tr> 
+                <td height="7" width="73%"><b><a href="http://arcims.csumb.edu/sfmlweb/catalina"><img src="images/IMStools/Service_list/santa-catalina.gif" width="151" height="21" border="0"></a></b></td>
+                <td height="7" width="27%"> 
+                  <div align="left"><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font size="1"><a href="http://seafloor.csumb.edu/projectsabstracts.html#EssentialFishHab"><img src="images/IMStools/identify_1.gif" width="20" height="20" align="absmiddle" border="0"></a></font></b></font></b></font><font face="Verdana, Arial, Helvetica, sans-serif"><font size="1"><font face="Verdana, Arial, Helvetica, sans-serif"><font size="1"><font size="3" face="Geneva, Arial, Helvetica, san-serif"> 
+                    </font></font></font><font size="3" face="Geneva, Arial, Helvetica, san-serif"></font></font></font><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font size="1"><font size="3" face="Geneva, Arial, Helvetica, san-serif" color="#000000"><a href="http://seafloor.csumb.edu/Seagrant/SeaGrantIMS.HTM"><img src="images/IMStools/metadata.gif" width="19" height="18" border="0" align="absmiddle"></a> 
+                    </font><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font size="1"><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font size="1"><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font size="1"><a href="SFMLwebDATA.htm#CAT"><img src="images/downloadred.gif" width="18" height="18" align="absmiddle" border="0"></a></font></b></font></font></b></font><font size="1"></font></b></font></font></b></font><font size="1"></font><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font size="1"><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font size="1"><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font size="1"> 
+                    <img src="images/IMStools/Service_list/Active.gif" width="10" height="10" align="absmiddle"></font></b></font></b></font></b></font></b></font></b></font></font></b></font></b></font></font></b></font></b></font></font></b></font></div>
+                </td>
+              </tr>
+              <tr> 
+                <td height="21" width="73%"><a href="http://arcims.csumb.edu/sfmlweb/sbi"><img src="images/IMStools/Service_list/SANTABARBARA.gif" width="170" height="17" border="0"></a></td>
+                <td height="21" width="27%"> 
+                  <div align="left"><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font size="1"><a href="http://seafloor.csumb.edu/projectsabstracts.html#EssentialFishHab"><img src="images/IMStools/identify_1.gif" width="20" height="20" align="absmiddle" border="0"></a></font></b></font></b></font><font face="Verdana, Arial, Helvetica, sans-serif"><font size="1"><font face="Verdana, Arial, Helvetica, sans-serif"><font size="1"><font size="3" face="Geneva, Arial, Helvetica, san-serif"> 
+                    </font></font></font><font size="3" face="Geneva, Arial, Helvetica, san-serif"></font></font></font><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font size="1"><font size="3" face="Geneva, Arial, Helvetica, san-serif" color="#000000"><a href="http://seafloor.csumb.edu/Seagrant/SeaGrantIMS.HTM"><img src="images/IMStools/metadata.gif" width="19" height="18" border="0" align="absmiddle"></a> 
+                    </font><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font size="1"><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font size="1"><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font size="1"><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font size="1"><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font size="1"><a href="SFMLwebDATA.htm#SBI"><img src="images/downloadred.gif" width="18" height="18" align="absmiddle" border="0"></a></font></b></font></font></b></font></b></font></font></b></font></b></font></font></b></font><font size="1"></font></b></font></font></b></font><font size="1"></font><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font size="1"><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font size="1"><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font size="1"><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font size="1"> 
+                    <img src="images/IMStools/Service_list/Active.gif" width="10" height="10" align="absmiddle"></font></b></font></b></font></b></font></b></font></b></font></font></b></font></b></font></font></b></font></b></font></font></b></font></b></font></font></b></font></div>
+                </td>
+              </tr>
+              <tr> 
+                <td height="19" width="73%"> 
+                  <p><font color="#FFFFFF" size="1" face="Verdana, Arial, Helvetica, sans-serif"><a href="http://arcims.csumb.edu/sfmlweb/santamonicaeast"><img src="images/IMStools/Service_list/santamoneast.gif" width="236" height="19" border="0"></a></font></p>
+                </td>
+                <td height="19" width="27%"> 
+                  <div align="left"><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font size="1"><a href="http://seafloor.csumb.edu/projectsabstracts.html#SantaMonica"><img src="images/IMStools/identify_1.gif" width="20" height="20" align="absmiddle" border="0"></a></font></b></font></b></font><font face="Verdana, Arial, Helvetica, sans-serif"><font size="1"><font face="Verdana, Arial, Helvetica, sans-serif"><font size="1"><font size="3" face="Geneva, Arial, Helvetica, san-serif"> 
+                    </font></font></font><font size="3" face="Geneva, Arial, Helvetica, san-serif"></font></font></font><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font size="1"><font size="3" face="Geneva, Arial, Helvetica, san-serif" color="#000000"><a href="http://seafloor.csumb.edu/Seagrant/SeaGrantIMS.HTM"><img src="images/IMStools/metadata.gif" width="19" height="18" border="0" align="absmiddle"></a> 
+                    </font><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font size="1"><a href="SFMLwebDATA.htm#SMB"><img src="images/downloadred.gif" width="18" height="18" align="absmiddle" border="0"></a></font><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font size="1"><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font size="1"><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font size="1"> 
+                    <img src="images/IMStools/Service_list/Active.gif" width="10" height="10" align="absmiddle"></font></b></font></b></font></b></font></b></font></b></font></font></b></font></b></font></font></b></font></b></font></font></b></font></div>
+                </td>
+              </tr>
+              <tr> 
+                <td height="24" width="73%"> 
+                  <p><font color="#FFFFFF" size="1" face="Verdana, Arial, Helvetica, sans-serif"><a href="http://arcims.csumb.edu/sfmlweb/santamonicawest"><img src="images/IMStools/Service_list/santamonwest.gif" width="230" height="19" border="0"></a></font></p>
+                </td>
+                <td height="24" width="27%"> 
+                  <div align="left"><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font size="1"><a href="http://seafloor.csumb.edu/projectsabstracts.html#SantaMonica"><img src="images/IMStools/identify_1.gif" width="20" height="20" align="absmiddle" border="0"></a></font></b></font></b></font><font face="Verdana, Arial, Helvetica, sans-serif"><font size="1"><font face="Verdana, Arial, Helvetica, sans-serif"><font size="1"><font size="3" face="Geneva, Arial, Helvetica, san-serif"> 
+                    </font></font></font><font size="3" face="Geneva, Arial, Helvetica, san-serif"></font></font></font><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font size="1"><font size="3" face="Geneva, Arial, Helvetica, san-serif" color="#000000"><a href="http://seafloor.csumb.edu/Seagrant/SeaGrantIMS.HTM"><img src="images/IMStools/metadata.gif" width="19" height="18" border="0" align="absmiddle"></a> 
+                    </font><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font size="1"><a href="SFMLwebDATA.htm#SMB"><img src="images/downloadred.gif" width="18" height="18" align="absmiddle" border="0"></a></font><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font size="1"><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font size="1"><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font size="1"> 
+                    <img src="images/IMStools/Service_list/Active.gif" width="10" height="10" align="absmiddle"></font></b></font></b></font></b></font></b></font></b></font></font></b></font></b></font></font></b></font></b></font></font></b></font></div>
+                </td>
+              </tr>
+              <tr> 
+                <td height="6" width="73%"><b><a href="http://arcims.csumb.edu/sfmlweb/SantaMonicaProj82"><img src="images/IMStools/Service_list/santamonicaproject.gif" width="165" height="19" border="0"></a></b></td>
+                <td height="6" width="27%"> 
+                  <div align="left"><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font size="1"><a href="http://seafloor.csumb.edu/projectsabstracts.html#SantaMonica"><img src="images/IMStools/identify_1.gif" width="20" height="20" align="absmiddle" border="0"></a></font></b></font></b></font><font face="Verdana, Arial, Helvetica, sans-serif"><font face="Verdana, Arial, Helvetica, sans-serif"><font size="1"><font size="3" face="Geneva, Arial, Helvetica, san-serif"> 
+                    </font></font></font><font size="1"></font></font><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font size="1"><font size="3" face="Geneva, Arial, Helvetica, san-serif" color="#000000"><img src="images/IMStools/metadata.gif" width="19" height="18" border="0" align="absmiddle"> 
+                    </font><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font size="1"><a href="SFMLwebDATA.htm#SMB"><img src="images/downloadred.gif" width="18" height="18" align="absmiddle" border="0"></a></font><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font size="1"><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font size="1"><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font size="1"> 
+                    <img src="images/IMStools/Service_list/Active.gif" width="10" height="10" align="absmiddle"></font></b></font></b></font></b></font></b></font></b></font></font></b></font></b></font></font></b></font></b></font></font></b></font></div>
+                </td>
+              </tr>
+              <tr> 
+                <td height="11" width="73%"><b><a href="http://arcims.csumb.edu/sfmlweb/lajolla"><img src="images/IMStools/Service_list/lajolla.gif" width="68" height="18" border="0"></a></b></td>
+                <td height="11" width="27%"> 
+                  <div align="left"><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font size="1"><a href="http://seafloor.csumb.edu/projectsabstracts.html#EssentialFishHab"><img src="images/IMStools/identify_1.gif" width="20" height="20" align="absmiddle" border="0"></a></font></b></font></b></font><font face="Verdana, Arial, Helvetica, sans-serif"><font size="1"><font face="Verdana, Arial, Helvetica, sans-serif"><font size="1"><font size="3" face="Geneva, Arial, Helvetica, san-serif"> 
+                    </font></font></font><font size="3" face="Geneva, Arial, Helvetica, san-serif"></font></font></font><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font size="1"><font size="3" face="Geneva, Arial, Helvetica, san-serif" color="#000000"><a href="http://seafloor.csumb.edu/Seagrant/SeaGrantIMS.HTM"><img src="images/IMStools/metadata.gif" width="19" height="18" border="0" align="absmiddle"></a> 
+                    </font><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font size="1"><a href="SFMLwebDATA.htm#LJ"><img src="images/downloadred.gif" width="18" height="18" align="absmiddle" border="0"></a></font><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font size="1"><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font size="1"><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font size="1"> 
+                    <img src="images/IMStools/Service_list/Active.gif" width="10" height="10" align="absmiddle"></font></b></font></b></font></b></font></b></font></b></font></font></b></font></b></font></font></b></font></b></font></font></b></font></div>
+                </td>
+              </tr>
+              <tr> 
+                <td height="11" width="73%"><b><img src="images/IMStools/Service_list/tanner.gif" width="102" height="20"></b></td>
+                <td height="11" width="27%"> 
+                  <div align="left"><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font size="1"><img src="images/IMStools/identify_1.gif" width="20" height="20" align="absmiddle" border="0"> 
+                    </font><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font size="1"><font size="3" face="Geneva, Arial, Helvetica, san-serif" color="#000000"><img src="images/IMStools/placeholder.gif" width="24" height="20" border="0" align="absmiddle"></font></font></b></font></b></font></b></font><font size="1"><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font size="1"><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font size="1"><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font size="1"><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font size="1"><a href="SFMLwebDATA.htm#TANNER"><img src="images/downloadred.gif" width="18" height="18" align="absmiddle" border="0"></a></font></b></font></font></b></font></font></b></font></b></font></font></b></font></font></b></font></div>
+                </td>
+              </tr>
+              <tr> 
+                <td height="4" width="73%"><b><img src="images/IMStools/Service_list/cortes.gif" width="104" height="18"></b></td>
+                <td height="4" width="27%"> 
+                  <div align="left"><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font size="1"><a href="projectsabstracts.html#cortes"><img src="images/IMStools/identify_1.gif" width="20" height="20" align="absmiddle" border="0"></a></font></b></font></b></font><font face="Verdana, Arial, Helvetica, sans-serif"><font size="1"><font face="Verdana, Arial, Helvetica, sans-serif"><font size="1"><font size="3" face="Geneva, Arial, Helvetica, san-serif"> 
+                    </font></font></font><font size="3" face="Geneva, Arial, Helvetica, san-serif"></font></font></font><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font size="1"><font size="3" face="Geneva, Arial, Helvetica, san-serif" color="#000000"><img src="images/IMStools/placeholder.gif" width="24" height="20" border="0" align="absmiddle"></font></font></b></font></b></font></b></font><font size="1"><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font size="1"><a href="SFMLwebDATA.htm#CORTES"><img src="images/downloadred.gif" width="18" height="18" align="absmiddle" border="0"></a></font></b></font></font></b></font></div>
+                </td>
+              </tr>
+              <tr> 
+                <td valign="top" height="20" colspan="2"><b><font face="Geneva, Arial, Helvetica, san-serif" size="2" color="#000066">Other 
+                  Sites </font></b></td>
+              </tr>
+              <tr> 
+                <td height="19" width="73%"><b><img src="images/IMStools/Service_list/sanjuans.gif" width="155" height="23"></b></td>
+                <td height="19" width="27%"> 
+                  <div align="left"><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font size="1"><a href="projects.html#proj_sanjuans"><img src="images/IMStools/identify_1.gif" width="20" height="20" align="absmiddle" border="0"></a></font></b></font></b></font><font face="Verdana, Arial, Helvetica, sans-serif"><font size="1"><font face="Verdana, Arial, Helvetica, sans-serif"><font size="1"><font size="3" face="Geneva, Arial, Helvetica, san-serif"> 
+                    </font></font></font><font size="3" face="Geneva, Arial, Helvetica, san-serif"></font></font></font><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font size="1"><font size="3" face="Geneva, Arial, Helvetica, san-serif" color="#000000"><img src="images/IMStools/metadata.gif" width="19" height="18" border="0" align="absmiddle"> 
+                    </font><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font size="1"><img src="images/downloadred.gif" width="18" height="18" align="absmiddle"></font></b></font></font></b></font></div>
+                </td>
+              </tr>
+              <tr> 
+                <td height="29" width="73%"><b><a href="http://arcims.csumb.edu/sfmlweb/WQBmarinedebris"><img src="images/IMStools/Service_list/wqb.gif" width="205" height="37" border="0"></a></b></td>
+                <td height="29" width="27%"> 
+                  <div align="left"><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font size="1"><a href="projectsabstracts.html#McMurdoROV"><img src="images/IMStools/identify_1.gif" width="20" height="20" align="absmiddle" border="0"></a></font></b></font></b></font><font face="Verdana, Arial, Helvetica, sans-serif"><font size="1"><font face="Verdana, Arial, Helvetica, sans-serif"><font size="1"><font size="3" face="Geneva, Arial, Helvetica, san-serif"> 
+                    </font></font></font><font size="3" face="Geneva, Arial, Helvetica, san-serif"></font></font></font><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font size="1"><font size="3" face="Geneva, Arial, Helvetica, san-serif" color="#000000"><img src="images/IMStools/metadata.gif" width="19" height="18" border="0" align="absmiddle"> 
+                    </font><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font size="1"><img src="images/downloadred.gif" width="18" height="18" align="absmiddle"></font></b></font></font></b></font></div>
+                </td>
+              </tr>
+              <tr> 
+                <td height="22" width="73%"><b><img src="images/IMStools/Service_list/tnb.gif" width="130" height="33"></b></td>
+                <td height="22" width="27%"> 
+                  <div align="left"><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font size="1"><a href="projectsabstracts.html#AntarcticItalian"><img src="images/IMStools/identify_1.gif" width="20" height="20" align="absmiddle" border="0"></a></font></b></font></b></font><font face="Verdana, Arial, Helvetica, sans-serif"><font size="1"><font face="Verdana, Arial, Helvetica, sans-serif"><font size="1"><font size="3" face="Geneva, Arial, Helvetica, san-serif"> 
+                    </font></font></font><font size="3" face="Geneva, Arial, Helvetica, san-serif"></font></font></font><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font size="1"><font size="3" face="Geneva, Arial, Helvetica, san-serif" color="#000000"><img src="images/IMStools/metadata.gif" width="19" height="18" border="0" align="absmiddle"> 
+                    </font><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font size="1"><img src="images/downloadred.gif" width="18" height="18" align="absmiddle"></font></b></font></font></b></font></div>
+                </td>
+              </tr>
+              <tr> 
+                <td height="20" colspan="2">&nbsp;</td>
+              </tr>
+              <tr> 
+                <td height="20" colspan="2"><b><font face="Geneva, Arial, Helvetica, san-serif" size="2">Reference/ 
+                  Basemaps </font></b><font face="Geneva, Arial, Helvetica, san-serif" size="2">:</font></td>
+              </tr>
+              <tr> 
+                <td height="11" width="73%"><b><a href="http://arcims.csumb.edu/sfmlweb/feri4"><img src="images/IMStools/Service_list/hyper.gif" width="157" height="18" border="0"></a></b></td>
+                <td height="11" width="27%"> 
+                  <div align="left"><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font size="1"><a href="http://seafloor.csumb.edu/projectsabstracts.html#CICORE"><img src="images/IMStools/identify_1.gif" width="20" height="20" align="absmiddle" border="0"></a></font></b></font></b></font><font face="Verdana, Arial, Helvetica, sans-serif"><font size="1"><font face="Verdana, Arial, Helvetica, sans-serif"><font size="1"><font size="3" face="Geneva, Arial, Helvetica, san-serif"> 
+                    </font></font></font><font size="3" face="Geneva, Arial, Helvetica, san-serif"></font></font></font><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font size="1"><font size="3" face="Geneva, Arial, Helvetica, san-serif" color="#000000"><a href="http://www.marine.calpoly.edu/cicore/data/hyperspectral/default.shtml"><img src="images/IMStools/metadata.gif" width="19" height="18" border="0" align="absmiddle"></a> 
+                    </font><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font size="1"><a href="http://www.marine.calpoly.edu/cicore/data/hyperspectral/default.shtml"><img src="images/downloadred.gif" width="18" height="18" align="absmiddle" border="0"></a></font><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font size="1"><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font size="1"><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font size="1"><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font size="1"> 
+                    <img src="images/IMStools/Service_list/Active.gif" width="10" height="10" align="absmiddle"></font></b></font></b></font></b></font></b></font></b></font></font></b></font></b></font></font></b></font></b></font></font></b></font></b></font></font></b></font></div>
+                </td>
+              </tr>
+              <tr> 
+                <td height="25" width="73%"><b><img src="images/IMStools/Service_list/usgs.gif" width="122" height="20" border="0"></b></td>
+                <td height="25" width="27%"> 
+                  <div align="left"><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font size="1"><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font size="1"><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font size="1"><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font size="1"><a href="SFMLwebDATA.htm#CAB"><img src="images/IMStools/placeholder.gif" width="21" height="18" align="absmiddle" border="0"></a></font></b></font></font></b></font></b></font></font></b></font></font></b></font></b></font><font face="Verdana, Arial, Helvetica, sans-serif"><font size="1"><font face="Verdana, Arial, Helvetica, sans-serif"><font size="1"><font size="3" face="Geneva, Arial, Helvetica, san-serif"> 
+                    </font></font></font><font size="3" face="Geneva, Arial, Helvetica, san-serif"></font></font></font><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font size="1"><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font size="1"><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font size="1"><a href="SFMLwebDATA.htm#CAB"><img src="images/IMStools/placeholder.gif" width="20" height="18" align="absmiddle" border="0"></a></font></b></font></font></b></font></b></font></font></b></font><font size="1"><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font size="1"><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font size="1"><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font size="1"><a href="SFMLwebDATA.htm#CAB"><img src="images/IMStools/placeholder.gif" width="20" height="18" align="absmiddle" border="0"></a></font></b></font></font></b></font></b></font></font><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font size="1"><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font size="1"><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font size="1"><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><b><font size="1"> 
+                    <img src="images/IMStools/Service_list/Active.gif" width="10" height="10" align="absmiddle"></font></b></font></b></font></b></font></b></font></b></font></font></b></font></b></font></font></b></font></b></font></font></b></font></b></font></font></b></font></div>
+                </td>
+              </tr>
+              <tr> 
+                <td height="20" colspan="2">&nbsp;</td>
+              </tr>
+              <tr> 
+                <td height="39" colspan="2"> 
+                  <p><b><font face="Geneva, Arial, Helvetica, san-serif" size="2">Other 
+                    Map Services </font></b><font color="#FFCC00"><font face="Geneva, Arial, Helvetica, san-serif" size="2" color="#000000">:</font><b><font face="Verdana, Arial, Helvetica, sans-serif" size="1">~ 
+                    ACCESS VIA ARCGIS (ARCPAD, ARCMAP) ONLY</font></b></font></p>
+                </td>
+              </tr>
+              <tr> 
+                <td height="20" colspan="2"><b><font color="#FFCC00" size="1" face="Verdana, Arial, Helvetica, sans-serif">MontCo99Pan 
+                  </font></b><font size="1" face="Verdana, Arial, Helvetica, sans-serif">(Elkhorn 
+                  Slough east, 1999 panchromatic)</font></td>
+              </tr>
+              <tr> 
+                <td height="20" colspan="2"><b><font color="#FFCC00" size="1" face="Verdana, Arial, Helvetica, sans-serif">CIR</font></b><font size="1" face="Verdana, Arial, Helvetica, sans-serif"> 
+                  (Elkhorn Slough west 2001, color IR)</font></td>
+              </tr>
+              <tr> 
+                <td height="20" colspan="2"><b><font color="#FFCC00" size="1" face="Verdana, Arial, Helvetica, sans-serif">DOQ95</font></b><font size="1" face="Verdana, Arial, Helvetica, sans-serif"> 
+                  (Elkhorn Slough region 1995)</font></td>
+              </tr>
+              <tr> 
+                <td height="20" colspan="2"><b><font color="#FFCC00" size="1" face="Verdana, Arial, Helvetica, sans-serif">ElkhornGIS</font></b><font size="1" face="Verdana, Arial, Helvetica, sans-serif"> 
+                  (Elkhorn Slough land use)</font></td>
+              </tr>
+              <tr> 
+                <td height="20" colspan="2"><b><font color="#FFCC00" size="1" face="Verdana, Arial, Helvetica, sans-serif">campus1_CO_CSU 
+                  </font></b><font size="1" face="Verdana, Arial, Helvetica, sans-serif">(CSU 
+                  Monterey Bay campus image)</font></td>
+              </tr>
+              <tr> 
+                <td height="20" colspan="2">&nbsp;</td>
+              </tr>
+              <tr> 
+                <td height="20" colspan="2"><a href="http://seafloor.csumb.edu/Seagrant/SeaGrantIMS.HTM"><img src="images/IMStools/Service_list/seagrantweb.gif" width="203" height="20" border="0"></a></td>
+              </tr>
+              <tr> 
+                <td height="2" colspan="2"><font face="Geneva, Arial, Helvetica, san-serif" size=2><b><a href="http://seafloor.csumb.edu/CICORE/cicorenewv2.html"><img src="images/IMStools/Service_list/cicoreweb.gif" width="109" height="25" border="0"></a></b></font></td>
+              </tr>
+              <tr> 
+                <td height="2" colspan="2">&nbsp;</td>
+              </tr>
+            </table>
+          </TH>
+        </TR>
+        </TBODY> 
+      </TABLE>
+      <P><FONT face="Verdana, Arial, Helvetica, sans-serif"><B></B></FONT></P>
+    <TD vAlign=top width=45 height=1266>&nbsp;</TD>
+  </TR></TBODY></TABLE>
+<TABLE height=45 cellSpacing=0 cellPadding=0 width=743 border=0>
+  <TBODY>
+  <TR>
+    <TD width=226 height=36>&nbsp; </TD>
+    <TD width=517 height=36>
+      <P><FONT face="Verdana, Arial, Helvetica, sans-serif"><FONT 
+      face="Verdana, Arial, Helvetica, sans-serif"><FONT size=-2><A 
+      href="http://seafloor.csumb.edu/index.html">SFML Home</A> | <A 
+      href="capabilities.html">Capabilities</A> | <A 
+      href="http://seafloor.csumb.edu/projects.html">Projects</A> | <A 
+      href="http://seafloor.csumb.edu/partners.html">Partners</A> | <A 
+      href="http://seafloor.csumb.edu/contact.html">Contact Us</A></FONT></FONT></FONT></P>
+      <P>&nbsp;</P>
+      <P>&nbsp;</P></TD></TR></TBODY></TABLE><MAP name=TopRightMap><AREA 
+  onmouseover="MM_displayStatusMsg('Go to SFML Main Page');return document.MM_returnValue" 
+  title="Go to SFML Main Page" 
+  onmouseout="MM_displayStatusMsg('');return document.MM_returnValue" shape=RECT 
+  alt="Go to SFML Main Page" coords=0,77,101,105 
+  href="http://seafloor.csumb.edu/index.html"><AREA 
+  onmouseover="MM_displayStatusMsg('Go to CSUMB Main Page');return document.MM_returnValue" 
+  title="Go to CSUMB Main Page" 
+  onmouseout="MM_displayStatusMsg('');return document.MM_returnValue" shape=RECT 
+  alt="Go to CSUMB Main Page" coords=0,104,101,118 
+href="http://www.csumb.edu/"></MAP>
+<MAP name=NavMap> 
+  <AREA 
+  onmouseover="MM_displayStatusMsg('Capabilities');return document.MM_returnValue" 
+  title=Capabilities 
+  onmouseout="MM_displayStatusMsg('');return document.MM_returnValue" shape=RECT 
+  target=_self alt=Capabilities coords=52,9,142,23 
+  href="capabilities.html">
+  <AREA 
+  onmouseover="MM_displayStatusMsg('Projects');return document.MM_returnValue" 
+  title=Projects 
+  onmouseout="MM_displayStatusMsg('');return document.MM_returnValue" shape=RECT 
+  target=_self alt=Projects coords=51,32,118,45 
+  href="http://seafloor.csumb.edu/projects.html"><AREA 
+  onmouseover="MM_displayStatusMsg('Partners');return document.MM_returnValue" 
+  title=Partners 
+  onmouseout="MM_displayStatusMsg('');return document.MM_returnValue" shape=RECT 
+  target=_self alt=Partners coords=51,52,118,65 
+  href="http://seafloor.csumb.edu/partners.html"><AREA 
+  onmouseover="MM_displayStatusMsg('Contact Us');return document.MM_returnValue" 
+  title="Contact Us" 
+  onmouseout="MM_displayStatusMsg('');return document.MM_returnValue" shape=RECT 
+  target=_self alt="Contact Us" coords=54,73,136,86 
+  href="http://seafloor.csumb.edu/contact.html">
+  <AREA title=Gallery shape=RECT 
+  target=_self alt=Gallery coords=55,95,111,107 
+  href="http://seafloor.csumb.edu/Map_Gallery/MapGalleryTable.html">
+  <AREA 
+  shape=RECT target=IMS coords=54,114,147,127 alt="IMS Maps" title="IMS Maps">
+  <AREA shape=RECT 
+  coords=53,133,121,149 href="http://seafloor.csumb.edu/training.html" alt="Training" title="Training">
+</MAP><MAP 
+name=LogoMap><AREA 
+  onmouseover="MM_displayStatusMsg('Go to SFML Main Page');return document.MM_returnValue" 
+  title="Go to SFML Main Page" 
+  onmouseout="MM_displayStatusMsg('');return document.MM_returnValue" 
+  shape=CIRCLE alt="Go to SFML Main Page" coords=79,52,47 
+  href="http://seafloor.csumb.edu/index.html"></MAP>
+<P>&nbsp;</P>
+<map name="Map"> 
+  <area shape="rect" coords="19,77,175,104" href="http://seafloor.csumb.edu/index.html">
+  <area shape="rect" coords="21,103,175,118" href="#">
+</map>
+</BODY></HTML>

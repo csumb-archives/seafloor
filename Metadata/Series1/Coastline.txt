@@ -1,0 +1,91 @@
+Identification Information:  
+	Citation:  
+		Citation Information:  
+			Title:  Coastline
+	Description:  
+		Abstract:  California shoreline from the Oregon border to the Mexico border including Humboldt, Arcata, San Francisco, San Pablo, Suisun, Honker, and San Diego Bays and includes offshore rocks.
+			
+			This shoreline represents the mean high tide line along the coast. Accuracy of this coverage is fairly good with respects to the original source material.
+		Purpose:  Used for spatial reference
+		Supplemental Information:  This coverage was originally compiled from individually digitized 7.5' USGS quadrangles controlled by NGS triangulation stations and individual quad corners. RMS errors averaged under 5 meters per quad.
+	Point of Contact:  
+		Contact Information:  
+			Contact Organization Primary:  
+				Contact Organization:  California State Lands Commission, Environmental Planning Division
+			Contact Address:  
+				Address Type:  mailing address
+				Address:  1807 13th Street
+				City:  Sacramento
+				State or Province:  California
+				Postal Code:  95814-7187
+				Country:  USA
+			Contact Voice Telephone:  (916)574-1880
+	Data Set Credit:  Teale Data Center, US Geological Survey (Various years) 1:24 000 topographic map series.
+Data Quality Information:  
+	Lineage:  
+		Process Step:  
+			Process Description:  The coastline was extracted from the Teale data set (COAST24A) and warped from Albers NAD27 to UTM zone 10 WGS84. Select segments were clipped from the  file which extended along the entire California coast.
+				
+				Vital Information:
+				
+				ARC/INFO Coverage type:            line, point
+				ARC/INFO tolerances:               5 meters
+				Number of features:                28346 arcs, 12077 points
+				Source media:                      mylar, paper
+				Source scale:                      1:24,000
+				Source projection and parameters:  Lambert
+				Date updated:                      9/1993
+			Process Contact:  
+				Contact Information:  
+					Contact Person Primary:  
+						Contact Person:  Pat Iampietro
+						Contact Organization:  Seafloor Mapping Lab, California State University Monterey Bay
+					Contact Position:  Project Manager, Chief Hydrographer
+					Contact Address:  
+						Address Type:  mailing and physical address
+						Address:  California State University Monterey Bay, Institute for Earth Systems Science and Policy,100 Campus Center, Bldg 46A
+						City:  Seaside
+						State or Province:  California
+						Postal Code:  93955
+						Country:  USA
+					Contact Voice Telephone:  (831) 582-4214
+					Contact Facsimile Telephone:  (831) 582-3073
+					Contact Electronic Mail Address:  pat_iampietro@monterey.edu
+	Cloud Cover:  0
+Spatial Data Organization Information:  
+Spatial Reference Information:  
+	Horizontal Coordinate System Definition:  
+		Planar:  
+			Grid Coordinate System:  
+				Grid Coordinate System Name:  Universal Transverse Mercator 1983
+				Universal Transverse Mercator:  
+					UTM Zone Number:  10
+					Transverse Mercator:  
+						Scale Factor at Central Meridian:  0.9996
+						Longitude of Central Meridian:  -123
+						Latitude of Projection Origin:  0
+						False Easting:  500000
+						False Northing:  0
+			Planar Coordinate Information:  
+				Planar Coordinate Encoding Method:  Coordinate Pair
+		Geodetic Model:  
+			Horizontal Datum Name:  WGS84
+			Ellipsoid Name:  WGS84
+			Semi-major Axis:  6378137
+			Denominator of Flattening Ratio:  298.257223563
+Entity and Attribute Information:  
+	Overview Description:  
+		Entity and Attribute Overview:  There are is only standard attribute information for the PAT and AAT files.
+Metadata Reference Information:  
+	Metadata Date:  3/31/2001
+	Metadata Review Date:  
+	Metadata Future Review Date:  
+	Metadata Contact:  
+		Contact Information:  
+			Contact Address:  
+				Address Type:  mailing and physical address
+				Address:  California State University Monterey Bay, Institute for Earth Systems Science and Policy,100 Campus Center, Bldg 46A
+				City:  Seaside
+				State or Province:  California
+				Postal Code:  93955
+				Country:  USA

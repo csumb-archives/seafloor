@@ -1,0 +1,77 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><!-- InstanceBegin template="/Templates/siva.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>SIVA | CSU COAST Technology Center</title>
+<style type="text/css">
+<!--
+.style6 {	font-size: 14pt;
+	font-style: italic;
+	font-weight: bold;
+}
+-->
+</style>
+<link href="css/siva_style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+<table width="750 px" border="0" cellpadding="0" cellspacing="0">
+  <tr>
+    <td height="100" align="right" valign="bottom" class="rtbt_bdr"><a href="http://www.calstate.edu/coast/"><img src="images/coast_head.jpg" width="138" height="82" border="0" /></a></td>
+    <td width="*" valign="bottom" class="bt_bdr"><a href="http://www.calstate.edu/coast/"><img src="images/coast_body.jpg" width="609" height="82" border="0" /></a></td>
+  </tr>
+  <tr>
+    <td class="rt_bdr">&nbsp;</td>
+    <td align="center"><img src="images/siva_header.gif" alt="SIVA" width="561" height="62" vspace="4" />    </td>
+  </tr>
+  <tr>
+    <td width="140" class="rt_bdr">&nbsp;</td>
+    <td><!-- InstanceBeginEditable name="content" -->
+      <table width="100%" border="0" cellspacing="0">
+        <tr>
+          <td class="nav_cell" align="center"><span class="inactiveLink"><a href="siva-home.shtml">Home</a> . <a href="siva-capabilities.shtml">Capabilities & Assets</a> . <a href="siva-research-labs.shtml">Research Labs</a> . <span class="activeLink">Data Resources</span> . <a href="siva-training-curriculum.shtml">Training &amp; Curriculum</a> </span></td>
+        </tr>
+        <tr>
+          <td class="content">
+      
+     <h1 align="left">
+	    <span class="ItOrange">	    <br />
+	    SIVA Data Resources </span> </h1>
+	  <table width="561" border="0">
+        <tr>
+          <td width="153" class="black9pt"><div align="center"><a href="http://seafloor.csumb.edu/SFMLwebDATA_SURVEYMAP.htm"><img src="images/capabilities/data_portal.jpg" width="75" height="74" border="0" /></a></div></td>
+          <td width="398" class="black9pt"><span class="ItOrange">Data Access Portal</span><br />
+            Access to high resolution seafloor data via an HTTP download. Data are organized by survey location/project and data type <span class="update"><a href="http://seafloor.csumb.edu/SFMLwebDATA_SURVEYMAP.htm">[more info]</a></span> </td>
+        </tr>
+      </table>
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+      <p>&nbsp;</p></td>
+        </tr>
+      </table>
+	 
+    <!-- InstanceEndEditable --></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>
+</table>
+</body>
+<!-- InstanceEnd --></html>

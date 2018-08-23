@@ -1,0 +1,180 @@
+App.progressCountTotal = 22;
+App.progressCountCurrent = 0;
+fw.dismissBatchDialogWhenDone = true;
+doc = fw.openDocument('file:///F|/Gallery_images/cabrillo2mclr16_w.jpg');
+App.progressCountCurrent = 1;
+App.batchStatusString = 'cabrillo2mclr16_w.jpg';
+if (!Files.exists('file:///F|/SFMLweb/Map_Gallery/images/cabrillo2mclr16_w_jpg.jpg') || confirm('file:///F|/SFMLweb/Map_Gallery/images/cabrillo2mclr16_w_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///F|/SFMLweb/Map_Gallery/images/cabrillo2mclr16_w_jpg.jpg',{applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0});
+if (!Files.exists('file:///F|/SFMLweb/Map_Gallery/thumbnails/cabrillo2mclr16_w_jpg.jpg') || confirm('file:///F|/SFMLweb/Map_Gallery/thumbnails/cabrillo2mclr16_w_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///F|/SFMLweb/Map_Gallery/thumbnails/cabrillo2mclr16_w_jpg.jpg',{applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100});
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///F|/Gallery_images/cabrillo2mGS_w.jpg');
+App.progressCountCurrent = 2;
+App.batchStatusString = 'cabrillo2mGS_w.jpg';
+if (!Files.exists('file:///F|/SFMLweb/Map_Gallery/images/cabrillo2mGS_w_jpg.jpg') || confirm('file:///F|/SFMLweb/Map_Gallery/images/cabrillo2mGS_w_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///F|/SFMLweb/Map_Gallery/images/cabrillo2mGS_w_jpg.jpg',{applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0});
+if (!Files.exists('file:///F|/SFMLweb/Map_Gallery/thumbnails/cabrillo2mGS_w_jpg.jpg') || confirm('file:///F|/SFMLweb/Map_Gallery/thumbnails/cabrillo2mGS_w_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///F|/SFMLweb/Map_Gallery/thumbnails/cabrillo2mGS_w_jpg.jpg',{applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100});
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///F|/Gallery_images/Cat2m10clr_w.jpg');
+App.progressCountCurrent = 3;
+App.batchStatusString = 'Cat2m10clr_w.jpg';
+if (!Files.exists('file:///F|/SFMLweb/Map_Gallery/images/Cat2m10clr_w_jpg.jpg') || confirm('file:///F|/SFMLweb/Map_Gallery/images/Cat2m10clr_w_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///F|/SFMLweb/Map_Gallery/images/Cat2m10clr_w_jpg.jpg',{applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0});
+if (!Files.exists('file:///F|/SFMLweb/Map_Gallery/thumbnails/Cat2m10clr_w_jpg.jpg') || confirm('file:///F|/SFMLweb/Map_Gallery/thumbnails/Cat2m10clr_w_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///F|/SFMLweb/Map_Gallery/thumbnails/Cat2m10clr_w_jpg.jpg',{applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100});
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///F|/Gallery_images/Cat2mGS_w.jpg');
+App.progressCountCurrent = 4;
+App.batchStatusString = 'Cat2mGS_w.jpg';
+if (!Files.exists('file:///F|/SFMLweb/Map_Gallery/images/Cat2mGS_w_jpg.jpg') || confirm('file:///F|/SFMLweb/Map_Gallery/images/Cat2mGS_w_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///F|/SFMLweb/Map_Gallery/images/Cat2mGS_w_jpg.jpg',{applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0});
+if (!Files.exists('file:///F|/SFMLweb/Map_Gallery/thumbnails/Cat2mGS_w_jpg.jpg') || confirm('file:///F|/SFMLweb/Map_Gallery/thumbnails/Cat2mGS_w_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///F|/SFMLweb/Map_Gallery/thumbnails/Cat2mGS_w_jpg.jpg',{applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100});
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///F|/Gallery_images/FIse1mGSb_w.jpg');
+App.progressCountCurrent = 5;
+App.batchStatusString = 'FIse1mGSb_w.jpg';
+if (!Files.exists('file:///F|/SFMLweb/Map_Gallery/images/FIse1mGSb_w_jpg.jpg') || confirm('file:///F|/SFMLweb/Map_Gallery/images/FIse1mGSb_w_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///F|/SFMLweb/Map_Gallery/images/FIse1mGSb_w_jpg.jpg',{applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0});
+if (!Files.exists('file:///F|/SFMLweb/Map_Gallery/thumbnails/FIse1mGSb_w_jpg.jpg') || confirm('file:///F|/SFMLweb/Map_Gallery/thumbnails/FIse1mGSb_w_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///F|/SFMLweb/Map_Gallery/thumbnails/FIse1mGSb_w_jpg.jpg',{applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100});
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///F|/Gallery_images/flse1mGSa_w.jpg');
+App.progressCountCurrent = 6;
+App.batchStatusString = 'flse1mGSa_w.jpg';
+if (!Files.exists('file:///F|/SFMLweb/Map_Gallery/images/flse1mGSa_w_jpg.jpg') || confirm('file:///F|/SFMLweb/Map_Gallery/images/flse1mGSa_w_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///F|/SFMLweb/Map_Gallery/images/flse1mGSa_w_jpg.jpg',{applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0});
+if (!Files.exists('file:///F|/SFMLweb/Map_Gallery/thumbnails/flse1mGSa_w_jpg.jpg') || confirm('file:///F|/SFMLweb/Map_Gallery/thumbnails/flse1mGSa_w_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///F|/SFMLweb/Map_Gallery/thumbnails/flse1mGSa_w_jpg.jpg',{applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100});
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///F|/Gallery_images/Mackerricher16colora_w.jpg');
+App.progressCountCurrent = 7;
+App.batchStatusString = 'Mackerricher16colora_w.jpg';
+if (!Files.exists('file:///F|/SFMLweb/Map_Gallery/images/Mackerricher16colora_w_jpg.jpg') || confirm('file:///F|/SFMLweb/Map_Gallery/images/Mackerricher16colora_w_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///F|/SFMLweb/Map_Gallery/images/Mackerricher16colora_w_jpg.jpg',{applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0});
+if (!Files.exists('file:///F|/SFMLweb/Map_Gallery/thumbnails/Mackerricher16colora_w_jpg.jpg') || confirm('file:///F|/SFMLweb/Map_Gallery/thumbnails/Mackerricher16colora_w_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///F|/SFMLweb/Map_Gallery/thumbnails/Mackerricher16colora_w_jpg.jpg',{applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100});
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///F|/Gallery_images/mnstry_cyprsPt1mGS_w.jpg');
+App.progressCountCurrent = 8;
+App.batchStatusString = 'mnstry_cyprsPt1mGS_w.jpg';
+if (!Files.exists('file:///F|/SFMLweb/Map_Gallery/images/mnstry_cyprsPt1mGS_w_jpg.jpg') || confirm('file:///F|/SFMLweb/Map_Gallery/images/mnstry_cyprsPt1mGS_w_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///F|/SFMLweb/Map_Gallery/images/mnstry_cyprsPt1mGS_w_jpg.jpg',{applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0});
+if (!Files.exists('file:///F|/SFMLweb/Map_Gallery/thumbnails/mnstry_cyprsPt1mGS_w_jpg.jpg') || confirm('file:///F|/SFMLweb/Map_Gallery/thumbnails/mnstry_cyprsPt1mGS_w_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///F|/SFMLweb/Map_Gallery/thumbnails/mnstry_cyprsPt1mGS_w_jpg.jpg',{applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100});
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///F|/Gallery_images/Neckpt3m16clr_w.jpg');
+App.progressCountCurrent = 9;
+App.batchStatusString = 'Neckpt3m16clr_w.jpg';
+if (!Files.exists('file:///F|/SFMLweb/Map_Gallery/images/Neckpt3m16clr_w_jpg.jpg') || confirm('file:///F|/SFMLweb/Map_Gallery/images/Neckpt3m16clr_w_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///F|/SFMLweb/Map_Gallery/images/Neckpt3m16clr_w_jpg.jpg',{applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0});
+if (!Files.exists('file:///F|/SFMLweb/Map_Gallery/thumbnails/Neckpt3m16clr_w_jpg.jpg') || confirm('file:///F|/SFMLweb/Map_Gallery/thumbnails/Neckpt3m16clr_w_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///F|/SFMLweb/Map_Gallery/thumbnails/Neckpt3m16clr_w_jpg.jpg',{applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100});
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///F|/Gallery_images/Neckpt3mGS_w.jpg');
+App.progressCountCurrent = 10;
+App.batchStatusString = 'Neckpt3mGS_w.jpg';
+if (!Files.exists('file:///F|/SFMLweb/Map_Gallery/images/Neckpt3mGS_w_jpg.jpg') || confirm('file:///F|/SFMLweb/Map_Gallery/images/Neckpt3mGS_w_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///F|/SFMLweb/Map_Gallery/images/Neckpt3mGS_w_jpg.jpg',{applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0});
+if (!Files.exists('file:///F|/SFMLweb/Map_Gallery/thumbnails/Neckpt3mGS_w_jpg.jpg') || confirm('file:///F|/SFMLweb/Map_Gallery/thumbnails/Neckpt3mGS_w_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///F|/SFMLweb/Map_Gallery/thumbnails/Neckpt3mGS_w_jpg.jpg',{applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100});
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///F|/Gallery_images/PilePt3m16clra_w.jpg');
+App.progressCountCurrent = 11;
+App.batchStatusString = 'PilePt3m16clra_w.jpg';
+if (!Files.exists('file:///F|/SFMLweb/Map_Gallery/images/PilePt3m16clra_w_jpg.jpg') || confirm('file:///F|/SFMLweb/Map_Gallery/images/PilePt3m16clra_w_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///F|/SFMLweb/Map_Gallery/images/PilePt3m16clra_w_jpg.jpg',{applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0});
+if (!Files.exists('file:///F|/SFMLweb/Map_Gallery/thumbnails/PilePt3m16clra_w_jpg.jpg') || confirm('file:///F|/SFMLweb/Map_Gallery/thumbnails/PilePt3m16clra_w_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///F|/SFMLweb/Map_Gallery/thumbnails/PilePt3m16clra_w_jpg.jpg',{applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100});
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///F|/Gallery_images/PilePt3m16clr_w.jpg');
+App.progressCountCurrent = 12;
+App.batchStatusString = 'PilePt3m16clr_w.jpg';
+if (!Files.exists('file:///F|/SFMLweb/Map_Gallery/images/PilePt3m16clr_w_jpg.jpg') || confirm('file:///F|/SFMLweb/Map_Gallery/images/PilePt3m16clr_w_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///F|/SFMLweb/Map_Gallery/images/PilePt3m16clr_w_jpg.jpg',{applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0});
+if (!Files.exists('file:///F|/SFMLweb/Map_Gallery/thumbnails/PilePt3m16clr_w_jpg.jpg') || confirm('file:///F|/SFMLweb/Map_Gallery/thumbnails/PilePt3m16clr_w_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///F|/SFMLweb/Map_Gallery/thumbnails/PilePt3m16clr_w_jpg.jpg',{applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100});
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///F|/Gallery_images/PilePt3mGS_w.jpg');
+App.progressCountCurrent = 13;
+App.batchStatusString = 'PilePt3mGS_w.jpg';
+if (!Files.exists('file:///F|/SFMLweb/Map_Gallery/images/PilePt3mGS_w_jpg.jpg') || confirm('file:///F|/SFMLweb/Map_Gallery/images/PilePt3mGS_w_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///F|/SFMLweb/Map_Gallery/images/PilePt3mGS_w_jpg.jpg',{applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0});
+if (!Files.exists('file:///F|/SFMLweb/Map_Gallery/thumbnails/PilePt3mGS_w_jpg.jpg') || confirm('file:///F|/SFMLweb/Map_Gallery/thumbnails/PilePt3mGS_w_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///F|/SFMLweb/Map_Gallery/thumbnails/PilePt3mGS_w_jpg.jpg',{applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100});
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///F|/Gallery_images/PtLobosMonastery2mGS_w.jpg');
+App.progressCountCurrent = 14;
+App.batchStatusString = 'PtLobosMonastery2mGS_w.jpg';
+if (!Files.exists('file:///F|/SFMLweb/Map_Gallery/images/PtLobosMonastery2mGS_w_jpg.jpg') || confirm('file:///F|/SFMLweb/Map_Gallery/images/PtLobosMonastery2mGS_w_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///F|/SFMLweb/Map_Gallery/images/PtLobosMonastery2mGS_w_jpg.jpg',{applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0});
+if (!Files.exists('file:///F|/SFMLweb/Map_Gallery/thumbnails/PtLobosMonastery2mGS_w_jpg.jpg') || confirm('file:///F|/SFMLweb/Map_Gallery/thumbnails/PtLobosMonastery2mGS_w_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///F|/SFMLweb/Map_Gallery/thumbnails/PtLobosMonastery2mGS_w_jpg.jpg',{applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100});
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///F|/Gallery_images/PtLobosMonstry2mclr_w.jpg');
+App.progressCountCurrent = 15;
+App.batchStatusString = 'PtLobosMonstry2mclr_w.jpg';
+if (!Files.exists('file:///F|/SFMLweb/Map_Gallery/images/PtLobosMonstry2mclr_w_jpg.jpg') || confirm('file:///F|/SFMLweb/Map_Gallery/images/PtLobosMonstry2mclr_w_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///F|/SFMLweb/Map_Gallery/images/PtLobosMonstry2mclr_w_jpg.jpg',{applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0});
+if (!Files.exists('file:///F|/SFMLweb/Map_Gallery/thumbnails/PtLobosMonstry2mclr_w_jpg.jpg') || confirm('file:///F|/SFMLweb/Map_Gallery/thumbnails/PtLobosMonstry2mclr_w_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///F|/SFMLweb/Map_Gallery/thumbnails/PtLobosMonstry2mclr_w_jpg.jpg',{applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100});
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///F|/Gallery_images/PtPinos_CanRow1mGSa_w.jpg');
+App.progressCountCurrent = 16;
+App.batchStatusString = 'PtPinos_CanRow1mGSa_w.jpg';
+if (!Files.exists('file:///F|/SFMLweb/Map_Gallery/images/PtPinos_CanRow1mGSa_w_jpg.jpg') || confirm('file:///F|/SFMLweb/Map_Gallery/images/PtPinos_CanRow1mGSa_w_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///F|/SFMLweb/Map_Gallery/images/PtPinos_CanRow1mGSa_w_jpg.jpg',{applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0});
+if (!Files.exists('file:///F|/SFMLweb/Map_Gallery/thumbnails/PtPinos_CanRow1mGSa_w_jpg.jpg') || confirm('file:///F|/SFMLweb/Map_Gallery/thumbnails/PtPinos_CanRow1mGSa_w_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///F|/SFMLweb/Map_Gallery/thumbnails/PtPinos_CanRow1mGSa_w_jpg.jpg',{applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100});
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///F|/Gallery_images/PtPinos_CanRow1mGS_w.jpg');
+App.progressCountCurrent = 17;
+App.batchStatusString = 'PtPinos_CanRow1mGS_w.jpg';
+if (!Files.exists('file:///F|/SFMLweb/Map_Gallery/images/PtPinos_CanRow1mGS_w_jpg.jpg') || confirm('file:///F|/SFMLweb/Map_Gallery/images/PtPinos_CanRow1mGS_w_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///F|/SFMLweb/Map_Gallery/images/PtPinos_CanRow1mGS_w_jpg.jpg',{applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0});
+if (!Files.exists('file:///F|/SFMLweb/Map_Gallery/thumbnails/PtPinos_CanRow1mGS_w_jpg.jpg') || confirm('file:///F|/SFMLweb/Map_Gallery/thumbnails/PtPinos_CanRow1mGS_w_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///F|/SFMLweb/Map_Gallery/thumbnails/PtPinos_CanRow1mGS_w_jpg.jpg',{applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100});
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///F|/Gallery_images/SBI1mGSa_w.jpg');
+App.progressCountCurrent = 18;
+App.batchStatusString = 'SBI1mGSa_w.jpg';
+if (!Files.exists('file:///F|/SFMLweb/Map_Gallery/images/SBI1mGSa_w_jpg.jpg') || confirm('file:///F|/SFMLweb/Map_Gallery/images/SBI1mGSa_w_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///F|/SFMLweb/Map_Gallery/images/SBI1mGSa_w_jpg.jpg',{applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0});
+if (!Files.exists('file:///F|/SFMLweb/Map_Gallery/thumbnails/SBI1mGSa_w_jpg.jpg') || confirm('file:///F|/SFMLweb/Map_Gallery/thumbnails/SBI1mGSa_w_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///F|/SFMLweb/Map_Gallery/thumbnails/SBI1mGSa_w_jpg.jpg',{applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100});
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///F|/Gallery_images/SBI1mGS_w.jpg');
+App.progressCountCurrent = 19;
+App.batchStatusString = 'SBI1mGS_w.jpg';
+if (!Files.exists('file:///F|/SFMLweb/Map_Gallery/images/SBI1mGS_w_jpg.jpg') || confirm('file:///F|/SFMLweb/Map_Gallery/images/SBI1mGS_w_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///F|/SFMLweb/Map_Gallery/images/SBI1mGS_w_jpg.jpg',{applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0});
+if (!Files.exists('file:///F|/SFMLweb/Map_Gallery/thumbnails/SBI1mGS_w_jpg.jpg') || confirm('file:///F|/SFMLweb/Map_Gallery/thumbnails/SBI1mGS_w_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///F|/SFMLweb/Map_Gallery/thumbnails/SBI1mGS_w_jpg.jpg',{applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100});
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///F|/Gallery_images/shalebed1mGSdark_w.jpg');
+App.progressCountCurrent = 20;
+App.batchStatusString = 'shalebed1mGSdark_w.jpg';
+if (!Files.exists('file:///F|/SFMLweb/Map_Gallery/images/shalebed1mGSdark_w_jpg.jpg') || confirm('file:///F|/SFMLweb/Map_Gallery/images/shalebed1mGSdark_w_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///F|/SFMLweb/Map_Gallery/images/shalebed1mGSdark_w_jpg.jpg',{applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0});
+if (!Files.exists('file:///F|/SFMLweb/Map_Gallery/thumbnails/shalebed1mGSdark_w_jpg.jpg') || confirm('file:///F|/SFMLweb/Map_Gallery/thumbnails/shalebed1mGSdark_w_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///F|/SFMLweb/Map_Gallery/thumbnails/shalebed1mGSdark_w_jpg.jpg',{applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100});
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///F|/Gallery_images/Shalebeds3mGS_w.jpg');
+App.progressCountCurrent = 21;
+App.batchStatusString = 'Shalebeds3mGS_w.jpg';
+if (!Files.exists('file:///F|/SFMLweb/Map_Gallery/images/Shalebeds3mGS_w_jpg.jpg') || confirm('file:///F|/SFMLweb/Map_Gallery/images/Shalebeds3mGS_w_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///F|/SFMLweb/Map_Gallery/images/Shalebeds3mGS_w_jpg.jpg',{applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0});
+if (!Files.exists('file:///F|/SFMLweb/Map_Gallery/thumbnails/Shalebeds3mGS_w_jpg.jpg') || confirm('file:///F|/SFMLweb/Map_Gallery/thumbnails/Shalebeds3mGS_w_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///F|/SFMLweb/Map_Gallery/thumbnails/Shalebeds3mGS_w_jpg.jpg',{applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100});
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///F|/Gallery_images/SMSBlk13All2mGSNewa_w.jpg');
+App.progressCountCurrent = 22;
+App.batchStatusString = 'SMSBlk13All2mGSNewa_w.jpg';
+if (!Files.exists('file:///F|/SFMLweb/Map_Gallery/images/SMSBlk13All2mGSNewa_w_jpg.jpg') || confirm('file:///F|/SFMLweb/Map_Gallery/images/SMSBlk13All2mGSNewa_w_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///F|/SFMLweb/Map_Gallery/images/SMSBlk13All2mGSNewa_w_jpg.jpg',{applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0});
+if (!Files.exists('file:///F|/SFMLweb/Map_Gallery/thumbnails/SMSBlk13All2mGSNewa_w_jpg.jpg') || confirm('file:///F|/SFMLweb/Map_Gallery/thumbnails/SMSBlk13All2mGSNewa_w_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///F|/SFMLweb/Map_Gallery/thumbnails/SMSBlk13All2mGSNewa_w_jpg.jpg',{applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100});
+fw.closeDocument(doc);
+'done';

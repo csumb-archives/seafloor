@@ -1,0 +1,42 @@
+application "xconfirm_Xconfirm-Desk 1" {
+   launchTime       "login"
+   screen           "0"
+}
+application "xconfirm_Xconfirm-Desk 1+1" {
+   launchTime       "login"
+   screen           "0"
+}
+application "xconfirm_Xconfirm-Desk 1+2" {
+   launchTime       "login"
+   screen           "0"
+}
+application "xconfirm_Xconfirm-Desk 1+3" {
+   launchTime       "login"
+   screen           "0"
+}
+application "startconsole_XWsh-Desk 1" {
+   command          "xwsh -name winterm -name winterm -name startconsole -iconic -console "
+   launchTime       "login"
+   screen           "0"
+   iconx            "204"
+   icony            "10"
+}
+application "ToolChest_Toolchest-Desk 1" {
+   launchTime       "login"
+   screen           "0"
+}
+application "xconfirm_Xconfirm-Desk 1+4" {
+   launchTime       "login"
+   wmClass          "Xconfirm"
+   screen           "0"
+}
+application "xconfirm_Xconfirm-Desk 1+5" {
+   launchTime       "login"
+   wmClass          "Xconfirm"
+   screen           "0"
+}
+application "IconCatalog_IconCatalog-Desk 1" {
+   command          "/usr/sbin/iconcatalog Applications "
+   launchTime       "login"
+   screen           "0"
+}

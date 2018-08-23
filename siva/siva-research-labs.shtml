@@ -1,0 +1,146 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><!-- InstanceBegin template="/Templates/siva.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>SIVA | CSU COAST Technology Center</title>
+<style type="text/css">
+<!--
+.style6 {	font-size: 14pt;
+	font-style: italic;
+	font-weight: bold;
+}
+-->
+</style>
+<link href="css/siva_style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+<table width="750 px" border="0" cellpadding="0" cellspacing="0">
+  <tr>
+    <td height="100" align="right" valign="bottom" class="rtbt_bdr"><a href="http://www.calstate.edu/coast/"><img src="images/coast_head.jpg" width="138" height="82" border="0" /></a></td>
+    <td width="*" valign="bottom" class="bt_bdr"><a href="http://www.calstate.edu/coast/"><img src="images/coast_body.jpg" width="609" height="82" border="0" /></a></td>
+  </tr>
+  <tr>
+    <td class="rt_bdr">&nbsp;</td>
+    <td align="center"><img src="images/siva_header.gif" alt="SIVA" width="561" height="62" vspace="4" />    </td>
+  </tr>
+  <tr>
+    <td width="140" class="rt_bdr">&nbsp;</td>
+    <td><!-- InstanceBeginEditable name="content" -->
+      <table width="100%" border="0" cellspacing="0">
+        <tr>
+          <td class="nav_cell" align="center"><span class="inactiveLink"><a href="siva-home.shtml">Home</a> . <a href="siva-capabilities.shtml">Capabilities & Assets</a> . <span class="activeLink">Research Labs</span> . <a href="siva-dataresources.shtml">Data Resources</a> . <a href="siva-training-curriculum.shtml">Training &amp; Curriculum</a> </span></td>
+        </tr>
+        <tr>
+          <td class="content">
+		   <h1><span class="ItOrange"><br />
+	        SIVA Research Labs</span></h1>
+
+	  <p>  The <a href="http://www.calstate.edu/coast/">CSU COAST</a> SIVA Technology Center is housed within CSUMB's 8000 square foot <a href="http://schedule.csumb.edu/classes/map/13">Science Research Lab Annex (SRLA)</a> and 5000 sf warehouse dedicated to the support of SIVA SSF assets. The SRLA and warehouse space house and provide the shop and electronics lab facilities to maintain SIVA's hydrographic survey launches and instrumentation assets. SIVA research and data processing lab space within the SRLA includes 32 computer workstations, chemistry and sediment analysis laboratories, and 50 TB of online data storage supporting and drawing upon the expertise within 7 research labs: </p>
+
+	  <table width="561" border="0">
+	    <tr>
+          <td align="right">&nbsp;</td>
+          <td valign="bottom"><span class="black9pt"><span class="ItOrange">The Seafloor Mapping Lab</span> (<span class="style4"><a href="http://seafloor.csumb.edu">seafloor.csumb.edu</a>)</span></span></td>
+	      </tr>
+        <tr>
+          <td width="120" align="right"><div align="center"><a href="http://seafloor.csumb.edu"><img src="images/labs/SFMLwebLogo.jpg" width="79" height="82" border="0" /></a></div></td>
+          <td width="431"><span class="update">The Seafloor Mapping Lab (SFML) specializes in high-resolution acoustic remote sensing for coastal habitats. Combining research and education with state-of-the-art geospatial technology, the SFML offers unique hands-on, field-to-finish experience to students while conducting professional habitat mapping surveys for resource management and basic research along the continental margins.<br />
+	      - <a href="siva-projectexample-sfml.shtml">Data Access Catalog</a> - </span>&nbsp;</td>
+        </tr>
+      </table>
+	  <br />
+	  <table width="561" border="0">
+	    <tr>
+          <td>&nbsp;</td>
+          <td valign="bottom" class="update"><span class="ItOrange">&nbsp;Central Coast Watershed Studies</span> <span class="style4">(<a href="http://ccows.csumb.edu/home/index.htm">ccows.csumb.edu</a>)</span></td>
+	      </tr>
+        <tr>
+          <td width="120"><div align="center"><a href="http://ccows.csumb.edu/home/index.htm"><img src="images/labs/h2Osamples.jpg" width="73" height="73" border="0" /></a></div></td>
+          <td width="431" valign="middle" class="update">The Central Coast Watershed Studies (CCoWS) team, part of the CSUMB Watershed Institute, conducts watershed research that supports sustainable land management in California's Central Coast region. 
+            <br />
+            - <a href="siva-projectexample-ccows.shtml">Project Example</a> - </td>
+        </tr>
+      </table>
+	  
+	  <br />
+	  <table width="561" border="0">
+	    <tr>
+          <td>&nbsp;</td>
+          <td valign="bottom" class="update"><span class="ItOrange">&nbsp;Marine Landscape Ecology Lab</span> <span class="style4">(<a href="http://sep.csumb.edu/mlel/">sep.csumb.edu/mlel/</a>)</span></td>
+	      </tr>
+        <tr>
+          <td width="120"><div align="center"><a href="http://sep.csumb.edu/staff/corey/labpage.html"><img src="images/labs/MLEL_logo.jpg" width="99" height="65" border="0" /></a></div></td>
+          <td width="431" class="update">Research in the Marine Landscape Ecology Lab focuses on the use of geospatial technologies to study the relationship between habitat complexity and patterns of species distribution and abundance in nearshore subtidal and intertidal marine communities. An emphasis is placed on the integration of questions and techniques derived from the fields of marine ecology, spatial statistics and landscape ecology to address marine ecological and environmental issues at local and regional scales.<br />
+          - <a href="siva-projectexample-mlel.shtml">Project Example</a> -</td>
+        </tr>
+      </table>
+	  <br />
+	  <table width="561" border="0">
+	    <tr>
+          <td>&nbsp;</td>
+          <td valign="bottom" class="update"><span class="ItOrange">Coastal/Submarine Geomorphology</span> <span class="style4">(<a href="http://hydro.csumb.edu/index.html">hydro.csumb.edu</a>)</span></td>
+	      </tr>
+        <tr>
+          <td width="120"><div align="center"><a href="http://hydro.csumb.edu/index.html"><img src="images/labs/totalstation.jpg" width="73" height="71" border="0" /></a></div></td>
+          <td width="431" class="update">The Coastal/Submarine Geomorphology ("Watershed Geology") Lab includes resources for physical and hydrologic watershed studies including stream gaging, sediment transport, geomorphology, and computer modeling.
+            <br />
+            - <a href="siva-projectexample-geolab.shtml">Project Example</a> -</td>
+        </tr>
+      </table>
+	  <table width="561" border="0">
+	    
+      </table>
+	
+	  
+	  <br />
+	  <table width="561" border="0">
+	    <tr>
+          <td>&nbsp;</td>
+	      <td valign="bottom" class="update"><span class="ItOrange">Institute for Applied Marine Ecology</span> <span class="style4">(<a href="http://sep.csumb.edu/ifame/">sep.csumb.edu/ifame/</a>)</span> </td>
+	      </tr>
+        <tr>
+          <td width="120"><div align="center"><a href="http://sep.csumb.edu/ifame/"><img src="images/labs/ifame_logo.jpg" width="73" height="77" border="0" /></a></div></td>
+          <td width="431"><span class="update">The Institute for Applied Marine Ecology (IAME) specializes in the conduct of robust ecological science designed to directly inform policy and management efforts at Federal, State, and local levels. Research topics include the design of new marine reserves, the evaluation of existing marine reserves, and the recovery of seafloor habitats following the cessation of bottom trawling. The IAME maintains close relationships with managers and policy makers to insure a direct pipeline from science to policy and management for each project that its scientists undertake.<br />
+- <a href="siva-projectexample-ifame.shtml">Project Example</a> -</span></td>
+        </tr>
+      </table>
+	  
+	  <br />
+	  <table width="561" border="0">
+	    <tr>
+          <td>&nbsp;</td>
+          <td valign="bottom" class="update"><span class="ItOrange">Ecosystem Electronics Lab</span> <span class="style4">(<a href="http://sep.csumb.edu/eel/">sep.csumb.edu/eel/</a>)</span></td>
+	      </tr>
+        <tr>
+          <td width="120"><div align="center"><a href="http://sep.csumb.edu/eel/"><img src="images/labs/eel_lab.jpg" width="75" height="69" border="0" /></a></div></td>
+          <td width="431" class="update">The Ecosystem Electronics Lab (EEL) group develops custom electronic and robotic systems to support local schools, agencies, and other organizations with ecosystem monitoring, research, and educational needs. </td>
+        </tr>
+      </table>
+	  
+	  <br />
+	  <table width="561" border="0">
+	    <tr>
+          <td height="20">&nbsp;</td>
+	      <td valign="bottom" class="update"><span class="ItOrange">&nbsp;Ecosystem Science and Visualization <a href="http://ecoviz.csumb.edu/home/">(ecoviz.csumb.edu)</a> </span></td>
+	      </tr>
+        <tr>
+          <td width="120"><div align="center"><a href="http://ecoviz.csumb.edu/home/"><img src="images/capabilities/ecoviz.jpg" width="75" height="75" border="0" /></a></div></td>
+          <td width="431" class="update">The Ecosystem Science and Visualization (EcoViz) group develops interpretive computer-rendered visualizations of integrated ecosystem processes based on highly integrated science projects. 
+            <br />
+            - <a href="siva-projectexample-ecoviz.shtml">Project Example</a> - </td>
+        </tr>
+      </table>
+		  </td>
+        </tr>
+      </table>
+	 
+    <!-- InstanceEndEditable --></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>
+</table>
+</body>
+<!-- InstanceEnd --></html>

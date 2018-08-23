@@ -1,0 +1,7 @@
+body .upcoming-events li .event-date {
+    opacity: 1;
+}
+
+.no-border img.img-thumbnail {
+    border: none;
+}

@@ -1,0 +1,189 @@
+Identification Information:  
+	Citation:  
+		Citation Information:  
+			Originator:  Seafloor Mapping Lab- California State University Monterey Bay
+			Publication Date:  Unpublished Material
+			Publication Time:  Unknown
+			Title:  gma3hab
+			Geospatial Data Presentation Form:  view
+	Description:  
+		Abstract:  This California continental shelf geologic data set represents the current state of knowledge about the distribution of seafloor substrate types for the entire California continental shelf.  The data series is comprised of seven adjacent, but discrete map sections. Boundaries of seafloor geology type are depicted as polygon themes.
+		Purpose:  This project created digital GIS format versions of California continental shelf geology hardcopy maps originally produced by the Division of Mines and Geology, the U.S. Geological Survey and the California Coastal Commission. In addition, geologic and bathymetric data were interpreted further to produce polygons representing habitat boundaries.
+		Supplemental Information:  Original data developed by the Division of Mines and Geology, the U.S. Geological Survey and the California Coastal Commission. The principle purpose of the original DMG/USGS/CCC study was to acquire and compile all readily available geologic data for the California continental margin in a standard format. These nondigital data were presented as paper planimetric map sheets (NOAA/NOS 1:250,000 scale). For the current project, original mylars used to produce the geologic map series were scanned, and the resulting rasters were cleaned, georeferenced (UTM Zone 10 or 11, WGS84), and vectorized using TNTmips GIS software. Vector polygons and lines were then attributed and exported in ArcView shapefile format. Data covers an area from Mexico north to Oregon and from the California coastline west to the edge of the continental margin.
+	Time Period of Content:  
+		Time Period Information:  
+			Multiple Dates/Times:  
+				Single Date/Time:  
+					Calendar Date:  3/31/2001
+				Single Date/Time:  
+					Calendar Date:  1987
+		Currentness Reference:  publication date
+	Status:  
+		Progress:  Complete
+		Maintenance and Update Frequency:  None planned
+	Spatial Domain:  
+		Bounding Coordinates:  
+			West Bounding Coordinate:  -122.01946
+			East Bounding Coordinate:  -119.93341
+			North Bounding Coordinate:  33.99815
+			South Bounding Coordinate:  32.00391
+	Keywords:  
+		Theme:  
+			Theme Keyword Thesaurus:  Geology Map Series Thesaurus
+			Theme Keyword:  geologic features
+			Theme Keyword:  marine
+			Theme Keyword:  GIS
+			Theme Keyword:  ephemeral
+			Theme Keyword:  structural
+			Theme Keyword:  habitat
+			Theme Keyword:  subsurface
+			Theme Keyword:  digital
+			Theme Keyword:  mapping
+			Theme Keyword:  symbology
+			Theme Keyword:  seafloor
+	Access Constraints:  To be determined by the California Department of Fish and Game.
+	Use Constraints:  To be determined by the California Department of Fish and Game.
+	Point of Contact:  
+		Contact Information:  
+			Contact Organization Primary:  
+				Contact Organization:  Center for Habitat Studies
+			Contact Address:  
+				Address Type:  mailing address
+				Address:  Moss Landing Marine Laboratories
+					8272 Moss Landing Rd.
+				City:  Moss Landing
+				State or Province:  California
+				Postal Code:  95039
+				Country:  USA
+			Contact Voice Telephone:  (831) 633-7268 (Habitat Studies)
+			Contact Facsimile Telephone:  (831) 633-7268 (Habitat Studies)
+			Contact Electronic Mail Address:  greene@mlml.calstate.edu
+	Browse Graphic:  
+	Data Set Credit:  Habitat data processed by the Center for Habitat Studies at Moss Landing Marine Laboratories.
+Data Quality Information:  
+	Lineage:  
+		Process Step:  
+			Process Description:  Interpretation of the geology into habitat types was done in several steps.  First, all digital geologic units (polygons) were converted to gross habitat type polygons in ArcView 3.2a.  Second, these polygons were then printed out and checked for continuity and consistency with habitat descriptions.  Third, a symbology and codification for distinguishing habitat types was then developed.  Fourth, using codes, bathymetry, and the knowledge that some lithologic units as mapped on the California Continental Margin Map Series may not crop out everywhere on the sea floor where they are mapped, habitat boundaries were adjusted to give the most probably location and outline of the units.  Finally, the habitats and maps were checked for errors ("busts") to assure a seamless connection between map sheets and printed out as a final copy.
+				A code was written to easily distinguish each habitat type and to facilitate ease of use and queries in a GIS.  This code is based on the deep-water habitat characterization scheme developed by Greene et al. (1999).
+			Process Date:  3/31/01
+			Process Contact:  
+				Contact Information:  
+					Contact Person Primary:  
+						Contact Person:  Joe Bizzarro
+						Contact Organization:  Center for Habitat Studies
+					Contact Position:  GIS Manager, Geology Map Series Project Manager
+					Contact Address:  
+						Address Type:  mailing and physical address
+						Address:  Moss Landing Marine Laboratories
+							8272 Moss Landing Rd.
+						City:  Moss Landing
+						State or Province:  California
+						Postal Code:  95039
+						Country:  USA
+					Contact Voice Telephone:  (831) 632-4419 (Ichthyology)
+						(831) 633-7268 (Habitat Studies)
+					Contact Facsimile Telephone:  (831) 633-7268 (Habitat Studies)
+					Contact Electronic Mail Address:  jbizzarro@mlml.calstate.edu
+	Cloud Cover:  0
+Spatial Data Organization Information:  
+	Indirect Spatial Reference:  California Continental Shelf
+	Direct Spatial Reference Method:  Vector
+	Point and Vector Object Information:  
+		SDTS Terms Description:  
+			SDTS Point and Vector Object Type:  G-polygon
+			Point and Vector Object Count:  87
+Spatial Reference Information:  
+	Horizontal Coordinate System Definition:  
+		Planar:  
+			Grid Coordinate System:  
+				Grid Coordinate System Name:  Universal Transverse Mercator 1983
+				Universal Transverse Mercator:  
+					UTM Zone Number:  10
+					Transverse Mercator:  
+						Scale Factor at Central Meridian:  0.9996
+						Longitude of Central Meridian:  -123
+						Latitude of Projection Origin:  0
+						False Easting:  500000
+						False Northing:  0
+			Planar Coordinate Information:  
+				Planar Coordinate Encoding Method:  Coordinate Pair
+				Coordinate Representation:  
+					Abscissa Resolution:  0
+					Ordinate Resolution:  0
+		Geodetic Model:  
+			Horizontal Datum Name:  WGS84
+			Ellipsoid Name:  WGS84
+			Semi-major Axis:  6378137
+			Denominator of Flattening Ratio:  298.257223563
+Entity and Attribute Information:  
+	Detailed Description:  
+		Entity Type:  
+			Entity Type Label:  Captured
+		Attribute:  
+			Attribute Label:  Bottom
+			Attribute Definition:  Short description of the bottom induration attributes
+		Attribute:  
+			Attribute Label:  Bottom_id
+			Attribute Definition:  Second letter of habitat characterization code to designate the bottom induration. Attribute records for the field consist of, s, h, and m.
+		Attribute:  
+			Attribute Label:  Geo_confid
+			Attribute Definition:  The level of confidence of the geoglogic unit. This will either be defined, questionabley defined, or unclassfied.
+		Attribute:  
+			Attribute Label:  Geo_unit
+			Attribute Definition:  Geologic unit
+		Attribute:  
+			Attribute Label:  Hab_confid
+			Attribute Definition:  The level of confidence of the habitat type. This will either be defined, questionabley define, or unclassfied.
+		Attribute:  
+			Attribute Label:  Hab_type
+			Attribute Definition:  Habitat type. This consist of the sequence of habitat “id” s.
+		Attribute:  
+			Attribute Label:  Mdfr
+			Attribute Definition:  Short description of the modifers.
+		Attribute:  
+			Attribute Label:  Mdfr_id
+			Attribute Definition:  Third or fourth letter of the habitat characterization code to describe the texture bedform, biology, or rocky type and consists of _u, _c, _f, _m, _d, _v/g, _b, _h, _r, _s, and _a. Undersocore preceding the letter denotes subscript.
+		Attribute:  
+			Attribute Label:  Mega
+			Attribute Definition:  Short description of the megahabitat attributes
+		Attribute:  
+			Attribute Label:  Mega_id
+			Attribute Definition:  First letter of the habitat characterization code to designate the megahabitat type. Attibute records for this field consist of  S, F, A, P, B, R. These will be in capital case letters.
+		Attribute:  
+			Attribute Label:  Mso_Mrc
+			Attribute Definition:  Short description of the mes- or macrohabitat types.
+		Attribute:  
+			Attribute Label:  Mso_Mrc_id
+			Attribute Definition:  Third or absent (unclassified) letter of the habitat characteriztion code to designate the meso- or macrohabitat type. Attibute records for this field consist of  c, m, b, g, l, f, p/b, r, o, w, i, t, s, and e.
+		Attribute:  
+			Attribute Label:  Shape
+			Attribute Definition:  Polygon
+	Overview Description:  
+		Entity and Attribute Overview:  The geologic map area themes (gma1-gma5, gma7) were used as templates in ArcView 3.2a to create habitat maps.  Polygons depicting geologic units were modified (joined with pre-existing units of different geologic type but the same habitat type, deleted when appropriate, and renamed based of Greene et al. (1999) interpretations.
+		Entity and Attribute Detail Citation:  Greene et al. (1999)
+Metadata Reference Information:  
+	Metadata Date:  3/31/2001
+	Metadata Review Date:  
+	Metadata Future Review Date:  
+	Metadata Contact:  
+		Contact Information:  
+			Contact Person Primary:  
+				Contact Person:  Carrie Bretz
+				Contact Organization:  Seafloor Mapping Lab, California State University Monterey Bay
+			Contact Position:  GIS Analyst and Metadata Manager, Geology Map Series Project Manager
+			Contact Address:  
+				Address Type:  mailing and physical address
+				Address:  California State University Monterey Bay, Institute for Earth Systems Science and Policy,100 Campus Center, Bldg 46A
+				City:  Seaside
+				State or Province:  CA
+				Postal Code:  93955
+				Country:  USA
+			Contact Voice Telephone:  831-582-4197
+			Contact Facsimile Telephone:  831-582-3073
+			Contact Electronic Mail Address:  carrie_bretz@monterey.edu
+	Metadata Standard Name:  FGDC Content Standards for Digital Geospatial Metadata
+	Metadata Standard Version:  2.0
+	Metadata Access Constraints:  None
+	Metadata Use Constraints:  None
+	Metadata Security Information:  
+		Metadata Security Classification:  Unclassified

@@ -1,0 +1,126 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><!-- InstanceBegin template="/Templates/siva.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>SIVA | CSU COAST Technology Center</title>
+<style type="text/css">
+<!--
+.style6 {	font-size: 14pt;
+	font-style: italic;
+	font-weight: bold;
+}
+-->
+</style>
+<link href="css/siva_style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+<table width="750 px" border="0" cellpadding="0" cellspacing="0">
+  <tr>
+    <td height="100" align="right" valign="bottom" class="rtbt_bdr"><a href="http://www.calstate.edu/coast/"><img src="images/coast_head.jpg" width="138" height="82" border="0" /></a></td>
+    <td width="*" valign="bottom" class="bt_bdr"><a href="http://www.calstate.edu/coast/"><img src="images/coast_body.jpg" width="609" height="82" border="0" /></a></td>
+  </tr>
+  <tr>
+    <td class="rt_bdr">&nbsp;</td>
+    <td align="center"><img src="images/siva_header.gif" alt="SIVA" width="561" height="62" vspace="4" />    </td>
+  </tr>
+  <tr>
+    <td width="140" class="rt_bdr">&nbsp;</td>
+    <td><!-- InstanceBeginEditable name="content" -->
+      <table width="100%" border="0" cellspacing="0">
+        <tr>
+          <td class="nav_cell" align="center"><span class="inactiveLink"><a href="siva-home.shtml">Home</a> . <span class="activeLink">Capabilities & Assets</span> . <a href="siva-research-labs.shtml">Research Labs</a> . <a href="siva-dataresources.shtml">Data Resources</a> . <a href="siva-training-curriculum.shtml">Training &amp; Curriculum</a> </span></td>
+        </tr>
+        <tr>
+          <td class="content">
+		 <h1> <span class="ItOrange"><br />
+		   SIVA Capabilities</span> </h1>
+	  <p align="left">The following <a href="http://www.calstate.edu/coast/">CSU COAST</a> SIVA geospatial technology assets are managed and maintained as part of the OMB A-21 Compliant SFML <a href="http://seafloor.csumb.edu/OMB_A21_SSF.html">Specialized Service Facility</a> for research and training across the CSU. For additional information on the availability of SIVA assets, please <a href="mailto:rkvitek@csumb.edu">contact the SFML SSF</a>. </p>
+	  <table width="561" border="0">
+        <tr>
+          <td width="153" class="black9pt"><div align="right"><a href="http://seafloor.csumb.edu/MacGinnitespecs.html"><img src="images/capabilities/vessel.jpg" width="75" height="73" border="0" /></a><a href="http://seafloor.csumb.edu/Ventrescaspecs.html"><img src="images/capabilities/VTth.gif" width="74" height="73" border="0" /></a></div></td>
+          <td width="398"><span class="black9pt"><span class="ItOrange">Hydrographic Survey Vessels</span><br />
+            R/V <em>VenTresca </em>- 35 ft. custom built, shallow draft, aluminum hydrographic survey catamaran</span> <span class="update"><a href="http://seafloor.csumb.edu/Ventrescaspecs.html" class="black9pt">[more info]</a><br />
+            </span><span class="black9pt">R/V <em>MacGinitie</em> -  30 ft. trailerable SeaArk surveyer </span><span class="update"><a href="http://seafloor.csumb.edu/MacGinnitespecs.html" class="black9pt">[more info]</a></span> </td>
+        </tr>
+        <tr>
+          <td class="black9pt"><div align="center"><a href="http://seafloor.csumb.edu/descriptions/multibeamdescrip.html"><img src="images/capabilities/multibeam.jpg" width="75" height="75" border="0" /></a></div></td>
+          <td class="black9pt"><span class="ItOrange">Multibeam Bathymetry</span><br />
+            Single and dual frequency sonar systems for high resolution bathymetric mapping <span class="update"><a href="http://seafloor.csumb.edu/descriptions/multibeamdescrip.html">[more info]</a></span> </td>
+        </tr>
+        <tr>
+          <td height="58" class="black9pt"><div align="center"><a href="http://seafloor.csumb.edu/descriptions/sssdescrip.html"><img src="images/capabilities/fish.jpg" width="73" height="73" border="0" /></a></div></td>
+          <td valign="middle" class="black9pt"><span class="ItOrange">Side Scan Sonar</span><br />            
+            Digital mosaics and substrate classification from acoustic imagery <span class="update"><a href="http://seafloor.csumb.edu/descriptions/sssdescrip.html">[more info]</a></span> </td>
+        </tr>
+        <tr>
+          <td class="black9pt"><div align="center"><a href="http://seafloor.csumb.edu/descriptions/laserdescrip.html"><img src="images/capabilities/laserscanner.gif" width="73" height="73" border="0" /></a></div></td>
+          <td valign="middle" class="black9pt"><span class="ItOrange">Mobile Marine Laser Scanner</span><br />
+            A vessel-mounted mobile marine LIDAR system for collecting high-resolution coastal features data (intertidal shoreline, offshore rocks and pinnacles) <span class="update"><a href="http://seafloor.csumb.edu/descriptions/laserdescrip.html">[more info]</a></span></td>
+        </tr>
+        <tr>
+          <td class="black9pt"><div align="center"><a href="http://seafloor.csumb.edu/descriptions/rovdescrip.html"><img src="images/capabilities/rov.jpg" width="76" height="73" border="0" /></a></div></td>
+          <td class="black9pt"><span class="ItOrange">Hyball Remotely Operated Vehicle (ROV)</span><br />
+            Georeferenced and quantitative video mapping of seafloor habitats and communities <span class="update"><a href="http://seafloor.csumb.edu/descriptions/rovdescrip.html">[more info]</a></span> </td>
+        </tr>
+        <tr>
+          <td class="black9pt"><div align="center"><a href="http://seafloor.csumb.edu/descriptions/minirovdescrip.html"><img src="images/capabilities/seabotix.gif" width="74" height="73" border="0" /></a></div></td>
+          <td class="black9pt"><span class="ItOrange">SeaBotix Mini ROV</span><br />
+            Standard compact ROV system with added vertical thrust and stability capabilities <span class="update"><a href="http://seafloor.csumb.edu/descriptions/minirovdescrip.html">[more info]</a></span> </td>
+        </tr>
+        <tr>
+          <td class="black9pt"><div align="center"><a href="http://seafloor.csumb.edu/descriptions/subbottomdescrip.html"><img src="images/capabilities/subbottom.JPG" width="76" height="75" border="0" /></a></div></td>
+          <td class="black9pt"><span class="ItOrange">Sub-bottom Profiling</span><br />
+            Full spectrum sub-bottom chirp profiling for determination of seafloor sediment and rock layer thickness <span class="update"><a href="http://seafloor.csumb.edu/descriptions/subbottomdescrip.html">[more info]</a></span> </td>
+        </tr>
+        <tr>
+          <td valign="middle" class="black9pt"><div align="center"><a href="http://seafloor.csumb.edu/descriptions/sedimentdescrip.html"><img src="images/capabilities/opti_th.JPG" width="73" height="73" border="0" /></a></div></td>
+          <td class="black9pt"><span class="ItOrange">Sediment Grain Size Analyses</span><br />
+            Automated particle size distribution analyses (particle counts, diameter, and areas with volume &amp; weight representations) for habitat mapping and ground-truthing <span class="update"><a href="http://seafloor.csumb.edu/descriptions/sedimentdescrip.html">[more info]</a></span> </td>
+        </tr>
+        <tr>
+          <td class="black9pt"><div align="center"><a href="http://sep.csumb.edu/staff/corey/Lab Capabilities.html"><img src="images/capabilities/total_stn.jpg" width="75" height="74" border="0" /></a></div></td>
+          <td valign="middle" class="black9pt"><span class="ItOrange">Landscape Ecology Modeling</span><br />
+            Geospatial tools for the design of marine landscape models aimed at tracking the relationship between the marine species and the environment at multiple spatial scales <span class="update"><a href="http://sep.csumb.edu/staff/corey/Lab Capabilities.html">[more info]</a></span> <br /></td>
+        </tr>
+        <tr>
+          <td class="black9pt"><div align="center"><a href="http://www.trimble.com/geoxm.shtml"><img src="images/capabilities/geoxm.jpg" width="75" height="75" border="0" /></a></div></td>
+          <td valign="middle" class="black9pt"><span class="ItOrange">Trimble GPS Survey &amp; Mapping Equipment </span><br />
+ GeoExplorer XM (30 units)
+            <span class="update"><a href="http://www.trimble.com/geoxm.shtml">[more info]</a></span> <br />
+            Trimble NetR5 Reference Station <span class="update"><a href="http://www.trimble.com/infrastructure/netr5-gnss.aspx?dtID=features">[more info]</a></span><br /></td>
+        </tr>
+        <tr>
+          <td class="black9pt"><div align="center"><img src="images/capabilities/acoustic_telemetry.jpg" width="75" height="74" /></div></td>
+          <td class="black9pt"><span class="ItOrange">Acoustic Telemetry</span><br />
+            Tagging and tracking in real-time a relatively continuous record of fish movement to determine fine scale spatio-temperal patterns</td>
+        </tr>
+        <tr>
+          <td class="black9pt"><div align="center"><a href="siva-spatial-tools.shtml"><img src="images/capabilities/analysis.jpg" width="73" height="72" border="0" /></a></div></td>
+          <td class="black9pt"><span class="ItOrange">Spatial Analysis &amp; Image Processing Tools</span><br />
+            GIS layering of raster and vector products, quantitative habitat classification, 3D rendering and fly-throughs, GIS/video data fusion <span class="update"><a href="siva-spatial-tools.shtml">[more info]</a></span> </td>
+        </tr>
+        <tr>
+          <td class="black9pt"><div align="center"><img src="images/capabilities/landscape_tool.jpg" width="75" height="74" /></div></td>
+          <td class="black9pt"><span class="ItOrange">High Precision Land Survey Instrumentation</span><br />
+            Electro-optical integrated field instrumentation for surveying coastal habitats</td>
+        </tr>
+        <tr>
+          <td class="black9pt"><div align="center"><a href="http://ecoviz.csumb.edu/home/index.htm"><img src="images/capabilities/ecoviz.jpg" width="74" height="73" border="0" /></a></div></td>
+          <td class="black9pt"><span class="ItOrange">Ecosystem Visualization</span><br />
+            Landscape visualization as a means to enhance linkages between complex scientific research data sets, decision makers, and the general public <span class="update"><a href="http://ecoviz.csumb.edu/home/index.htm">[more info]</a></span> <br />  </td>
+        </tr>
+      </table>
+		  </td>
+        </tr>
+      </table>
+	 
+    <!-- InstanceEndEditable --></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>
+</table>
+</body>
+<!-- InstanceEnd --></html>
